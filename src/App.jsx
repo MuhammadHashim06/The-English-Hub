@@ -6,6 +6,7 @@ import Tutors from "./Pages/TutorsPage/Tutors";
 import Courses from "./Pages/CoursesPage/Courses";
 import Resources from "./Pages/ResourcesPage/Resources";
 import Kids from "./Pages/KidsPage/Kids";
+import Business from "./Pages/BusinessPage/Business";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/kids" element={<Kids />} />
+        <Route path="/business" element={<Business/>} />
       </Routes>
     </>
   );
