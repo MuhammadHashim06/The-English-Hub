@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 :root {
   --primary-color: #59B99A; /* Light Teal Green */
   --secondary-color: #2B8A76; /* Medium Teal Green */
@@ -13,14 +19,14 @@
 
 
 /* Use the defined variables in your components */
-body {
+/* body {
   background-color: var(--background-color);
   color: var(--text-color);
-}
+} */
 
 button {
   background-color: var(--primary-color);
-  color: white;
+  color:var(--white);
 }
 
 button:hover {

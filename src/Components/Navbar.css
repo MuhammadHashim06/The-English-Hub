@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .logo img{
+        width: 50px;
+    }
+    .navlinks{
+        display: flex;
+        gap: 5px;
+    }
+    .navlinks a{
+        text-decoration: none;
+        color: var(--white);
+    }
+    .nav-link.active{
+        font-weight: bolder;
+    }
+}
