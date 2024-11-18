@@ -11,7 +11,7 @@ export default function Navbar() {
 
   // Function to handle scroll event
   const handleScroll = () => {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 25) {
       setIsScrolled(true);
     } else {
       setIsScrolled(false);
@@ -47,7 +47,37 @@ export default function Navbar() {
         </div>
 
         {/* Drawer for Mobile View */}
-        <div className="mobile-menu">
+        
+        {/* Desktop View Links */}
+        <div className="navlinks">
+          <NavLink className="nav-link" to={'/method'}>
+            Method
+          </NavLink>
+          <NavLink className="nav-link" to={'/featured-tutors'}>
+            Tutors
+          </NavLink>
+          <NavLink className="nav-link" to={'/courses'}>
+            Courses
+          </NavLink>
+          <NavLink className="nav-link" to={'/resources'}>
+            Resources
+          </NavLink>
+          <NavLink className="nav-link" to={'/kids'}>
+            Kids
+          </NavLink>
+          <NavLink className="nav-link" to={'/business'}>
+            Business
+          </NavLink>
+        </div>
+      </div>
+      <div className='rightdiv'>
+      
+
+      <div className="navbuttons">
+        <button>Login</button>
+        <button>Signup</button>
+      </div>
+      <div className="mobile-menu">
           <Button type="text" icon={<MenuOutlined />} onClick={showDrawer} />
           <Drawer
             title="Menu"
@@ -75,32 +105,6 @@ export default function Navbar() {
             </NavLink>
           </Drawer>
         </div>
-
-        {/* Desktop View Links */}
-        <div className="navlinks">
-          <NavLink className="nav-link" to={'/method'}>
-            Method
-          </NavLink>
-          <NavLink className="nav-link" to={'/featured-tutors'}>
-            Tutors
-          </NavLink>
-          <NavLink className="nav-link" to={'/courses'}>
-            Courses
-          </NavLink>
-          <NavLink className="nav-link" to={'/resources'}>
-            Resources
-          </NavLink>
-          <NavLink className="nav-link" to={'/kids'}>
-            Kids
-          </NavLink>
-          <NavLink className="nav-link" to={'/business'}>
-            Business
-          </NavLink>
-        </div>
-      </div>
-      <div className="navbuttons">
-        <button>Login</button>
-        <button>Signup</button>
       </div>
     </div>
   );

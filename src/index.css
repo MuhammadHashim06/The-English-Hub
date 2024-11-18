@@ -1,16 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 :root {
-  --primary-color: #59B99A; /* Light Teal Green */
-  --secondary-color: #2B8A76; /* Medium Teal Green */
-  --accent-color-1: #1F6262; /* Very Dark Gray Green */
-  --accent-color-2: #1C4F4A; /* Dark Turquoise */
-  --background-color: #142E3C; /* Very Dark Turquoise */
-  --text-color: #112435; /* Very Dark Antique Blue */
+  --primary-color: #59B99A;
+  /* Light Teal Green */
+  --secondary-color: #2B8A76;
+  /* Medium Teal Green */
+  --accent-color-1: #1F6262;
+  /* Very Dark Gray Green */
+  --accent-color-2: #1C4F4A;
+  /* Dark Turquoise */
+  --background-color: #142E3C;
+  /* Very Dark Turquoise */
+  --text-color: #112435;
+  /* Very Dark Antique Blue */
 
   /* Additional optional colors */
   --white: #ffffff;
@@ -25,8 +31,9 @@
 } */
 
 button {
+  border: none;
   background-color: var(--primary-color);
-  color:var(--white);
+  color: var(--white);
 }
 
 button:hover {

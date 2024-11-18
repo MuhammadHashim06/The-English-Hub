@@ -11,9 +11,9 @@ const HeroSection = () => {
         <source src={backvideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <div className="content">
-        <h1>Welcome to Our Website</h1>
-        <p>We are glad to have you here!</p>
+      <div className="herotext">
+        <h1>Every new word brings you closer to your goal</h1>
+        <button>Get Started</button>
       </div>
     </div>
   );
