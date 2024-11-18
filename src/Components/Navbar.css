@@ -70,13 +70,7 @@
     align-items: center;
     z-index: 1;
     transition: all 1s ease;
-    .drawerbutton{
-        color: white;
-        font-size: 24px;
-    }
-    .drawerbutton .anticon{
-        
-    }
+    
 }
 
 .leftnav,
@@ -125,6 +119,33 @@
     border-radius: 50px;
 }
 
+/* Drawer button customization */
+.drawerbutton {
+    color: white;
+    /* font-size: 32px;  */
+    padding: 0;
+  }
+  
+  .drawerbutton .anticon {
+    /* font-size: 32px;  */
+  }
+  
+  /* Mobile nav links in column */
+  .mobile-navlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Add space between links */
+  }
+  
+  .mobile-navlinks .nav-link {
+    color: var(--black);
+    text-decoration: none;
+  }
+  
+  .mobile-navlinks .nav-link:hover {
+    color: var(--primary-color);
+  }
+  
 .navbuttons button:nth-child(1) {
     background-color: transparent;
     border: 1px solid grey;
@@ -148,7 +169,7 @@
 
     .mobile-menu {
         display: block;
-        Drawer{
+        .mobile-navlinks{
             display: flex;
             flex-direction: column;
         }
