@@ -70,6 +70,13 @@
     align-items: center;
     z-index: 1;
     transition: all 1s ease;
+    .drawerbutton{
+        color: white;
+        font-size: 24px;
+    }
+    .drawerbutton .anticon{
+        
+    }
 }
 
 .leftnav,
@@ -84,6 +91,7 @@
 .rightdiv {
     justify-content: end;
     padding-right: 40px;
+    gap: 5px;
 }
 
 .logo img {
@@ -140,6 +148,10 @@
 
     .mobile-menu {
         display: block;
+        Drawer{
+            display: flex;
+            flex-direction: column;
+        }
     }
 
 }

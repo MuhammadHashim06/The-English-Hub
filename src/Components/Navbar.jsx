@@ -78,7 +78,7 @@ export default function Navbar() {
         <button>Signup</button>
       </div>
       <div className="mobile-menu">
-          <Button type="text" icon={<MenuOutlined />} onClick={showDrawer} />
+          <Button type="text" icon={<MenuOutlined />} onClick={showDrawer} className='drawerbutton' />
           <Drawer
             title="Menu"
             placement="right"
