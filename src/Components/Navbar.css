@@ -1,21 +1,141 @@
-.navbar{
+/* .navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    z-index: 1;
+    transition: all 1s ease;
 
-    .logo img{
-        width: 50px;
-    }
-    .navlinks{
+
+    .leftnav {
         display: flex;
-        gap: 5px;
+        gap: 35px;
+        width: 100%;
+        align-items: center;
     }
-    .navlinks a{
+
+    .logo img {
+        width: 60px;
+    }
+
+    .navlinks {
+        display: flex;
+        gap: 15px;
+        font-size: 1.15em;
+    }
+
+    .navlinks a {
         text-decoration: none;
         color: var(--white);
     }
-    .nav-link.active{
+
+    .nav-link.active {
+        font-size: 1.25em;
         font-weight: bolder;
     }
+    .navbuttons{
+        display: flex;
+        gap: 5px;
+    }
+
+    .navbuttons button {
+        font-size: 1.15em;
+        padding: 10px 20px;
+        border-radius: 50px;
+    }
 }
+
+.navbuttons button:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+.navbuttons button:nth-child(2) {
+    
+    color: var(--black);
+}
+
+.navbar.scrolled {
+    background-color: var(--background-color);
+} */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 6%;
+    margin-right: 50px;
+    z-index: 1;
+    transition: all 1s ease;
+  }
+  
+  .leftnav {
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 60px;
+  }
+  
+  .navlinks {
+    display: flex;
+    gap: 15px;
+    font-size: 1.15em;
+  }
+  
+  .navlinks a {
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  .nav-link.active {
+    font-size: 1.25em;
+    font-weight: bolder;
+  }
+  
+  .navbuttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .navbuttons button {
+    font-size: 1.15em;
+    padding: 10px 20px;
+    border-radius: 50px;
+  }
+  
+  .navbuttons button:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+  }
+  
+  .navbuttons button:nth-child(2) {
+    background-color: var(--primary-color);
+    color: var(--black);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navlinks {
+      display: none;
+    }
+  
+    .mobile-menu {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .mobile-menu {
+      display: none;
+    }
+  }
+  
