@@ -15,6 +15,20 @@ const HeroSection = () => {
         <h1>Every new word brings you closer to your goal</h1>
         <button>Start Now</button>
       </div>
+      <div className="bottombar">
+      <div className="smalldiv">
+        <i className="fas fa-signal"></i> {/* Icon */}
+        <p>All levels welcome</p>
+      </div>
+      <div className="smalldiv">
+        <i className="fas fa-users"></i> {/* Icon */}
+        <p>Real conversations with native speakers</p>
+      </div>
+      <div className="smalldiv">
+        <i className="fas fa-location-dot"></i> {/* Icon */}
+        <p>Anytime, anywhere, 24/7</p>
+      </div>
+      </div>
     </div>
   );
 };

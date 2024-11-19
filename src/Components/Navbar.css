@@ -95,7 +95,7 @@
 .navlinks {
     display: flex;
     gap: 15px;
-    font-size: 1.15em;
+    font-size: 1.05em;
     width: 100%;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .navbuttons button {
-    font-size: 1.15em;
+    font-size: 1.05em;
     padding: 10px 20px;
     border-radius: 50px;
 }
