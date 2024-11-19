@@ -1,4 +1,4 @@
-.goals {
+/* .goals {
     .uppercontent {
         display: flex;
         flex-direction: column;
@@ -47,9 +47,34 @@
         img {
             width: auto;
         }
+
     }
 
-    /* Tablet and Mobile responsiveness */
+    .videosection {
+        background-color: var(--primary-color);
+        padding: 15%;
+
+        .progressvideo {
+            width: 100%;
+        }
+
+        .videocontent {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+
+           
+            p{
+                font-size: 1.5em;
+            }
+        }
+        .videocontent h1{
+            font-size: 3em;
+        }
+    }
+
+ 
     @media (max-width: 900px) {
         .uppercontent {
             padding: 5% 15%;
@@ -121,6 +146,203 @@
         .imagesection img {
             max-width: 100%;
             height: auto;
+        }
+    }
+} */
+
+.goals {
+    
+    .uppercontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75%;
+        padding: 7.5% 20%;
+        gap: 5px;
+        
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        p {
+            text-align: center;
+            color: gray;
+        }
+
+        button {
+            color: black;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            border-radius: 50px;
+        }
+    }
+
+    .imagesection {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-bottom: 10%;
+        .card {
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            position: absolute;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        img {
+            width: auto;
+            max-width: 100%; 
+            height: auto;
+        }
+    }
+
+    .videosection {
+        background-color: var(--primary-color);
+        padding: 5%  10% ;
+
+        .progressvideo {
+            width: 100%;
+        }
+
+        .videocontent {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            padding: 5% 0%;
+
+            p {
+                font-size: 1.5em;
+                color: gray;
+            }
+        }
+        .videocontent h1 {
+            font-size: 3em;
+        }
+    }
+
+    /* Tablet responsiveness */
+    @media (max-width: 900px) {
+        .uppercontent {
+            padding: 5% 15%;
+        }
+
+        .uppercontent h1 {
+            font-size: 2.5em;
+        }
+
+        .uppercontent p {
+            font-size: 1.1em;
+        }
+
+        .uppercontent button {
+            font-size: 1.3em;
+            padding: 8px 16px;
+        }
+
+        .imagesection {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            width: 80%;
+            justify-content: center;
+        }
+
+        .imagesection p {
+            font-size: 1.3em;
+            padding: 8px;
+        }
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+        .uppercontent {
+            padding: 5% 10%;
+        }
+
+        .uppercontent h1 {
+            font-size: 2em;
+        }
+
+        .uppercontent p {
+            font-size: 1em;
+        }
+
+        .uppercontent button {
+            font-size: 1.2em;
+            padding: 7px 14px;
+        }
+
+        .imagesection {
+            flex-direction: column;
+            gap: 15px;
+            padding: 5px 10px;
+        }
+
+        .card {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .imagesection p {
+            font-size: 1.2em;
+            padding: 8px;
+        }
+
+        .imagesection img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .videosection {
+            padding: 10%;
+        }
+
+        .videocontent h1 {
+            font-size: 2em;
+        }
+
+        .videocontent p {
+            font-size: 1em;
+        }
+    }
+
+    /* Small mobile devices */
+    @media (max-width: 576px) {
+        .uppercontent {
+            padding: 5% 5%;
+        }
+
+        .uppercontent h1 {
+            font-size: 1.8em;
+        }
+
+        .uppercontent p {
+            font-size: 0.9em;
+        }
+
+        .uppercontent button {
+            font-size: 1em;
+            padding: 5px 10px;
+        }
+
+        .imagesection {
+            gap: 10px;
+        }
+
+        .imagesection p {
+            font-size: 1em;
         }
     }
 }
