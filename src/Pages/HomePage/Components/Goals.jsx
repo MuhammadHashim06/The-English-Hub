@@ -81,6 +81,7 @@ const content = [
     subheading:
       "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
     buttonurl: "",
+    buttontext:"Start Leanring",
     card1: {
       text: "Focus on your unique goals",
       imgurl: gimg1,
@@ -91,10 +92,11 @@ const content = [
     },
   },
   {
-    heading: "Learn English your way",
+    heading: "Explore native English speaking tutors",
     subheading:
       "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
     buttonurl: "",
+    buttontext:"Explore tutors",
     card1: {
       text: "Focus on your unique goals",
       imgurl: gimg1,
@@ -105,10 +107,11 @@ const content = [
     },
   },
   {
-    heading: "Learn English your way",
+    heading: "Track your progress",
     subheading:
       "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
     buttonurl: "",
+    buttontext:"Start Leanring",
     card1: {
       text: "Focus on your unique goals",
       imgurl: gimg1,
