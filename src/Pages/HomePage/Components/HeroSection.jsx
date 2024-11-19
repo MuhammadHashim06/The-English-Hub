@@ -13,7 +13,7 @@ const HeroSection = () => {
       </video>
       <div className="herotext">
         <h1>Every new word brings you closer to your goal</h1>
-        <button>Get Started</button>
+        <button>Start Now</button>
       </div>
     </div>
   );

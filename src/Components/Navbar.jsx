@@ -178,6 +178,9 @@ export default function Navbar() {
           <NavLink className="nav-link" to={'/business'}>
             Business
           </NavLink>
+          <NavLink className="nav-link" to={'/tool'}>
+                Smart Transcript tool
+              </NavLink>
         </div>
       </div>
       <div className="rightdiv">
@@ -216,6 +219,9 @@ export default function Navbar() {
               </NavLink>
               <NavLink className="nav-link" to={'/business'} onClick={closeDrawer}>
                 Business
+              </NavLink>
+              <NavLink className="nav-link" to={'/tool'} onClick={closeDrawer}>
+                Smart Transcript tool
               </NavLink>
             </div>
           </Drawer>
