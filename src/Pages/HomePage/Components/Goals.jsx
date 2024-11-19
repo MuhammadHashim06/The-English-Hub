@@ -132,7 +132,7 @@ export default function Goals() {
           <div className="uppercontent">
             <h1>{c.heading}</h1>
             <p>{c.subheading}</p>
-            <button>Start Learning</button>
+            <button>{c.buttontext}</button>
           </div>
           <div className="imagesection">
             <div className="card">
