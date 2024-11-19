@@ -1,0 +1,126 @@
+.goals {
+    .uppercontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75%;
+        padding: 7.5% 20%;
+        gap: 10px;
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+        }
+
+        p {
+            text-align: center;
+            color: gray;
+        }
+
+        button {
+            color: black;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            border-radius: 50px;
+        }
+    }
+
+    .imagesection {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+
+        .card {
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            position: absolute;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+
+        img {
+            width: auto;
+        }
+    }
+
+    /* Tablet and Mobile responsiveness */
+    @media (max-width: 900px) {
+        .uppercontent {
+            padding: 5% 15%;
+        }
+
+        .uppercontent h1 {
+            font-size: 2.5em;
+        }
+
+        .uppercontent p {
+            font-size: 1.1em;
+        }
+
+        .uppercontent button {
+            font-size: 1.3em;
+            padding: 8px 16px;
+        }
+
+        .imagesection {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .card {
+            width: 80%;
+            justify-content: center;
+        }
+
+        .imagesection p {
+            font-size: 1.3em;
+            padding: 8px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .uppercontent {
+            padding: 5% 10%;
+        }
+
+        .uppercontent h1 {
+            font-size: 2em;
+        }
+
+        .uppercontent p {
+            font-size: 1em;
+        }
+
+        .uppercontent button {
+            font-size: 1.2em;
+            padding: 7px 14px;
+        }
+
+        .imagesection {
+            flex-direction: column;
+            gap: 15px;
+            padding: 5px 10px;
+        }
+
+        .card {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .imagesection p {
+            font-size: 1.2em;
+            padding: 8px;
+        }
+
+        .imagesection img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
