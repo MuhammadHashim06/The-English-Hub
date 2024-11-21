@@ -5,13 +5,28 @@ import googlelogo from "../../Images/google.png";
 import logo from '../../Images/logo.png'
 import { Link } from "react-router-dom";
 const Login = () => {
-  function loginWithGoogle() {
+  const loginWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
-    signInWithPopup(auth, provider).then(async (result) => {
-      console.log(result);
+    
+    // Optional: You can set custom parameters, such as forcing the user to select an account
+    provider.setCustomParameters({
+      prompt: 'select_account', // This forces the user to choose an account
     });
-  }
 
+    try {
+      // Initiate the sign-in process using Firebase's signInWithPopup
+      const result = await signInWithPopup(auth, provider);
+      
+      // The signed-in user info
+      const user = result.user;
+      console.log('User Info:', user);
+
+      // You can do something with the user, like storing it in a state or redirecting to another page
+    } catch (error) {
+      // Handle errors (e.g., network issues, denied permission, etc.)
+      console.error('Error during Google sign-in:', error.message);
+    }
+  };
   return (
     <div className="login-container">
       <div className="login-card">
