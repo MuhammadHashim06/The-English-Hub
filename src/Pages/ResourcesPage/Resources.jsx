@@ -1,6 +1,6 @@
+import Navbar from "../../Components/Navbar";
 
 export default function Resources() {
   return (
-    <div>Resources</div>
-  )
+<div> <Navbar/></div>  )
 }

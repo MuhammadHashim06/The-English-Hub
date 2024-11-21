@@ -1,6 +1,6 @@
+import Navbar from "../../Components/Navbar";
 
 export default function Tutors() {
   return (
-    <div>Tutors</div>
-  )
+    <div> <Navbar /></div>)
 }
