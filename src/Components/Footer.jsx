@@ -1,5 +1,8 @@
 import "./Footer.css";
 import logo from '../Images/logo.png'
+import appstore from '../Images/AppStore.png'
+import googleplay from '../Images/Googleplay.png'
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -31,16 +34,17 @@ export default function Footer() {
         <div className="footer-section social">
           <h4>Social</h4>
           <div className="social-icons">
-            <i className="fa fa-instagram"></i>
-            <i className="fa fa-facebook"></i>
-            <i className="fa fa-youtube"></i>
-            <i className="fa fa-x-twitter"></i>
+            <i className="fab fa-instagram"></i> {/* Font Awesome Brands */}
+            <i className="fab fa-facebook-square"></i> {/* Font Awesome Brands */}
+            <i className="fab fa-youtube"></i> {/* Font Awesome Brands */}
+            <i className="fab fa-twitter"></i> {/* Font Awesome Brands */}
           </div>
+
         </div>
         <div className="footer-section  app-links">
-        <img src="appstore.png" alt="Download on the App Store" />
-        <img src="googleplay.png" alt="Get it on Google Play" />
-      </div>
+          <img src={appstore} alt="Download on the App Store" />
+          <img src={googleplay} alt="Get it on Google Play" />
+        </div>
       </div>
 
       <div className="footer-bottom">
