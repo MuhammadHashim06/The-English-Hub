@@ -156,9 +156,12 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.navbuttons button:nth-child(2) {
+.navbuttons button.signupbtn{
     background-color: var(--primary-color);
     color: var(--black);
+}
+.navbuttons button.signupbtn:hover{
+    background-color: var(--secondary-color);
 }
 .navbar.scrolled{
     background-color: var(--background-color);

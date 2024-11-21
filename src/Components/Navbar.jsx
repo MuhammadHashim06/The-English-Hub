@@ -47,7 +47,7 @@
 //         </div>
 
 //         {/* Drawer for Mobile View */}
-        
+
 //         {/* Desktop View Links */}
 //         <div className="navlinks">
 //           <NavLink className="nav-link" to={'/method'}>
@@ -71,7 +71,6 @@
 //         </div>
 //       </div>
 //       <div className='rightdiv'>
-      
 
 //       <div className="navbuttons">
 //         <button>Login</button>
@@ -112,12 +111,12 @@
 //   );
 // }
 
-import { NavLink } from 'react-router-dom';
-import logo from '../Images/logo.png';
-import './Navbar.css';
-import { useEffect, useState } from 'react';
-import { Drawer, Button } from 'antd';
-import { MenuOutlined } from '@ant-design/icons';
+import { NavLink } from "react-router-dom";
+import logo from "../Images/logo.png";
+import "./Navbar.css";
+import { useEffect, useState } from "react";
+import { Drawer, Button } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -134,11 +133,11 @@ export default function Navbar() {
 
   // Attach scroll event listener
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -152,7 +151,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
+    <div className={`navbar ${isScrolled ? "scrolled" : ""}`}>
       <div className="leftnav">
         <div className="logo">
           <NavLink to="/">
@@ -160,33 +159,37 @@ export default function Navbar() {
           </NavLink>
         </div>
         <div className="navlinks">
-          <NavLink className="nav-link" to={'/method'}>
+          <NavLink className="nav-link" to={"/method"}>
             Method
           </NavLink>
-          <NavLink className="nav-link" to={'/featured-tutors'}>
+          <NavLink className="nav-link" to={"/featured-tutors"}>
             Tutors
           </NavLink>
-          <NavLink className="nav-link" to={'/courses'}>
+          <NavLink className="nav-link" to={"/courses"}>
             Courses
           </NavLink>
-          <NavLink className="nav-link" to={'/resources'}>
+          <NavLink className="nav-link" to={"/resources"}>
             Resources
           </NavLink>
-          <NavLink className="nav-link" to={'/kids'}>
+          <NavLink className="nav-link" to={"/kids"}>
             Kids
           </NavLink>
-          <NavLink className="nav-link" to={'/business'}>
+          <NavLink className="nav-link" to={"/business"}>
             Business
           </NavLink>
-          <NavLink className="nav-link" to={'/tool'}>
-                Smart Transcript tool
-              </NavLink>
+          <NavLink className="nav-link" to={"/tool"}>
+            Smart Transcript tool
+          </NavLink>
         </div>
       </div>
       <div className="rightdiv">
         <div className="navbuttons">
-          <button>Login</button>
-          <button>Signup</button>
+          <NavLink to={'/login'}>
+            <button>Login</button>
+          </NavLink>
+          <NavLink to={'/signup'}>
+            <button className="signupbtn" >Signup</button>
+          </NavLink>
         </div>
         <div className="mobile-menu">
           <Button
@@ -202,25 +205,45 @@ export default function Navbar() {
             visible={isDrawerVisible}
           >
             <div className="mobile-navlinks">
-              <NavLink className="nav-link" to={'/method'} onClick={closeDrawer}>
+              <NavLink
+                className="nav-link"
+                to={"/method"}
+                onClick={closeDrawer}
+              >
                 Method
               </NavLink>
-              <NavLink className="nav-link" to={'/featured-tutors'} onClick={closeDrawer}>
+              <NavLink
+                className="nav-link"
+                to={"/featured-tutors"}
+                onClick={closeDrawer}
+              >
                 Tutors
               </NavLink>
-              <NavLink className="nav-link" to={'/courses'} onClick={closeDrawer}>
+              <NavLink
+                className="nav-link"
+                to={"/courses"}
+                onClick={closeDrawer}
+              >
                 Courses
               </NavLink>
-              <NavLink className="nav-link" to={'/resources'} onClick={closeDrawer}>
+              <NavLink
+                className="nav-link"
+                to={"/resources"}
+                onClick={closeDrawer}
+              >
                 Resources
               </NavLink>
-              <NavLink className="nav-link" to={'/kids'} onClick={closeDrawer}>
+              <NavLink className="nav-link" to={"/kids"} onClick={closeDrawer}>
                 Kids
               </NavLink>
-              <NavLink className="nav-link" to={'/business'} onClick={closeDrawer}>
+              <NavLink
+                className="nav-link"
+                to={"/business"}
+                onClick={closeDrawer}
+              >
                 Business
               </NavLink>
-              <NavLink className="nav-link" to={'/tool'} onClick={closeDrawer}>
+              <NavLink className="nav-link" to={"/tool"} onClick={closeDrawer}>
                 Smart Transcript tool
               </NavLink>
             </div>

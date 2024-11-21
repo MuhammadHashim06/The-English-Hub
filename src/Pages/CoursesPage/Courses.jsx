@@ -1,6 +1,7 @@
+import Navbar from "../../Components/Navbar";
 
 export default function Courses() {
   return (
-    <div>Courses</div>
+    <div> <Navbar/></div>
   )
 }
