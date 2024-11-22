@@ -1,0 +1,40 @@
+import { createUserWithEmailAndPassword } from "firebase/auth";
+import { auth } from "./firebase"; // Import the auth instance from firebase.js
+
+// Function to handle email signup
+const emailSignUp = async (email, password, additionalData) => {
+  try {
+    // Creating the user with email and password
+    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+
+    // User is successfully signed up
+    const user = userCredential.user;
+
+    console.log("User signed up successfully:", user);
+
+    // If needed, you can store additional user data (e.g., first name, role) in Firestore or Realtime Database
+    // For example:
+    // const db = getFirestore();
+    // await setDoc(doc(db, "users", user.uid), additionalData);
+
+    // Return user information if necessary
+    return user;
+  } catch (error) {
+    // Handle error (e.g., invalid email, weak password)
+    console.error("Error signing up:", error.message);
+    throw error; // Optionally throw the error to be handled by the UI
+  }
+};
+
+// Usage Example (inside your component)
+const handleEmailSignUp = async () => {
+  const email = "test@example.com";
+  const password = "password123";
+  const additionalData = {
+    firstName: "John",
+    lastName: "Doe",
+    role: "student",
+  };
+
+  await emailSignUp(email, password, additionalData);
+};

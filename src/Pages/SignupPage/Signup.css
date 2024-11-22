@@ -1,0 +1,169 @@
+/* Container styles */
+.signup-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    background-color: var(--background-color);
+    height: 100vh;
+
+
+.signup-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: auto;
+    box-sizing: border-box; /* Ensures padding does not affect the box width */
+}
+
+/* Logo */
+.signup-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Text styles */
+.signup-box h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.signup-description {
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+/* Button container */
+.signup-buttons {
+    margin-top: 20px;
+}
+
+/* Button styles */
+.signup-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-google {
+    background: #4285f4;
+    color: white;
+}
+
+.signup-email {
+    background: #ddd;
+    color: #333;
+}
+
+.signup-button:hover {
+    opacity: 0.9;
+}
+
+/* Children account section */
+.children-account {
+    margin-top: 20px;
+    padding: 10px;
+    background: #fef9e7;
+    border: 1px solid #ffcc00;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.children-account p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.children-account-link {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.children-account-link:hover {
+    text-decoration: underline;
+}
+
+/* Mobile and Tablet responsiveness */
+@media (max-width: 768px) {
+    /* For tablets */
+    .signup-box {
+        max-width: 90%; /* Reduce box width on tablets */
+        padding: 15px; /* Reduce padding */
+    }
+
+    .signup-logo {
+        max-width: 80px; /* Reduce logo size */
+    }
+
+    .signup-box h2 {
+        font-size: 22px; /* Slightly smaller text for tablets */
+    }
+
+    .signup-button {
+        font-size: 14px; /* Smaller buttons on tablets */
+        padding: 8px;
+    }
+
+    .children-account {
+        font-size: 13px; /* Smaller text in children account section */
+    }
+}
+
+@media (max-width: 480px) {
+    /* For mobile */
+    .signup-container {
+        padding: 10px; /* More padding on smaller screens */
+    }
+
+    .signup-box {
+        max-width: 100%; /* Box should take full width */
+        padding: 10px; /* Reduce padding for mobile */
+    }
+
+    .signup-logo {
+        max-width: 60px; /* Further reduce logo size */
+    }
+
+    .signup-box h2 {
+        font-size: 20px; /* Smaller header text */
+    }
+
+    .signup-description {
+        font-size: 14px; /* Smaller description font */
+    }
+
+    .signup-button {
+        font-size: 14px; /* Adjust button text size for mobile */
+        padding: 8px; /* Adjust padding for mobile */
+    }
+
+    .children-account {
+        font-size: 12px; /* Smaller font in children account section */
+    }
+
+    .children-account-link {
+        font-size: 12px; /* Smaller font size for links */
+    }
+}
+}

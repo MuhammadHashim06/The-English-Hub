@@ -1,10 +1,15 @@
 import "./Login.css";
-import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import { GoogleAuthProvider, signInWithPopup, signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../Backend/loginwithgoogle";
 import googlelogo from "../../Images/google.png";
-import logo from '../../Images/logo.png'
+import logo from '../../Images/logo.png';
 import { Link } from "react-router-dom";
+import { useState } from "react";
+
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   const loginWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
     
@@ -27,10 +32,21 @@ const Login = () => {
       console.error('Error during Google sign-in:', error.message);
     }
   };
+
+  const emailLogin = async (e) => {
+    e.preventDefault(); // Prevent form from refreshing the page
+    try {
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      console.log("User logged in:", userCredential.user);
+    } catch (error) {
+      console.error("Error during Email Login:", error.message);
+    }
+  };
+
   return (
     <div className="login-container">
       <div className="login-card">
-        <div className="logo" ><img src={logo} alt="" /></div>
+        <div className="logo"><img src={logo} alt="Logo" /></div>
         <h1 className="welcome-text">Welcome back!</h1>
 
         <div className="social-login">
@@ -43,16 +59,20 @@ const Login = () => {
           <span>OR</span>
         </div>
 
-        <form className="login-form">
+        <form className="login-form" onSubmit={emailLogin}>
           <input
             type="email"
             placeholder="Enter your email address"
             className="form-input"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="password"
             placeholder="Enter a password"
             className="form-input"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
           />
 
           <div className="forgot-password">

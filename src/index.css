@@ -40,6 +40,6 @@ button {
   color: var(--white);
 }
 
-button:hover {
+/* button:hover {
   background-color: var(--secondary-color);
-}
+} */
