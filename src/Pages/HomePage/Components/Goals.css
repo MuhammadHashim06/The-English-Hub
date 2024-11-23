@@ -151,7 +151,7 @@
 } */
 
 .goals {
-    
+
     .uppercontent {
         display: flex;
         flex-direction: column;
@@ -160,7 +160,7 @@
         height: 75%;
         padding: 7.5% 20%;
         gap: 15px;
-        
+
 
         h1 {
             text-align: center;
@@ -177,15 +177,42 @@
             padding: 10px 20px;
             font-size: 1.5em;
             border-radius: 50px;
+            gap: 10px;
         }
+
     }
 
+    .g-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h1 {
+            padding: 5%;
+        }
+
+        img {
+            width: 85%;
+        }
+    }
+.g-7{
+    background-image: url('../../.././Images/7.jpg');
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
     .imagesection {
         position: relative;
-        display: flex;
-        justify-content: center;
+        display: grid;
+        /* justify-content: center; */
+        grid-template-columns: 1fr 1fr;
         gap: 30px;
         margin-bottom: 10%;
+
         .card {
             display: flex;
             justify-content: center;
@@ -200,14 +227,15 @@
 
         img {
             width: auto;
-            max-width: 100%; 
+            /* width: 50%; */
+            max-width: 100%;
             height: auto;
         }
     }
 
     .videosection {
         background-color: var(--primary-color);
-        padding: 5%  10% ;
+        padding: 5% 10%;
 
         .progressvideo {
             width: 100%;
@@ -225,6 +253,7 @@
                 color: gray;
             }
         }
+
         .videocontent h1 {
             font-size: 3em;
         }

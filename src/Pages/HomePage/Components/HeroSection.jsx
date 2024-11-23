@@ -12,7 +12,7 @@ const HeroSection = () => {
         Your browser does not support the video tag.
       </video>
       <div className="herotext">
-        <h1>Learn english from anywhere in the world </h1>
+        <h1>Learn english from anywhere in the world</h1>
         <button>Start Now</button>
       </div>
       <div className="bottombar">
