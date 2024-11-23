@@ -94,6 +94,7 @@
 
 .navlinks {
     display: flex;
+    align-items: center;
     gap: 15px;
     font-size: 1.05em;
     width: 100%;
