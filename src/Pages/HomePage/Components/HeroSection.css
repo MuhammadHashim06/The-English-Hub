@@ -19,6 +19,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 10px;
         color: white;
         padding: 20px;
         height: 100vh;
@@ -50,14 +51,14 @@
         background-color: var(--secondary-color);
         /* Add a hover effect */
     }
-}
+
 
 .bottombar {
     position: relative;
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
+    color: white;
     display: flex;
     justify-content: space-around;
-    /* font-size: 1rem; */
     padding: 15px 50px;
 
     .smalldiv {
@@ -75,7 +76,7 @@
         }
     }
 }
-
+}
 /* Responsive Styles */
 
 /* Tablet view */

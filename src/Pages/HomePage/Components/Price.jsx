@@ -72,7 +72,7 @@ export default function Price() {
         ))}
       </div>
       <div className="bottomcontent" >
-      <p>Not ready to commit yet? Explore all The English Hub has to offer without a subscription</p>
+      <p>Take the first step today and build skills that last a lifetime</p>
       <button>Explore The English Hub</button>
       </div>
     </div>

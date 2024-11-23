@@ -1,25 +1,30 @@
 import "./Goals.css";
 import gimg1 from "../../../Images/goalimg.png";
 import gimg2 from "../../../Images/goalimg1.png";
+import gimg3 from "../../../Images/goalimg2.png"
+import gimg4 from "../../../Images/goalimg3.png"
+import gimg5 from "../../../Images/goalimg4.png"
+import gimg6 from "../../../Images/goalimg5.png"
+
 import aiprogress from '../../../Videos/AI_Progress.mp4'
 const content = [
   {
-    heading: "Learn English your way",
+    heading: "English tailored to you and your goals",
     subheading:
       "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
     buttonurl: "",
     buttontext: "Start Leanring",
     card1: {
       text: "Focus on your unique goals",
-      imgurl: gimg1,
+      imgurl: gimg3,
     },
     card2: {
       text: "Choose the way you learn",
-      imgurl: gimg2,
+      imgurl: gimg4,
     },
   },
   {
-    heading: "Explore native English speaking tutors",
+    heading: "Connect with native english tutors to perfect your English ",
     subheading:
       "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
     buttonurl: "",
@@ -34,18 +39,18 @@ const content = [
     },
   },
   {
-    heading: "Track your progress",
+    heading: "Keep track of how you’re improving ",
     subheading:
       "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
     buttonurl: "",
     buttontext: "Start Leanring",
     card1: {
       text: "Focus on your unique goals",
-      imgurl: gimg1,
+      imgurl: gimg5,
     },
     card2: {
       text: "Choose the way you learn",
-      imgurl: gimg2,
+      imgurl: gimg6,
     },
   },
 ];
@@ -74,7 +79,7 @@ export default function Goals() {
       ))}
       <div className="videosection">
       <div className="videocontent">
-        <h1>Our smart transcript tool</h1>
+        <h1>Improvement over perfection </h1>
         <p>Start your English journey, progress everyday</p>
 </div>
         <video controls
