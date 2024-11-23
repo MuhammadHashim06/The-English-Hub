@@ -12,6 +12,7 @@
 }
 
 .login-card {
+  margin: 25px;
   background: white;
   padding: 2rem;
   border-radius: 8px;
