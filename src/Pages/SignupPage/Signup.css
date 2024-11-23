@@ -1,7 +1,9 @@
 .signup-container {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
     width: 100%;
     background-color: var(--background-color);
     min-height: 100vh;

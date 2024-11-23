@@ -37,6 +37,7 @@ const SignupOptions = () => {
     navigate('/signup/email&password');
   };
   return (
+    <div>
       <div className="signup-box">
         {/* Logo */}
         <img src={logo} alt="Logo" className="signup-logo" />
@@ -71,6 +72,7 @@ const SignupOptions = () => {
             We’ve got special tutors and courses just for kids. →
           </button>
         </div>
+      </div>
       </div>
   );
 };
