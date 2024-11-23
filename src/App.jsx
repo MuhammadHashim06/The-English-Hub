@@ -12,6 +12,7 @@ import Login from "./Pages/LoginPage/Login";
 import Signup from "./Pages/SignupPage/Signup";
 import EmailandPassword from "./Pages/SignupPage/EmailandPassword";
 import SignupOptions from "./Pages/SignupPage/SignupOption";
+import UserDetail from "./Pages/SignupPage/UserDetail";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/signup/*" element={<Signup />}>
           <Route index element={<SignupOptions />} />
           <Route path="email&password" element={<EmailandPassword />} />
+          <Route path="userdetail" element={<UserDetail />} />
         </Route>
         <Route path="/method" element={<Method />} />
         <Route path="/featured-tutors" element={<Tutors />} />

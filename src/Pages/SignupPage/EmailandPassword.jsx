@@ -86,7 +86,7 @@ const EmailandPassword = () => {
       const uid = userCredential.user.uid; // Get the user UID
       alert('Signup successful!');
       // Navigate to the next page, passing UID
-      navigate('/nextPage', { state: { uid } });
+      navigate('/signup/userdetail', { state: { uid } });
     } catch (error) {
       console.error('Error signing up:', error);
       alert(`Signup failed: ${error.message}`);
@@ -132,6 +132,7 @@ const EmailandPassword = () => {
             required
           />
         </div>
+        {/* <hr /> */}
         <div className="form-buttons">
           <button type="button" onClick={navigateBack} className="back-button">
             ←

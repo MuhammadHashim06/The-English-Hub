@@ -1,0 +1,56 @@
+{/* Step 3: Learning Goals */}
+      {step === 3 && (
+        <div className="learning-goals-form">
+          <h1>What are your learning goals?</h1>
+          <textarea
+            placeholder="Describe your learning goals here..."
+            rows="5"
+            required
+          ></textarea>
+          <hr />
+          <div className="form-buttons">
+          <button type="button" onClick={goToPreviousStep} className="back-button">
+            ←
+          </button>
+            <button onClick={goToNextStep} className="next-button">Next</button>
+          </div>
+        </div>
+      )}
+
+      {/* Step 4: Industry */}
+      {step === 4 && (
+        <div className="industry-form">
+          <h1>What industry do you work in?</h1>
+          <select required>
+            <option value="">Select your industry</option>
+            <option value="tech">Technology</option>
+            <option value="education">Education</option>
+            <option value="healthcare">Healthcare</option>
+            <option value="finance">Finance</option>
+            <option value="other">Other</option>
+          </select>
+          <div className="form-buttons">
+            <button type="button" onClick={goToPreviousStep} className="back-button">
+            ←
+          </button>
+            {/* <button onClick={goToPreviousStep} className="prev-button">Back</button> */}
+            <button onClick={goToNextStep} className="next-button">Next</button>
+          </div>
+        </div>
+      )}
+
+      {/* Step 5: Studies */}
+      {step === 5 && (
+        <div className="studies-form">
+          <h1>What are you studying?</h1>
+          <input
+            type="text"
+            placeholder="Enter your field of study"
+            required
+          />
+          <div className="form-buttons">
+            <button onClick={goToPreviousStep} className="prev-button">Back</button>
+            <button onClick={goToNextStep} className="next-button">Next</button>
+          </div>
+        </div>
+      )}
