@@ -4,7 +4,6 @@ import fundamentalimg1 from "../../../Images/Courses/fundamental1.png";
 import professionalimg1 from "../../../Images/Courses/professional1.png";
 import expressimg1 from "../../../Images/Courses/express1.png";
 import examimg1 from "../../../Images/Courses/exam1.png";
-import { Link } from "react-router-dom";
 
 const fundamentalcourses = [
   {
@@ -352,25 +351,7 @@ export default function Content() {
           ))}
         </div>
       </div>
-      <div className="footer" >
-        <ul>
-          <Link>
-            <li>Privacy Policy </li>
-          </Link>
-          <Link>
-            <li>Terms and Conditions </li>
-          </Link>
-          <Link>
-            <li>Jobs </li>
-          </Link>
-          <Link>
-            <li>Contact</li>
-          </Link>
-          <Link>
-            <li>Press </li>
-          </Link>
-        </ul>
-      </div>
+      
     </div>
   );
 }

@@ -1,0 +1,79 @@
+/* .coursefooter {
+    display: flex;
+    gap: 10px;
+    padding: 3% 2%;
+    justify-content: space-between;
+
+    background-color: var(--background-color);
+    color: white;
+
+    ul {
+        display: flex;
+        gap: 5px;
+        text-decoration: none;
+        list-style: none;
+
+        a {
+            color: white;
+        }
+    }
+} */
+
+.coursefooter {
+    display: flex;
+    gap: 10px;
+    padding: 3% 2%;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    color: white;
+}
+
+/* Styling for ul element within .coursefooter */
+.coursefooter ul {
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Styling for anchor links inside ul */
+.coursefooter ul a {
+    color: white;
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .coursefooter {
+        flex-direction: column;
+        padding: 5% 2%; /* Increased padding for mobile */
+        align-items: center;
+    }
+
+    .coursefooter ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .coursefooter ul a {
+        font-size: 14px; /* Adjust font size for better readability */
+    }
+}
+
+/* Tablet Devices (481px to 768px) */
+@media (max-width: 768px) {
+    .coursefooter {
+        flex-direction: column;
+        padding: 4% 2%;
+        align-items: center;
+    }
+
+    .coursefooter ul {
+        gap: 8px;
+        align-items: center;
+    }
+
+    .coursefooter ul a {
+        font-size: 16px; /* Adjust font size for tablet */
+    }
+}

@@ -1,4 +1,4 @@
-.coursecontent {
+/* .coursecontent {
     padding: 10% 5%;
     display: flex;
     flex-direction: column;
@@ -51,5 +51,124 @@
                 font-size: 0.7em;
             }
         }
+    }
+
+} */
+
+.coursecontent {
+    padding: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .contentdiv styles */
+.coursecontent .contentdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5% 20% 2% 0%;
+}
+
+/* .contentcards styles */
+.coursecontent .contentcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* .card styles */
+.coursecontent .contentcards .card {
+    padding: 15px;
+    width: 225px; /* Default width for larger screens */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.coursecontent .contentcards .card h1 {
+    font-size: 1rem;
+}
+
+.coursecontent .contentcards .card p {
+    font-size: 0.85em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.coursecontent .contentcards .card .cardcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.coursecontent .contentcards .card .cardimg {
+    width: 100%;
+    object-fit: fill;
+}
+
+.coursecontent .contentcards .card span {
+    margin-top: 30px;
+    color: grey;
+    font-size: 0.7em;
+}
+
+/* Mobile Devices (up to 480px) */
+@media (max-width: 480px) {
+    .coursecontent {
+        padding: 5% 3%; /* Less padding on mobile */
+    }
+
+    .coursecontent .contentdiv {
+        padding: 5% 0 2% 0; /* Adjusted padding for mobile */
+    }
+
+    .coursecontent .contentcards {
+        gap: 15px; /* Reduce the gap between cards */
+    }
+
+    .coursecontent .contentcards .card {
+        width: 100%; /* Full width for cards on mobile */
+        padding: 10px; /* Less padding for mobile */
+    }
+
+    .coursecontent .contentcards .card h1 {
+        font-size: 1rem; /* Slightly larger heading for mobile */
+    }
+
+    .coursecontent .contentcards .card p {
+        font-size: 0.8em; /* Adjusted font size for mobile */
+    }
+
+    .coursecontent .contentcards .card span {
+        font-size: 0.75em; /* Smaller text for span on mobile */
+    }
+}
+
+/* Tablet Devices (481px to 768px) */
+@media (max-width: 768px) {
+    .coursecontent {
+        padding: 8% 4%; /* Adjust padding for tablet */
+    }
+
+    .coursecontent .contentdiv {
+        padding: 5% 10% 2% 0%; /* Adjusted padding for tablet */
+    }
+
+    .coursecontent .contentcards .card {
+        width: 300px; /* Two cards per row on tablet */
+    }
+
+    .coursecontent .contentcards .card h1 {
+        font-size: 1rem; /* Adjust font size for tablet */
+    }
+
+    .coursecontent .contentcards .card p {
+        font-size: 0.9em; /* Slightly larger font on tablet */
+    }
+
+    .coursecontent .contentcards .card span {
+        font-size: 0.8em; /* Adjust span font size for tablet */
     }
 }
