@@ -1,4 +1,4 @@
-.tutornav {
+.coursenavbar {
     position: fixed;
     width: 100vw;
     display: flex;
@@ -98,7 +98,7 @@
 }
 
 @media (max-width: 768px) {
-    .tutornav{
+    .coursenavbar{
     .navlinks {
         display: none;
     }
@@ -115,7 +115,7 @@
 }
 
 @media (min-width: 769px) {
-    .tutornav{
+    .coursenavbar{
     .mobile-menu {
         display: none;
     }
