@@ -34,6 +34,7 @@
     .herotext p {
         font-size: 1.25rem;
         padding-bottom: 20px;
+        padding: 0px 15% 20px 15%;
     }
 
     .herotext button {

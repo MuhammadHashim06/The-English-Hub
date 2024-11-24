@@ -84,15 +84,13 @@ export default function Goals() {
             <p>{content[0].subheading}</p>
             <button>{content[0].buttontext}</button>
           </div>
-          <div className="imagesection">
+          <div className="section1">
             <div className="card">
-              <p>{content[0].card1.text}</p>
               <img src={content[0].card1.imgurl} alt="Card 1" />
             </div>
-            <div className="card">
-              <p>{content[0].card2.text}</p>
+            {/* <div className="card">
               <img src={content[0].card2.imgurl} alt="Card 2" />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="goal-section">
@@ -103,11 +101,9 @@ export default function Goals() {
           </div>
           <div className="imagesection">
             <div className="card">
-              <p>{content[1].card1.text}</p>
               <img src={content[1].card1.imgurl} alt="Card 1" />
             </div>
             <div className="card">
-              <p>{content[1].card2.text}</p>
               <img src={content[1].card2.imgurl} alt="Card 2" />
             </div>
           </div>
@@ -120,11 +116,9 @@ export default function Goals() {
           </div>
           <div className="imagesection">
             <div className="card">
-              <p>{content[2].card1.text}</p>
               <img src={content[2].card1.imgurl} alt="Card 1" />
             </div>
             <div className="card">
-              <p>{content[2].card2.text}</p>
               <video src={content[2].card2.imgurl} alt="Card 2" autoPlay="true" loop="true" />
             </div>
           </div>
@@ -141,7 +135,7 @@ export default function Goals() {
         </video>
       </div>
       <div className="g-6" >
-        <h1>English for Business and Organisations </h1>
+        <h1>English for Business and Organizations </h1>
       <img src={gimg7} alt="" />
       </div>
       <div className="g-7" >
