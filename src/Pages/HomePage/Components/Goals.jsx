@@ -59,7 +59,7 @@ const content = [
 export default function Goals() {
   return (
     <div className="goals">
-      {content.map((c, index) => (
+      {/* {content.map((c, index) => (
         <div className="goal-section" key={index}>
           <div className="uppercontent">
             <h1>{c.heading}</h1>
@@ -77,7 +77,58 @@ export default function Goals() {
             </div>
           </div>
         </div>
-      ))}
+      ))} */}
+      <div className="goal-section">
+          <div className="uppercontent">
+            <h1>{content[0].heading}</h1>
+            <p>{content[0].subheading}</p>
+            <button>{content[0].buttontext}</button>
+          </div>
+          <div className="imagesection">
+            <div className="card">
+              <p>{content[0].card1.text}</p>
+              <img src={content[0].card1.imgurl} alt="Card 1" />
+            </div>
+            <div className="card">
+              <p>{content[0].card2.text}</p>
+              <img src={content[0].card2.imgurl} alt="Card 2" />
+            </div>
+          </div>
+        </div>
+        <div className="goal-section">
+          <div className="uppercontent">
+            <h1>{content[1].heading}</h1>
+            <p>{content[1].subheading}</p>
+            <button>{content[1].buttontext}</button>
+          </div>
+          <div className="imagesection">
+            <div className="card">
+              <p>{content[1].card1.text}</p>
+              <img src={content[1].card1.imgurl} alt="Card 1" />
+            </div>
+            <div className="card">
+              <p>{content[1].card2.text}</p>
+              <img src={content[1].card2.imgurl} alt="Card 2" />
+            </div>
+          </div>
+        </div>
+        <div className="goal-section">
+          <div className="uppercontent">
+            <h1>{content[2].heading}</h1>
+            <p>{content[2].subheading}</p>
+            <button>{content[2].buttontext}</button>
+          </div>
+          <div className="imagesection">
+            <div className="card">
+              <p>{content[2].card1.text}</p>
+              <img src={content[2].card1.imgurl} alt="Card 1" />
+            </div>
+            <div className="card">
+              <p>{content[2].card2.text}</p>
+              <video src={content[2].card2.imgurl} alt="Card 2" autoPlay="true" loop="true" />
+            </div>
+          </div>
+        </div>
       <div className="videosection">
       <div className="videocontent">
         <h1>English for Children</h1>
