@@ -1,0 +1,154 @@
+.tutorhero {
+    .herodiv {
+        padding: 10% 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+
+        h1 {
+            font-size: 5em;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        button {
+            font-size: 1.5em;
+            border-radius: 45px;
+            padding: 2% 4%;
+            color: #000;
+        }
+    }
+
+    .tutorlist {
+        padding: 2% 12%;
+
+
+        .findtutor {
+            display: flex;
+            justify-content: space-between;
+
+            .findtutorbtn {
+                display: flex;
+                gap: 10px;
+
+                button {
+                    font-size: medium;
+                    background-color: transparent;
+                    border-radius: 5px;
+                    border: 1px solid grey;
+                    color: grey;
+                    padding: 2% 4%;
+                }
+            }
+            .findtutorbtn button:nth-child(1){
+                text-align: left;
+                width: 250px;
+            }
+        }.list{
+            padding: 5% 0%;
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+            gap: 20px;
+        }
+        .card {
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background-color: #fff;
+          }
+          
+          .card-header {
+            display: flex;
+            padding: 16px;
+            border-bottom: 1px solid #eee;
+          }
+          
+          .profile-img {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 16px;
+          }
+          
+          .card-title h2 {
+            margin: 0;
+            font-size: 18px;
+            font-weight: bold;
+          }
+          
+          .card-title p {
+            margin: 4px 0;
+            font-size: 14px;
+            color: #666;
+          }
+          
+          .flag-icon, .icon {
+            width: 16px;
+            height: 16px;
+            vertical-align: middle;
+            margin-right: 4px;
+          }
+          
+          .card-body {
+            padding: 16px;
+          }
+          
+          .card-body p {
+            margin: 0;
+            font-size: 14px;
+            color: #444;
+          }
+          
+          .highlights p {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            margin: 8px 0;
+          }
+          
+          .card-footer {
+            padding: 16px;
+            text-align: center;
+            background-color: #f9f9f9;
+          }
+          
+          .schedule-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          .schedule-btn:hover {
+            background-color: #333;
+          }
+    }
+    .bottom{
+        padding: 5% 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        h1{
+            font-size: 5rem;
+            text-align: center;
+        }
+        button{
+            font-size: 1.5em;
+            border-radius: 45px;
+            padding: 1.5% 3%;
+            color: black;  
+        }
+    }
+}

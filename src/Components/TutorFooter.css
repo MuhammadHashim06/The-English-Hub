@@ -1,0 +1,25 @@
+.tutorfooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    color: white;
+    padding: 5% 10%;
+h1{
+    font-size: 2rem;
+}
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

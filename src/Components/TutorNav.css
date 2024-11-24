@@ -1,0 +1,120 @@
+.tutornav {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    z-index: 1;
+    transition: all 1s ease;
+    background-color: white;
+
+
+
+.leftnav,
+.rightdiv {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+
+}
+
+.rightdiv {
+    justify-content: end;
+    padding-right: 40px;
+    gap: 5px;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.05em;
+    width: 100%;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link.active {
+    font-size: 1.25em;
+    font-weight: bolder;
+}
+
+.navbuttons {
+    display: flex;
+    gap: 5px;
+}
+
+.navbuttons button {
+    font-size: 1.05em;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.drawerbutton {
+    color: black;
+    padding: 0;
+}
+.mobile-navlinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.mobile-navlinks .nav-link {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.mobile-navlinks .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.navbuttons button:nth-child(1) {
+    background-color: transparent;
+    border: 1px solid grey;
+    color: var(--black);
+}
+
+.navbuttons button:nth-child(1):hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbuttons button.signupbtn {
+    background-color: var(--primary-color);
+    color: var(--black);
+}
+
+.navbuttons button.signupbtn:hover {
+    background-color: var(--secondary-color);
+}
+}
+@media (max-width: 768px) {
+    .navlinks {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+
+        .mobile-navlinks {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+}
+
+@media (min-width: 769px) {
+    .mobile-menu {
+        display: none;
+    }
+}
