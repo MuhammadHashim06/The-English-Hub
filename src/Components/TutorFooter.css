@@ -1,4 +1,4 @@
-.tutorfooter{
+/* .tutorfooter{
     display: flex;
     justify-content: space-between;
     background-color: var(--background-color);
@@ -21,5 +21,80 @@ h1{
         display: flex;
         flex-direction: column;
         gap: 10px;
+    }
+} */
+
+.tutorfooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    color: white;
+    padding: 5% 10%;
+}
+
+.tutorfooter h1 {
+    font-size: 2rem;
+}
+
+.tutorfooter .list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tutorfooter a {
+    color: white;
+    text-decoration: none;
+}
+
+.tutorfooter ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Mobile (up to 600px) */
+@media (max-width: 600px) {
+    .tutorfooter {
+        padding: 5% 5%; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+    }
+
+    .tutorfooter h1 {
+        font-size: 1.5rem; 
+        text-align: center; 
+    }
+
+    .tutorfooter .list {
+        gap: 15px; 
+    }
+
+    .tutorfooter ul {
+        gap: 8px; 
+    }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+    .tutorfooter {
+        padding: 5% 7%; 
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+    }
+
+    .tutorfooter h1 {
+        font-size: 1.75rem; 
+        text-align: center; 
+    }
+
+    .tutorfooter .list {
+        gap: 18px; 
+    }
+
+    .tutorfooter ul {
+        gap: 9px; 
     }
 }

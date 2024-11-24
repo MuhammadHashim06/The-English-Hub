@@ -4,7 +4,10 @@ import HeroSection from "./components/HeroSection";
 
 export default function Tutors() {
   return (
-    <div><TutorNav/> 
-    <HeroSection/>
-    <TutorFooter/></div>)
+    <div>
+      <TutorNav />
+      <HeroSection />
+      <TutorFooter />
+    </div>
+  );
 }

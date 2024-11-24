@@ -9,8 +9,6 @@
     transition: all 1s ease;
     background-color: white;
 
-
-
 .leftnav,
 .rightdiv {
     display: flex;
@@ -97,7 +95,9 @@
     background-color: var(--secondary-color);
 }
 }
+
 @media (max-width: 768px) {
+    .tutornav{
     .navlinks {
         display: none;
     }
@@ -110,11 +110,13 @@
             flex-direction: column;
         }
     }
-
+    }
 }
 
 @media (min-width: 769px) {
+    .tutornav{
     .mobile-menu {
         display: none;
     }
+}
 }
