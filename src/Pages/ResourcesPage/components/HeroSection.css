@@ -1,0 +1,222 @@
+/* .resourcehero {
+    .rhero {
+        img {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .rherobox {
+            display: flex;
+
+            align-items: baseline;
+            padding: 7.5% 5%;
+            color: white;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+
+
+        }
+
+
+        .rherocontent {
+            p {
+                font-size: 1rem;
+            }
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+
+            button {
+                font-size: 1rem;
+                padding: 3% 6%;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .resourceslist {
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        align-items:start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .resourcecard {
+            width: 350px;
+            padding: 3%;
+        }
+    }
+} */
+
+.resourcehero {
+    .rhero {
+        img {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            z-index: -1;
+        }
+
+        .rherobox {
+            display: flex;
+            align-items: baseline;
+            padding: 7.5% 5%;
+            color: white;
+
+            h1 {
+                font-size: 3.5rem;
+            }
+        }
+
+        .rherocontent {
+            p {
+                font-size: 1rem;
+            }
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+
+            button {
+                font-size: 1rem;
+                padding: 3% 6%;
+                border-radius: 50px;
+            }
+        }
+    }
+
+    .resourceslist {
+        margin-top: 50px;
+        position: relative;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .resourcecard {
+            width: 350px;
+            padding: 3%;
+        }
+    }
+}
+
+/* ---------------------------- Responsive Design ---------------------------- */
+
+/* Mobile: Under 600px */
+@media screen and (max-width: 600px) {
+    .resourcehero {
+        .rhero {
+            img{
+                height: 100%;
+            }
+            .rherobox {
+
+                padding: 18% 3%;
+                h1 {
+                    font-size: 2.5rem; /* Smaller heading for mobile */
+                }
+            }
+
+            .rherocontent {
+                p {
+                    font-size: 0.9rem; /* Slightly smaller text */
+                }
+
+                button {
+                    font-size: 0.9rem;
+                    padding: 4% 8%;
+                }
+            }
+        }
+
+        .resourceslist {
+            margin-top: 30px; /* Less margin on mobile */
+            gap: 20px;
+            .resourcecard {
+                width: 100%; /* Full width for mobile */
+                padding: 5%;
+            }
+        }
+    }
+}
+
+/* Tablet: Between 600px and 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .resourcehero {
+        .rhero {
+            .rherobox {
+                
+                padding: 6% 4%;
+                h1 {
+                    font-size: 3rem; /* Adjust heading size for tablet */
+                }
+            }
+
+            .rherocontent {
+                p {
+                    font-size: 1rem; /* Keep text size consistent for tablets */
+                }
+
+                button {
+                    font-size: 1rem;
+                    padding: 3% 6%;
+                }
+            }
+        }
+
+        .resourceslist {
+            margin-top: 40px;
+            gap: 25px;
+            .resourcecard {
+                width: 45%; /* Two items per row on tablet */
+                padding: 4%;
+            }
+        }
+    }
+}
+
+/* Desktop: Above 1024px (this is the default view) */
+@media screen and (min-width: 1025px) {
+    .resourcehero {
+        .rhero {
+            .rherobox {
+                padding: 7.5% 5%;
+                h1 {
+                    font-size: 3.5rem;
+                }
+            }
+
+            .rherocontent {
+                p {
+                    font-size: 1rem;
+                }
+
+                button {
+                    font-size: 1rem;
+                    padding: 3% 6%;
+                }
+            }
+        }
+
+        .resourceslist {
+            margin-top: 50px;
+            gap: 30px;
+            .resourcecard {
+                width: 350px;
+                padding: 3%;
+            }
+        }
+    }
+}
