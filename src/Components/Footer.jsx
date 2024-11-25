@@ -1,7 +1,7 @@
 import "./Footer.css";
 import logo from '../Images/logo.png'
-import appstore from '../Images/AppStore.png'
-import googleplay from '../Images/Googleplay.png'
+// import appstore from '../Images/AppStore.png'
+// import googleplay from '../Images/Googleplay.png'
 
 export default function Footer() {
   return (
@@ -41,10 +41,10 @@ export default function Footer() {
           </div>
 
         </div>
-        <div className="footer-section  app-links">
+        {/* <div className="footer-section  app-links">
           <img src={appstore} alt="Download on the App Store" />
           <img src={googleplay} alt="Get it on Google Play" />
-        </div>
+        </div> */}
       </div>
 
       <div className="footer-bottom">
