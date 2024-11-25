@@ -58,7 +58,7 @@
 //           </NavLink>
 //           <NavLink className="nav-link" to={'/courses'}>
 //             Courses
-//           </NavLink>
+//           </NavLink>w
 //           <NavLink className="nav-link" to={'/resources'}>
 //             Resources
 //           </NavLink>
@@ -162,9 +162,9 @@ export default function Navbar() {
           <NavLink className="nav-link" to={"/method"}>
             Method
           </NavLink>
-          <NavLink className="nav-link" to={"/featured-tutors"}>
+          {/* <NavLink className="nav-link" to={"/featured-tutors"}>
             Tutors
-          </NavLink>
+          </NavLink> */}
           <NavLink className="nav-link" to={"/courses"}>
             Courses
           </NavLink>
@@ -212,13 +212,13 @@ export default function Navbar() {
               >
                 Method
               </NavLink>
-              <NavLink
+              {/* <NavLink
                 className="nav-link"
                 to={"/featured-tutors"}
                 onClick={closeDrawer}
               >
                 Tutors
-              </NavLink>
+              </NavLink> */}
               <NavLink
                 className="nav-link"
                 to={"/courses"}
