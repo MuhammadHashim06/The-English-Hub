@@ -35,7 +35,7 @@ function App() {
         <Route path="/business" element={<Business />} />
         <Route path="/tool" element={<AiTool />} />
         <Route path="/useragreement" element={<UserAgreement />} />
-        <Route path="/privatepolicy" element={<PrivacyPolicy/>} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
       </Routes>
     </>
   );
