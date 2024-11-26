@@ -1,0 +1,106 @@
+.kidhero {
+    .herobox {
+        display: flex;
+        align-items: center;
+        padding: 10% 5% 5% 5%;
+        background-color: var(--secondary-color);
+
+        .herotext {
+            color: white;
+            padding: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            gap: 25px;
+            align-items: center;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+
+            button {
+                font-size: 1.25rem;
+                padding: 2% 4%;
+                border-radius: 50px;
+            }
+        }
+
+    }
+
+    .student {
+        display: flex;
+        flex-direction: column;
+        padding: 10% 20%;
+
+        .studentvideo {
+            border-radius: 25px;
+
+            video {
+                width: 100%;
+            }
+        }
+
+        .studentcontent {
+            padding: 4%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+            }
+
+            p {
+                font-size: 1.25rem;
+            }
+
+            button {
+                font-size: 1.25rem;
+                padding: 2% 4%;
+                border-radius: 50px;
+                color: black;
+            }
+        }
+    }
+
+    .trialbox {
+        margin: 10%;
+        display: flex;
+        background-color: var(--primary-color);
+        color: black;
+
+        .trialtext {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 5%;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            button {
+                background-color: var(--background-color);
+                font-size: 1.25rem;
+                padding: 2% 4%;
+                border-radius: 50px;
+            }
+        }
+
+        .trialimage {
+            img {
+                transform: translateY(-125px);
+            }
+        }
+    }
+}
