@@ -1,5 +1,6 @@
 import "./Footer.css";
 import logo from '../Images/logo.png'
+import { Link } from "react-router-dom";
 // import appstore from '../Images/AppStore.png'
 // import googleplay from '../Images/Googleplay.png'
 
@@ -27,8 +28,11 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Other</h4>
           <ul>
+            <Link to='/privatepolicy'>
             <li>Privacy policy</li>
-            <li>Terms and conditions</li>
+            </Link>
+            <Link to='/useragreement' >
+            <li>Terms and conditions</li></Link>
           </ul>
         </div>
         <div className="footer-section social">

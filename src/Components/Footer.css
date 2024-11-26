@@ -84,6 +84,11 @@
   background-color: var(--background-color);
   color: #fff;
   padding: 2rem;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .footer-container {

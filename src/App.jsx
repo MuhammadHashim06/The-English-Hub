@@ -13,6 +13,8 @@ import Signup from "./Pages/SignupPage/Signup";
 import EmailandPassword from "./Pages/SignupPage/EmailandPassword";
 import SignupOptions from "./Pages/SignupPage/SignupOption";
 import UserDetail from "./Pages/SignupPage/UserDetail";
+import UserAgreement from './Pages/UserAgreement/UserAgrement'
+import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/kids" element={<Kids />} />
         <Route path="/business" element={<Business />} />
         <Route path="/tool" element={<AiTool />} />
+        <Route path="/useragreement" element={<UserAgreement />} />
+        <Route path="/privatepolicy" element={<PrivacyPolicy/>} />
       </Routes>
     </>
   );
