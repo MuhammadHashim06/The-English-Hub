@@ -1,55 +1,15 @@
-/* .thetutor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5%;
-.tutorcontent{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 5% 10%;
-    gap: 40px;
-    h1{
-        font-size: 3rem;
-       
-    }
-    p{
-        font-size: 1rem;
-
-    }
-}
-    .tutorlist {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-        .tutorcard{
-            width: 200px;
-            padding: 2%;
-            box-shadow: 0px 0px 10px -5px black;
-            img{
-                width: 100%;
-            }
-            .tutordetail{
-                padding: 2%;
-            .uppertext{
-                display: flex;
-                justify-content: space-between;
-                i{
-                    color: gold;
-                }
-            }
-        }
-        }
-    }
-} */
-
 .thetutor {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5%;
+    gap: 20px;
+
+    button {
+        font-size: 1rem;
+        border-radius: 50px;
+
+    }
 }
 
 .tutorcontent {
@@ -106,13 +66,14 @@
     .tutorcontent h1 {
         font-size: 2.5rem;
     }
-    
+
     .tutorcontent p {
         font-size: 0.9rem;
     }
 
     .tutorlist .tutorcard {
-        width: 45%; /* Two cards per row */
+        width: 45%;
+        /* Two cards per row */
     }
 }
 
@@ -121,13 +82,14 @@
     .tutorcontent h1 {
         font-size: 2rem;
     }
-    
+
     .tutorcontent p {
         font-size: 0.8rem;
     }
 
     .tutorlist .tutorcard {
-        width: 90%; /* One card per row */
+        width: 90%;
+        /* One card per row */
     }
 
     .tutorlist .tutorcard .tutordetail {

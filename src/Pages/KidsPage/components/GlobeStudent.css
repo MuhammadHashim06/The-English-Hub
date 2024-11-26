@@ -132,7 +132,6 @@
         button {
             border-radius: 50px;
             font-size: 1.25rem;
-            padding: 2% 4%;
         }
     }
 
@@ -160,7 +159,6 @@
 
         button {
             color: black;
-            padding: 2% 4%;
             border-radius: 50px;
             font-size: 1rem;
         }
@@ -177,7 +175,6 @@
         button {
             color: white;
             background-color: var(--background-color);
-            padding: 2% 4%;
             border-radius: 50px;
             font-size: 1rem;
         }
@@ -217,7 +214,6 @@
         .globereview {
             button {
                 font-size: 1rem; /* Reduce button size for mobile */
-                padding: 1.5% 3%;
             }
         }
 
@@ -228,7 +224,6 @@
 
             button {
                 font-size: 0.9rem;
-                padding: 1.5% 3%;
             }
         }
 
@@ -238,7 +233,6 @@
 
             button {
                 font-size: 0.9rem;
-                padding: 1.5% 3%;
             }
         }
     }

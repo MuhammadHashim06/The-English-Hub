@@ -5,7 +5,8 @@ import profileimg3 from "../../../Images/profile3.png";
 import whykid1 from "../../../Images/whykids2.png";
 import whykid2 from "../../../Images/whykids1.png";
 import whykid3 from "../../../Images/whykids2svg.png";
-import coursechart from "../../../Images/courses-chart.png"
+import coursechart from "../../../Images/courses-chart.png";
+import { Link } from "react-router-dom";
 
 export default function GlobeStudent() {
   const globereivew = [
@@ -77,7 +78,9 @@ export default function GlobeStudent() {
               </div>
             ))}
           </div>
-          <button>Schedule a trial</button>
+          <Link to={"/signup"}>
+            <button>Schedule a trial</button>
+          </Link>
         </div>
       </div>
       <div className="whyenglish">
@@ -96,14 +99,23 @@ export default function GlobeStudent() {
             </div>
           ))}
         </div>
-        <button>Sign Up</button>
+        <Link to={"/signup"}>
+          <button>Sign Up</button>
+        </Link>
       </div>
       <div className="kidcourses">
         <h1>Cambly Kids Courses</h1>
-        <p>Our courses are leveled according to the Common European Framework of Reference or CEFR. CEFR is used internationally as a means to standardize language ability. The scale ranges from A1 for beginners to C-level for learners who have near-mastery of the language. At Cambly Kids, we offer courses ranging from A1 to C1.</p>
+        <p>
+          Our courses are leveled according to the Common European Framework of
+          Reference or CEFR. CEFR is used internationally as a means to
+          standardize language ability. The scale ranges from A1 for beginners
+          to C-level for learners who have near-mastery of the language. At
+          Cambly Kids, we offer courses ranging from A1 to C1.
+        </p>
         <img src={coursechart} alt="" />
-        <button>See all learning plans</button>
-
+        <Link to={"/courses"}>
+          <button>See all learning plans</button>
+        </Link>
       </div>
     </div>
   );

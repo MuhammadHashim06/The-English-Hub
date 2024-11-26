@@ -38,12 +38,15 @@ h1,h2{
 } */
 
 button {
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 10px 20px;
   border: none;
   background-color: var(--primary-color);
   color: var(--white);
 }
-
 button:hover {
   cursor: pointer;
-  /* background-color: var(--secondary-color); */
 }

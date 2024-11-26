@@ -2,6 +2,7 @@ import "./KidsHero.css";
 import teacherkids from "../../../Images/kidsteacher.png";
 import studentvideo from "../../../Videos/AI_Progress.mp4";
 import trial from "../../../Images/trial.png";
+import { Link } from "react-router-dom";
 export default function KidsHero() {
   return (
     <div className="kidhero">
@@ -12,7 +13,9 @@ export default function KidsHero() {
             1-on-1 English classes for kids ages 4-15, taught by certified
             native English speaking teachers from around the world.
           </p>
-          <button>Schedule a trial</button>
+          <Link to={"/signup"}>
+            <button>Schedule a trial</button>
+          </Link>
         </div>
         <div className="heroimage">
           <img src={teacherkids} alt="" />
@@ -35,7 +38,9 @@ export default function KidsHero() {
             in him winning the Silicon Valley App Development Competition. We
             are proud to be a part of Raaid’s success story. Thank you Raaid!
           </p>
-          <button>Schedule a trial</button>
+          <Link to={"/signup"}>
+            <button>Schedule a trial</button>
+          </Link>
         </div>
       </div>
       <div className="trialbox">
@@ -47,8 +52,10 @@ export default function KidsHero() {
           <p>
             Unlock free games, quizzes, and workbooks when you sign up. No
             subscription required.
-          </p>
-          <button>Join now</button>
+          </p>{" "}
+          <Link to={"/signup"}>
+            <button>Join now</button>
+          </Link>
         </div>
         <div className="trialimage">
           <img src={trial} alt="" />

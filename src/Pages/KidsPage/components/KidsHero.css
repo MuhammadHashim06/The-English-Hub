@@ -132,7 +132,6 @@
 
         button {
             font-size: 1.25rem;
-            padding: 2% 4%;
             border-radius: 50px;
         }
     }
@@ -169,7 +168,6 @@
 
         button {
             font-size: 1.25rem;
-            padding: 2% 4%;
             border-radius: 50px;
             color: black;
         }
@@ -199,7 +197,6 @@
         button {
             background-color: var(--background-color);
             font-size: 1.25rem;
-            padding: 2% 4%;
             border-radius: 50px;
         }
     }

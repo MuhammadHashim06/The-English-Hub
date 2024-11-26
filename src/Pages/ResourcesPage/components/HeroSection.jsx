@@ -6,6 +6,7 @@ import resimg3 from "../../../Images/res3.png";
 import resimg4 from "../../../Images/res4.png";
 import resimg5 from "../../../Images/res5.png";
 import resimg6 from "../../../Images/res6.png";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   const resources = [
@@ -57,7 +58,9 @@ export default function HeroSection() {
               Get a taste of Cambly with our most popular tools. Unlock them all
               when you sign up—no subscription required.
             </p>
+            <Link to={'/signup'} >
             <button>Sign up to access</button>
+            </Link>
           </div>
         </div>
       </div>
@@ -74,12 +77,6 @@ export default function HeroSection() {
             </div>
           </div>
         ))}
-        {/* <div className="resourcecard">
-          <div className="cardimg">
-            <img src="" alt="" />
-          </div>
-          <div className="cardbody"></div>
-        </div> */}
       </div>
     </div>
   );

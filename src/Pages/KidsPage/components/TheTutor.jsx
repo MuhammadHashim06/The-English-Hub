@@ -3,6 +3,7 @@ import tprofile1 from "../../../Images/t1.png"
 import tprofile2 from "../../../Images/t2.png"
 import tprofile3 from "../../../Images/t3.png"
 import tprofile4 from "../../../Images/t4.png"
+import {  NavLink } from "react-router-dom";
 export default function TheTutor() {
 
     const TheTutors=[{
@@ -58,17 +59,12 @@ export default function TheTutor() {
                   </div>
                 ))
             }
-          {/* <div className="tutorcard">
-            <div className="tutorimg">
-              <img src="" alt="" />
-            </div>
-            <div className="tutordetail">
-                <h1></h1>
-                <p></p>
-            </div>
-          </div> */}
         </div>
+
       </div>
+      <NavLink to={"/featured-tutors"}>
+          <button>Explore all Tutor</button>
+        </NavLink>
     </div>
   );
 }
