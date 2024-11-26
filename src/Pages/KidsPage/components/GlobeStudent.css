@@ -1,4 +1,4 @@
-.globestudent {
+/* .globestudent {
     .globebox {
         display: flex;
         flex-direction: column;
@@ -87,4 +87,159 @@
         }
     }
     
+} */
+.globestudent {
+    .globebox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .reviewlist {
+        display: flex;
+        gap: 20px;
+        padding: 5%;
+        text-align: center;
+        /* flex-wrap: wrap;  */
+
+        .reviewcard {
+            padding: 3%;
+            box-shadow: 0px 0px 20px -10px grey;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 350px;
+
+            span {
+                display: block;
+            }
+        }
+
+        .reviewtext span:nth-child(2) {
+            font-weight: bold;
+        }
+    }
+
+    .globereview {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+
+        button {
+            border-radius: 50px;
+            font-size: 1.25rem;
+            padding: 2% 4%;
+        }
+    }
+
+    .whyenglish {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        .reasonlist {
+            display: flex;
+            gap: 20px;
+
+            .resoncard {
+                width: 100%; /* Full width on smaller screens */
+                max-width: 325px; /* Maintain card size on larger screens */
+                padding: 3%;
+            }
+        }
+
+        button {
+            color: black;
+            padding: 2% 4%;
+            border-radius: 50px;
+            font-size: 1rem;
+        }
+    }
+
+    .kidcourses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 5% 10%;
+        background-color: var(--primary-color);
+
+        button {
+            color: white;
+            background-color: var(--background-color);
+            padding: 2% 4%;
+            border-radius: 50px;
+            font-size: 1rem;
+        }
+    }
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+    /* Tablet-specific styles */
+    .globestudent {
+        .reviewlist {
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+        }
+
+        .whyenglish {
+            .reasonlist {
+                flex-direction: column; /* Stack cards vertically */
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mobile-specific styles */
+    .globestudent {
+        .globebox {
+            gap: 20px; /* Reduce spacing for smaller screens */
+        }
+
+        .reviewlist {
+            flex-direction: column;
+            gap: 15px; /* Smaller gap for compact layout */
+        }
+
+        .globereview {
+            button {
+                font-size: 1rem; /* Reduce button size for mobile */
+                padding: 1.5% 3%;
+            }
+        }
+
+        .whyenglish {
+            h1 {
+                font-size: 1.5rem; /* Adjust heading size */
+            }
+
+            button {
+                font-size: 0.9rem;
+                padding: 1.5% 3%;
+            }
+        }
+
+        .kidcourses {
+            gap: 30px;
+            padding: 5%;
+
+            button {
+                font-size: 0.9rem;
+                padding: 1.5% 3%;
+            }
+        }
+    }
 }
