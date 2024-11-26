@@ -4,10 +4,10 @@ export default function CourseFooter() {
   return (
     <div className="coursefooter" >
         <ul>
-          <Link>
+          <Link to={'/privacypolicy'}>
             <li>Privacy Policy </li>
           </Link>
-          <Link>
+          <Link to={'/useragreement'} >
             <li>Terms and Conditions </li>
           </Link>
           <Link>

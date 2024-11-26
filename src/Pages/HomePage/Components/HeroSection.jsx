@@ -1,5 +1,6 @@
 import "./HeroSection.css"; // We'll define the styles here
 import backvideo from "../../../Videos/HeroSection.mp4";
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <div className="hero-section">
@@ -14,7 +15,8 @@ const HeroSection = () => {
           every step of the way, no matter what level of English you have. Learn
           from anywhere in the world, at any time!{" "}
         </p>
-        <button>Start Now</button>
+        <Link to='/signup'><button>Start Now</button></Link>
+        
       </div>
       <div className="bottombar">
         <div className="smalldiv">

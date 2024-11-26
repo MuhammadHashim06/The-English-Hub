@@ -19,16 +19,22 @@ export default function Footer() {
         <div className="footer-section">
           <h4>Join</h4>
           <ul>
+            <Link to={'/kids'} >
             <li>Cambly for kids</li>
+            </Link>
+            <Link to={'/business'}>
             <li>Cambly for business</li>
+            </Link>
+            <Link to={'/featured-tutors'} >
             <li>Become a tutor</li>
+            </Link>
             <li>Become an ambassador</li>
           </ul>
         </div>
         <div className="footer-section">
           <h4>Other</h4>
           <ul>
-            <Link to='/privatepolicy'>
+            <Link to='/privacypolicy'>
             <li>Privacy policy</li>
             </Link>
             <Link to='/useragreement' >

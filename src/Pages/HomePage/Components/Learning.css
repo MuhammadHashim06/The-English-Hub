@@ -7,9 +7,11 @@
     gap: 16px;
     padding: 6% 0%;
     text-align: center;
-h1{
-    font-size: 2.5em;
-}
+
+    h1 {
+        font-size: 2.5em;
+    }
+
     .startbuttons {
         display: flex;
         flex-direction: column;
@@ -22,12 +24,12 @@ h1{
         }
     }
 
-    .startbuttons button:nth-child(1) {
+    .startbuttons a:nth-child(1) button {
         background-color: var(--background-color);
     }
 
-    .startbuttons button:nth-child(2) {
+    .startbuttons a:nth-child(2) button {
         border: 1px solid black;
-color: black;
+        color: black;
     }
 }

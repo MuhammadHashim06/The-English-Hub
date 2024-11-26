@@ -8,6 +8,7 @@ import gimg6 from "../../../Images/4.mp4"
 import gimg7 from "../../../Images/6.jpg"
 
 import aiprogress from '../../../Images/5.mp4'
+import { Link } from "react-router-dom";
 const content = [
   {
     heading: "English tailored to you and your goals",
@@ -59,45 +60,26 @@ const content = [
 export default function Goals() {
   return (
     <div className="goals">
-      {/* {content.map((c, index) => (
-        <div className="goal-section" key={index}>
-          <div className="uppercontent">
-            <h1>{c.heading}</h1>
-            <p>{c.subheading}</p>
-            <button>{c.buttontext}</button>
-          </div>
-          <div className="imagesection">
-            <div className="card">
-              <p>{c.card1.text}</p>
-              <img src={c.card1.imgurl} alt="Card 1" />
-            </div>
-            <div className="card">
-              <p>{c.card2.text}</p>
-              <img src={c.card2.imgurl} alt="Card 2" />
-            </div>
-          </div>
-        </div>
-      ))} */}
+      
       <div className="goal-section">
           <div className="uppercontent">
             <h1>{content[0].heading}</h1>
             <p>{content[0].subheading}</p>
-            <button>{content[0].buttontext}</button>
+            <Link to={'/signup'} > <button>{content[0].buttontext}</button></Link>
+           
           </div>
           <div className="section1">
             <div className="card">
               <img src={content[0].card1.imgurl} alt="Card 1" />
             </div>
-            {/* <div className="card">
-              <img src={content[0].card2.imgurl} alt="Card 2" />
-            </div> */}
           </div>
         </div>
         <div className="goal-section">
           <div className="uppercontent">
             <h1>{content[1].heading}</h1>
             <p>{content[1].subheading}</p>
-            <button>{content[1].buttontext}</button>
+            <Link to={'/signup'} ><button>{content[1].buttontext}</button></Link>
+            
           </div>
           <div className="imagesection">
             <div className="card">
@@ -112,7 +94,10 @@ export default function Goals() {
           <div className="uppercontent">
             <h1>{content[2].heading}</h1>
             <p>{content[2].subheading}</p>
+            <Link to={'/signup'} >
+            
             <button>{content[2].buttontext}</button>
+            </Link>
           </div>
           <div className="imagesection">
             <div className="card">

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Price.css";
 
 export default function Price() {
@@ -50,7 +51,9 @@ export default function Price() {
               <h2>{pkg.name}</h2>
               <p>{pkg.description}</p>
             </div>
-            <button>Select</button>
+            <Link to={"/signup"}>
+              <button>Select</button>
+            </Link>
             <div className="pricetag">
               <p>STARTING FROM</p>
               <span>{pkg.actualprice}</span>
@@ -62,20 +65,19 @@ export default function Price() {
               </h2>
             </div>
             <div className="offers">
-            <ul>
-              {pkg.offer.map((item, i) => (
-                <li key={i}>{item}</li>
-              ))}
+              <ul>
+                {pkg.offer.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
               </ul>
             </div>
           </div>
         ))}
       </div>
-      <div className="bottomcontent" >
-      <p>Take the first step today and build skills that last a lifetime</p>
-      <button>Explore The English Hub</button>
-      </div>
+      {/* <div className="bottomcontent">
+        <p>Take the first step today and build skills that last a lifetime</p>
+        <button>Explore The English Hub</button>
+      </div> */}
     </div>
   );
 }
-
