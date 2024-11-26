@@ -1,4 +1,7 @@
 @import './styles/Font.css';
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +43,7 @@ button {
   color: var(--white);
 }
 
-/* button:hover {
-  background-color: var(--secondary-color);
-} */
+button:hover {
+  cursor: pointer;
+  /* background-color: var(--secondary-color); */
+}

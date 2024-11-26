@@ -42,14 +42,16 @@ export default function Business() {
     <div className="business">
       <div className="businessnav">
         <div className="logo">
+          <Link to={'/'} >
           <img src={logo} alt="" />
+          </Link>
           <p>
             The English Hub <small>FOR ORGANIZATION</small>{" "}
           </p>
         </div>
         <div className="navlink">
           <Link to={"/"}>For Student</Link>
-          <Link to={"#qoute"}>Get Qoute </Link>
+          <a href={"#qoute"}>Get Qoute </a>
         </div>
       </div>
 
@@ -57,11 +59,13 @@ export default function Business() {
         <div className="herocontent">
           <h1>Unlock your company s global potential</h1>
           <p>
-            Cambly equips your team with the real-world English skills to
+            The English Hub equips your team with the real-world English skills to
             succeed anywhere through specialized private English tutoring from
             any device.
           </p>
+          <a href={"#qoute"}>
           <button>Get Qoute</button>
+          </a>
         </div>
       </div>
       <div className="businesssection">
@@ -118,7 +122,10 @@ export default function Business() {
       <div className="banner">
         <div className="bannercontent">
           <h1>Empower your global team today</h1>
+          <a href="#qoute">
+
           <button> Get Quote</button>
+          </a>
         </div>
       </div>
       <div className="reviewsection">
@@ -126,7 +133,7 @@ export default function Business() {
           <h1>Excel in multi-cultural business</h1>
           <p>
             {" "}
-            On Cambly, students learn more than English - they develop the
+            On The English Hub, students learn more than English - they develop the
             communication skills to stand out in their field.
           </p>
         </div>
@@ -157,11 +164,11 @@ export default function Business() {
       <div className="footer-content">
         {/* Form Section */}
         <div className="form-section">
-          <h2 className="form-title">Join Cambly</h2>
+          <h2 className="form-title">Join The English Hub</h2>
           <p className="form-description">
-            Get in touch to discuss how Cambly can best support your team.
+            Get in touch to discuss how The English Hub can best support your team.
           </p>
-          <form className="footer-form">
+          <form className="footer-form" id="qoute" >
             <input type="text" placeholder="Name" required className="form-input" />
             <input
               type="email"
@@ -202,8 +209,8 @@ export default function Business() {
         {/* Footer Links Section */}
         <div className="footer-links-section">
           <div className="footer-links">
-            <a href="#privacy" className="footer-link">Privacy Policy</a>
-            <a href="#terms" className="footer-link">Terms</a>
+            <Link href="#privacy" className="footer-link">Privacy Policy</Link>
+            <Link href="#terms" className="footer-link">Terms</Link>
             <a href="#contact" className="footer-link">Contact</a>
           </div>
           <div className="footer-icons">
@@ -218,7 +225,7 @@ export default function Business() {
             </a>
           </div>
           <div className="footer-copyright">
-            Cambly Inc. © Copyright 2020. All rights reserved.
+            The English Hub Inc. © Copyright 2020. All rights reserved.
           </div>
         </div>
       </div>
