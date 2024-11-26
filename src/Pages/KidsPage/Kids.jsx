@@ -1,6 +1,9 @@
-import Navbar from "../../Components/Navbar";
+import CourseFooter from "../../Components/CourseFooter";
+import KidsNav from "../../Components/KidsNav";
 
 export default function Kids() {
   return (
-<div> <Navbar/></div>  )
+<div> <KidsNav/>
+<CourseFooter/>
+</div>  )
 }
