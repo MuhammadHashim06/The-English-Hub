@@ -117,20 +117,24 @@
 @media screen and (max-width: 600px) {
     .resourcehero {
         .rhero {
-            img{
+            img {
                 height: 100%;
             }
+
             .rherobox {
 
                 padding: 18% 3%;
+
                 h1 {
-                    font-size: 2.5rem; /* Smaller heading for mobile */
+                    font-size: 2.5rem;
+                    /* Smaller heading for mobile */
                 }
             }
 
             .rherocontent {
                 p {
-                    font-size: 0.9rem; /* Slightly smaller text */
+                    font-size: 0.9rem;
+                    /* Slightly smaller text */
                 }
 
                 button {
@@ -140,10 +144,13 @@
         }
 
         .resourceslist {
-            margin-top: 30px; /* Less margin on mobile */
+            margin-top: 30px;
+            /* Less margin on mobile */
             gap: 20px;
+
             .resourcecard {
-                width: 100%; /* Full width for mobile */
+                width: 100%;
+                /* Full width for mobile */
                 padding: 5%;
             }
         }
@@ -155,16 +162,19 @@
     .resourcehero {
         .rhero {
             .rherobox {
-                
+
                 padding: 6% 4%;
+
                 h1 {
-                    font-size: 3rem; /* Adjust heading size for tablet */
+                    font-size: 3rem;
+                    /* Adjust heading size for tablet */
                 }
             }
 
             .rherocontent {
                 p {
-                    font-size: 1rem; /* Keep text size consistent for tablets */
+                    font-size: 1rem;
+                    /* Keep text size consistent for tablets */
                 }
 
                 button {
@@ -176,8 +186,10 @@
         .resourceslist {
             margin-top: 40px;
             gap: 25px;
+
             .resourcecard {
-                width: 45%; /* Two items per row on tablet */
+                width: 45%;
+                /* Two items per row on tablet */
                 padding: 4%;
             }
         }
@@ -190,6 +202,7 @@
         .rhero {
             .rherobox {
                 padding: 7.5% 5%;
+
                 h1 {
                     font-size: 3.5rem;
                 }
@@ -209,6 +222,7 @@
         .resourceslist {
             margin-top: 50px;
             gap: 30px;
+
             .resourcecard {
                 width: 350px;
                 padding: 3%;
