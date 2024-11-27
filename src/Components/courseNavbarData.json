@@ -1,0 +1,14 @@
+{
+    "logo": "../Images/logo.png",
+    "navLinks": [
+      { "text": "For Organization", "path": "/business" },
+      { "text": "For Kids", "path": "/kids" },
+      { "text": "Our Courses", "path": "/courses" }
+    ],
+    "buttons": [
+      { "text": "Login", "path": "/login" },
+      { "text": "Signup", "path": "/signup", "className": "signupbtn" }
+    ],
+    "drawerTitle": "Menu"
+  }
+  

@@ -1,0 +1,17 @@
+{
+    "links": [
+      { "text": "Privacy Policy", "path": "/privacypolicy" },
+      { "text": "Terms and Conditions", "path": "/useragreement" },
+      { "text": "Jobs", "path": "#" },
+      { "text": "Contact", "path": "#" },
+      { "text": "Press", "path": "#" }
+    ],
+    "socialIcons": [
+      "fab fa-instagram",
+      "fab fa-facebook-square",
+      "fab fa-youtube",
+      "fab fa-twitter"
+    ],
+    "footerText": "The English Hub Inc. © Copyright 2024. All Rights Reserved."
+  }
+  
