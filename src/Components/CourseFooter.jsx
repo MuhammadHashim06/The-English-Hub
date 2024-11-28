@@ -31,7 +31,6 @@
 //   );
 // }
 
-
 import { Link } from "react-router-dom";
 import "./CourseFooter.css";
 import footerContent from "../Pages/CoursesPage/data/courseData";

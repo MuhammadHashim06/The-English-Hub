@@ -124,7 +124,7 @@
 
 import "./GlobeStudent.css";
 import { Link } from "react-router-dom";
-import globeStudentData from "../data/kidsData";
+import {globeStudentData} from "../data/kidsData";
 
 export default function GlobeStudent() {
   const { globeSection, whyEnglishSection, coursesSection } = globeStudentData;

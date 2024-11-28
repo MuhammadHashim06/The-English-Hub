@@ -122,7 +122,7 @@ import "./TutorNav.css";
 import { useEffect, useState } from "react";
 import { Drawer, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import kidsNavData from "../Pages/KidsPage/data/kidsData";
+import {kidsNavData} from "../Pages/KidsPage/data/kidsData";
 
 export default function KidsNav() {
   const [isScrolled, setIsScrolled] = useState(false);

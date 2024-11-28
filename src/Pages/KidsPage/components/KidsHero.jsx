@@ -71,7 +71,7 @@
 
 import "./KidsHero.css";
 import { Link } from "react-router-dom";
-import kidsHeroData from "../data/kidsData";
+import {kidsHeroData} from "../data/kidsData";
 
 export default function KidsHero() {
   const { heroSection, studentSection, trialSection } = kidsHeroData;

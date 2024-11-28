@@ -80,7 +80,7 @@ import "./HeroSection.css";
 import image from "../../../Images/Methods.jpg";
 import method from "../../../Images/thinking.jpg";
 import Learning from "../../HomePage/Components/Learning";
-import { bottomSectionData } from "./data/methodData";
+import { bottomSectionData } from "../data/methodData";
 
 const HeroSection = () => {
   return (

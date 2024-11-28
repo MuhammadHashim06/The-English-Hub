@@ -73,7 +73,7 @@
 
 import "./TheTutor.css";
 import { NavLink } from "react-router-dom";
-import theTutorData from "../data/kidsData";
+import {theTutorData} from "../data/kidsData";
 
 export default function TheTutor() {
   const { sectionContent, tutors, button } = theTutorData;

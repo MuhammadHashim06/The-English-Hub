@@ -1,8 +1,8 @@
 // HeroSectionData.js
 
-import conversation from "../../../../Images/Conversation.jpg";
-import feedback from "../../../../Images/feedback.png";
-import individual from "../../../../Images/image.png";
+import conversation from "../../../Images/Conversation.jpg";
+import feedback from "../../../Images/feedback.png";
+import individual from "../../../Images/image.png";
 
 export const bottomSectionData = [
   {
