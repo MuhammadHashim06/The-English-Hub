@@ -15,12 +15,20 @@ import SignupOptions from "./Pages/SignupPage/SignupOption";
 import UserDetail from "./Pages/SignupPage/UserDetail";
 import UserAgreement from './Pages/UserAgreement/UserAgrement'
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
+import Admin from "./Pages/Admin/Admin";
+import AdminLogin from "./Pages/Admin/components/AdminLogin";
+import AdminPanel from "./Pages/Admin/components/AdminPanel";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/admin/*" element={<Admin/>}>
+        <Route index element={<AdminLogin/>} />
+        <Route path="adminpanel" element={<AdminPanel/>}  />
+
+        </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signup/*" element={<Signup />}>
           <Route index element={<SignupOptions />} />
