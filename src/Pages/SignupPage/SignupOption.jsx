@@ -21,7 +21,7 @@ const SignupOptions = () => {
       // The signed-in user info
       const user = result.user;
       const uid = user.uid;
-      navigate('/signup/userdetail', { state: { uid } });
+      navigate('/signup/teacherdetails', { state: { uid } });
       console.log('User Info:', user);
 
       // You can do something with the user, like storing it in a state or redirecting to another page

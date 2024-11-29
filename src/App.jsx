@@ -18,6 +18,7 @@ import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy";
 import Admin from "./Pages/Admin/Admin";
 import AdminLogin from "./Pages/Admin/components/AdminLogin";
 import AdminPanel from "./Pages/Admin/components/AdminPanel";
+import TeacherDetails from "./Pages/SignupPage/TeacherDetails";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route index element={<SignupOptions />} />
           <Route path="email&password" element={<EmailandPassword />} />
           <Route path="userdetail" element={<UserDetail />} />
+          <Route path="teacherdetails" element={<TeacherDetails />} />
         </Route>
         <Route path="/method" element={<Method />} />
         <Route path="/featured-tutors" element={<Tutors />} />
