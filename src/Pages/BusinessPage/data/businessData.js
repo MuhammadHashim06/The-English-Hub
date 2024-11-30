@@ -23,37 +23,43 @@ export const navbar = {
 
 // Hero Section Data
 export const heroSection = {
-  title: "Unlock your company’s global potential",
+  title: "Expand your business with English globally",
   description:
-    "The English Hub equips your team with the real-world English skills to succeed anywhere through specialized private English tutoring from any device.",
+    "Grow your company with employees from around the world, who can unite with the English language",
   buttonText: "Get Quote",
 };
 
 // Sections Data
 export const sections = [
   {
-    title: "Why The English Hub?",
+    title: "Why Us?",
     description:
-      "The English Hub gives instant access to private lessons with hundreds of patient, professional native English speaking tutors from the UK, US, Australia, Canada and more.",
+      "The English Hub offers private lessons with native English speaking tutors, in any accent of native English you prefer. Oh another thing, you can learn from anywhere in the world!",
     img: img1,
   },
   {
-    title: "Lessons for any schedule",
+    title: "Start with a conversation",
     description:
-      "Students can book ahead of time with their favorite tutors or call on-demand from anywhere, from any device.",
+      "We offer the chance to have general day-to-day conversations with native English tutors who will enhance social development in your workplace while improving speaking skills in English",
     img: img2,
   },
   {
-    title: "Private Tutoring",
+    title: "Business courses",
     description:
-      "Every student can focus on their individual needs and goals in 1-on-1 classes.",
+      "We have courses designed for businesses and employees who can communicate effectively in English to business goals",
     img: img3,
   },
   {
-    title: "English for the real world",
+    title: "Personalized course",
     description:
-      "Students build skills and confidence to navigate real-world situations with ease through our conversation-based methodology.",
+      "We offer personalization to courses, where you can send us your business goals or a particular topic you would like employees to better understand English in, and we will create a course for your employees specifically",
     img: img4,
+  },
+  {
+    title: "Smart Transcript Tool",
+    description:
+      "We offer a smart transcript tool which allows you to upload meetings and receive a transcript of the text, along with grammar, pronunciation and general improvement suggestions in phrases spoken in English.",
+    img: img3,
   },
 ];
 

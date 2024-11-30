@@ -295,7 +295,7 @@ export default function Business() {
       </div>
 
       {/* Reviews */}
-      <div className="reviewsection">
+      {/* <div className="reviewsection">
         <div className="uppercontent">
           <h1>Excel in multi-cultural business</h1>
           <p>
@@ -315,14 +315,14 @@ export default function Business() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Footer */}
       <div className="businessfooter">
         <div className="footer">
           <div className="footer-content">
             {/* Form */}
-            <div className="form-section">
+            {/* <div className="form-section">
               <h2 className="form-title">{footer.form.title}</h2>
               <p className="form-description">{footer.form.description}</p>
               <form className="footer-form" id="qoute">
@@ -344,7 +344,7 @@ export default function Business() {
                   {footer.form.submitButton}
                 </button>
               </form>
-            </div>
+            </div> */}
 
             {/* Links and Socials */}
             <div className="footer-links-section">
