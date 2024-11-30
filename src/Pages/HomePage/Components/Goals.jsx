@@ -83,7 +83,7 @@ export default function Goals() {
         </video>
       </div>
       <div className="g-6" >
-        <h1>E{goalsData.sections[5].heading}</h1>
+        <h1>{goalsData.sections[5].heading}</h1>
       <img src={goalsData.sections[5].imageUrl} alt="" />
       </div>
       <div className="g-7" >
