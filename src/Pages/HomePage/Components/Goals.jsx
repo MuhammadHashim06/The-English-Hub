@@ -1,130 +1,93 @@
 import "./Goals.css";
-import gimg1 from "../../../Images/2.jpg";
-import gimg2 from "../../../Images/2.jpg";
-import gimg3 from "../../../Images/3-1.jpg"
-import gimg4 from "../../../Images/3-2.jpg"
-import gimg5 from "../../../Images/4.jpg"
-import gimg6 from "../../../Images/4.mp4"
-import gimg7 from "../../../Images/6.jpg"
-
-import aiprogress from '../../../Images/5.mp4'
+import {goalsData} from './../data/siteData'
 import { Link } from "react-router-dom";
-const content = [
-  {
-    heading: "English tailored to you and your goals",
-    subheading:
-      "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
-    buttonurl: "",
-    buttontext: "Start Leanring",
-    card1: {
-      text: "Focus on your unique goals",
-      imgurl: gimg1,
-    },
-    card2: {
-      text: "Choose the way you learn",
-      imgurl: gimg2,
-    },
-  },
-  {
-    heading: "Improvement over perfection  ",
-    subheading:
-      "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
-    buttonurl: "",
-    buttontext: "Explore tutors",
-    card1: {
-      text: "Focus on your unique goals",
-      imgurl: gimg3,
-    },
-    card2: {
-      text: "Choose the way you learn",
-      imgurl: gimg4,
-    },
-  },
-  {
-    heading: "Connect with native english tutors to perfect your English ",
-    subheading:
-      "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
-    buttonurl: "",
-    buttontext: "Start Leanring",
-    card1: {
-      text: "Focus on your unique goals",
-      imgurl: gimg5,
-    },
-    card2: {
-      text: "Choose the way you learn",
-      imgurl: gimg6,
-    },
-  },
-];
 
 export default function Goals() {
   return (
     <div className="goals">
-      
       <div className="goal-section">
           <div className="uppercontent">
-            <h1>{content[0].heading}</h1>
-            <p>{content[0].subheading}</p>
-            <Link to={'/signup'} > <button>{content[0].buttontext}</button></Link>
-           
-          </div>
-          <div className="section1">
-            <div className="card">
-              <img src={content[0].card1.imgurl} alt="Card 1" />
-            </div>
-          </div>
-        </div>
-        <div className="goal-section">
-          <div className="uppercontent">
-            <h1>{content[1].heading}</h1>
-            <p>{content[1].subheading}</p>
-            <Link to={'/signup'} ><button>{content[1].buttontext}</button></Link>
-            
-          </div>
-          <div className="imagesection">
-            <div className="card">
-              <img src={content[1].card1.imgurl} alt="Card 1" />
-            </div>
-            <div className="card">
-              <img src={content[1].card2.imgurl} alt="Card 2" />
-            </div>
-          </div>
-        </div>
-        <div className="goal-section">
-          <div className="uppercontent">
-            <h1>{content[2].heading}</h1>
-            <p>{content[2].subheading}</p>
+            <h1>{goalsData.sections[0].heading}</h1>
+            <p>{goalsData.sections[0].subheading}</p>
             <Link to={'/signup'} >
             
-            <button>{content[2].buttontext}</button>
+            <button>{goalsData.sections[0].buttonText}</button>
             </Link>
           </div>
           <div className="imagesection">
             <div className="card">
-              <img src={content[2].card1.imgurl} alt="Card 1" />
+              <img src={goalsData.sections[0].card1.imgUrl} alt="Card 1" />
             </div>
             <div className="card">
-              <video src={content[2].card2.imgurl} alt="Card 2" autoPlay="true" loop="true" />
+              <video src={goalsData.sections[0].card2.imgUrl} alt="Card 2" autoPlay="true" loop="true" />
+            </div>
+          </div>
+        </div>
+      <div className="goal-section">
+          <div className="uppercontent">
+            <h1>{goalsData.sections[1].heading}</h1>
+            <p>{goalsData.sections[1].subheading}</p>
+            <Link to={'/signup'} > <button>{goalsData.sections[1].buttonText}</button></Link>
+           
+          </div>
+          <div className="section1">
+            <div className="card">
+              <img src={goalsData.sections[1].card1.imgUrl} alt="Card 1" />
+            </div>
+          </div>
+        </div>
+        <div className="goal-section">
+          <div className="uppercontent">
+            <h2>{goalsData.sections[2].heading}</h2>
+            <p>{goalsData.sections[2].subheading}</p>
+            <Link to={'/signup'} ><button>{goalsData.sections[2].buttonText}</button></Link>
+            
+          </div>
+          <div className="imagesection">
+            <div className="card">
+              <img src={goalsData.sections[2].card1.imgUrl} alt="Card 1" />
+            </div>
+            <div className="card">
+              <img src={goalsData.sections[2].card2.imgUrl} alt="Card 2" />
+            </div>
+          </div>
+        </div>
+        <div className="goal-section">
+          <div className="uppercontent">
+            <h1>{goalsData.sections[3].heading}</h1>
+            <p>{goalsData.sections[3].subheading}</p>
+            <Link to={'/signup'} >
+            
+            <button>{goalsData.sections[3].buttonText}</button>
+            </Link>
+          </div>
+          <div className="imagesection">
+            <div className="card">
+              <img src={goalsData.sections[3].card1.imgUrl} alt="Card 1" />
+            </div>
+            <div className="card">
+              <video src={goalsData.sections[3].card2.imgUrl} alt="Card 2" autoPlay="true" loop="true" />
             </div>
           </div>
         </div>
       <div className="videosection">
       <div className="videocontent">
-        <h1>English for Children</h1>
-        <p>Start your English journey, progress everyday</p>
+        <h1>{goalsData.sections[4].heading}</h1>
+        <p>{goalsData.sections[4].subheading}</p>
 </div>
-        <video controls
-        autoPlay 
+        <video
+        autoPlay
+        loop
         className="progressvideo" >
-            <source src={aiprogress} type="video/mp4" />
+            <source src={goalsData.sections[4].progressVideo} type="video/mp4"  />
         </video>
       </div>
       <div className="g-6" >
-        <h1>English for Business and Organizations </h1>
-      <img src={gimg7} alt="" />
+        <h1>E{goalsData.sections[5].heading}</h1>
+      <img src={goalsData.sections[5].imageUrl} alt="" />
       </div>
       <div className="g-7" >
-        <h1>Keep track of how you’re improving  </h1>
+        <h1>{goalsData.sections[6].heading}</h1>
       </div>
     </div>
   );

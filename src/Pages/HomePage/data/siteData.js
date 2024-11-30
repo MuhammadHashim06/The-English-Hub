@@ -7,11 +7,11 @@ import gimg4 from '../../../Images/3-2.jpg';
 import gimg5 from '../../../Images/4.jpg';
 import gimg6 from '../../../Images/4.mp4';
 import gimg7 from '../../../Images/6.jpg';
+import gimg8 from '../../../Images/pexels-n-voitkevich-7235907.jpg';
+import gimg9 from '../../../Images/6963350-hd_1080_1920_25fps.mp4'
 import aiprogress from '../../../Images/5.mp4';
 import backvideo from '../../../Videos/HeroSection.mp4';
 
-
-// Add this to your existing siteData.js
 export const learningData = {
   title: "Start your journey to improving your English today",
   buttons: [
@@ -66,6 +66,19 @@ export const heroSectionData = {
 export const goalsData = {
   sections: [
     {
+      heading: "Learn english from anywhere in the world",
+      subheading: "",
+      buttonText: "Start Learning",
+      card1: {
+        text: "Focus on your unique goals",
+        imgUrl: gimg8
+      },
+      card2: {
+        text: "Choose the way you learn",
+        imgUrl: gimg9
+      }
+    },
+    {
       heading: "English tailored to you and your goals",
       subheading: "We recommend lessons, topics, and activities to help you reach your goals. You choose the things that get you talking, making moves toward where you want to go.",
       buttonText: "Start Learning",
@@ -105,9 +118,18 @@ export const goalsData = {
       }
     },
     {
+      heading:'English for Children',
+      subheading:'Start your English journey, progress everyday',
       progressVideo: aiprogress,
-      businessImage: gimg7
-    }
+    },
+    {
+      heading:'English for Business and Organizations',
+      imageUrl:gimg7
+    },
+    {
+      heading:'Keep track of how you’re improving',
+      imageUrl:''
+    },
   ]
 };
 
@@ -138,18 +160,18 @@ export const priceData = {
         "Get personalized exercises between lessons"
       ]
     },
-    {
-      name: "Kids",
-      description: "For kids under 18",
-      actualPrice: "$119/mo",
-      discountedPrice: "$61",
-      offers: [
-        "1:1 time with specialized tutors",
-        "Active learning through conversation",
-        "Beginner to advanced courses included",
-        "Fun games and activities"
-      ]
-    }
+    // {
+    //   name: "Kids",
+    //   description: "For kids under 18",
+    //   actualPrice: "$119/mo",
+    //   discountedPrice: "$61",
+    //   offers: [
+    //     "1:1 time with specialized tutors",
+    //     "Active learning through conversation",
+    //     "Beginner to advanced courses included",
+    //     "Fun games and activities"
+    //   ]
+    // }
   ]
 };
 
