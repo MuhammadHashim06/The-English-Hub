@@ -2,10 +2,12 @@
 
 // Images
 import logo from "../../../Images/logo.png";
-import img1 from "../../../Images/50941228-0-Tablet.jpg.png";
-import img2 from "../../../Images/Image+Background.png";
-import img3 from "../../../Images/Image+Background1.png";
-import img4 from "../../../Images/Image1.png";
+import img1 from "../../../Images/New Images/b1.jpg";
+import img2 from "../../../Images/New Images/b2.jpg";
+import img3 from "../../../Images/New Images/b3.jpg";
+import img4 from "../../../Images/New Images/b4.jpg";
+import img5 from "../../../Images/New Images/b5.jpg";
+
 import reviewimg1 from "../../../Images/review1.png";
 import reviewimg2 from "../../../Images/review2.png";
 import reviewimg3 from "../../../Images/review3.png";
@@ -27,6 +29,7 @@ export const heroSection = {
   description:
     "Grow your company with employees from around the world, who can unite with the English language",
   buttonText: "Get Quote",
+  bottomcontent:'Expand your business with English globally'
 };
 
 // Sections Data
@@ -59,7 +62,7 @@ export const sections = [
     title: "Smart Transcript Tool",
     description:
       "We offer a smart transcript tool which allows you to upload meetings and receive a transcript of the text, along with grammar, pronunciation and general improvement suggestions in phrases spoken in English.",
-    img: img3,
+    img: img5,
   },
 ];
 

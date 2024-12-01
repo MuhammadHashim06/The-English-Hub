@@ -235,10 +235,15 @@
 //   );
 // }
 
-
 import "./Business.css";
 import { Link } from "react-router-dom";
-import { navbar, heroSection, sections, reviews, footer } from "./data/businessData";
+import {
+  navbar,
+  heroSection,
+  sections,
+  // reviews,
+  footer,
+} from "./data/businessData";
 
 export default function Business() {
   return (
@@ -250,32 +255,24 @@ export default function Business() {
             <img src={navbar.logo} alt="Logo" />
           </Link>
           <p>
-            {navbar.title} <small>{navbar.subtitle}</small>
+            {navbar.title}
           </p>
         </div>
         <div className="navlink">
-          {navbar.links.map((link, index) =>
-            link.to ? (
-              <Link to={link.to} key={index}>
-                {link.label}
+        <Link to={navbar.links[0].to} >
+                {navbar.links[0].label}
               </Link>
-            ) : (
-              <a href={link.href} key={index}>
-                {link.label}
-              </a>
-            )
-          )}
+          
         </div>
       </div>
 
       {/* Hero Section */}
       <div className="businesshero">
         <div className="herocontent">
-          <h1>{heroSection.title}</h1>
-          <p>{heroSection.description}</p>
-          <a href="#qoute">
+          <h1>{heroSection.description}</h1>
+          {/* <a href="#qoute">
             <button>{heroSection.buttonText}</button>
-          </a>
+          </a> */}
         </div>
       </div>
 
@@ -316,7 +313,15 @@ export default function Business() {
           ))}
         </div>
       </div> */}
-
+<div className="botomsection">
+  <div className="innerdiv">
+    <div className="innertext">
+      <h1>
+        {heroSection.bottomcontent}
+      </h1>
+    </div>
+  </div>
+</div>
       {/* Footer */}
       <div className="businessfooter">
         <div className="footer">

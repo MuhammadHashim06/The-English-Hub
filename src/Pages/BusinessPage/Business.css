@@ -248,7 +248,7 @@
             
 } */
 .business {
-   
+
     .businessnav {
         background-color: white;
         position: absolute;
@@ -298,23 +298,26 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: center;
         align-items: center;
     }
 
     .herocontent {
         width: 550px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 20px;
         align-items: center;
         display: flex;
         flex-direction: column;
         gap: 40px;
         text-align: center;
-        padding: 30px;
+        padding: 10%;
     }
 
     .herocontent h1 {
-        font-size: 2.5rem;
+        font-size: 1.75rem;
     }
 
     .herocontent button {
@@ -333,6 +336,11 @@
         gap: 20px;
         padding: 5%;
         align-items: center;
+        img{
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+        }
     }
 
     .scontent {
@@ -350,6 +358,23 @@
         justify-content: center;
         align-items: center;
         padding: 5% 30%;
+    }
+
+    .innerdiv {
+        background-image: url('../../Images/businessbottom.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10% 20%;
+
+        .innertext {
+            background-color: white;
+            border-radius: 20px;
+            padding: 10%;
+        }
     }
 
     .bannercontent {
@@ -501,9 +526,11 @@
 
     /* Mobile Devices (up to 480px) */
     @media (max-width: 480px) {
-        .reivewbox{flex-direction: column;
+        .reivewbox {
+            flex-direction: column;
 
         }
+
         .businessnav {
             position: relative;
             padding: 10px;
