@@ -7,7 +7,7 @@ import Price from "./Components/Price";
 
 export default function Home() {
   return (
-    <div>
+    <div className="homepage" >
     <Navbar/>
     <HeroSection/>
     <Goals/>

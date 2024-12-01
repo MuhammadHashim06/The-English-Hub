@@ -36,7 +36,9 @@ h1,h2{
   background-color: var(--background-color);
   color: var(--text-color);
 } */
-
+.homepage{
+  width: 100%;
+}
 button {
   box-sizing: border-box;
   white-space: nowrap;

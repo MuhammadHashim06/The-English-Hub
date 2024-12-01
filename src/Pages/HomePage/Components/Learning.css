@@ -1,4 +1,4 @@
-.learning {
+/* .learning {
     background-color: var(--primary-color);
     width: 100%;
     display: flex;
@@ -32,5 +32,94 @@
     .startbuttons a:nth-child(2) button {
         border: 1px solid black;
         color: black;
+    }
+} */
+
+.learning {
+    background-color: var(--primary-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 6% 0%;
+    text-align: center;
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .startbuttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        button {
+            background-color: var(--primary-color);
+            border-radius: 50px;
+            font-size: 1.25em;
+            padding: 5px 50px;
+        }
+    }
+
+    .startbuttons a:nth-child(1) button {
+        background-color: var(--background-color);
+    }
+
+    .startbuttons a:nth-child(2) button {
+        border: 1px solid black;
+        color: black;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .learning {
+        padding: 4% 0%;
+
+
+        h1 {
+            font-size: 2em;
+        }
+
+        .startbuttons {
+            gap: 8px;
+        }
+
+        .startbuttons button {
+            font-size: 1.1em;
+            padding: 5px 40px;
+        }
+
+        .startbuttons a:nth-child(2) button {
+            font-size: 1em;
+            padding: 5px 35px;
+        }
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .learning {
+        padding: 3% 0%;
+
+
+        h1 {
+            font-size: 1.75em;
+        }
+
+        .startbuttons {
+            gap: 6px;
+        }
+
+        .startbuttons button {
+            font-size: 1em;
+            padding: 5px 30px;
+        }
+
+        .startbuttons a:nth-child(2) button {
+            font-size: 0.9em;
+            padding: 5px 25px;
+        }
     }
 }

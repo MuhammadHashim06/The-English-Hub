@@ -169,6 +169,12 @@
 }
 /* Responsive Design */
 @media (max-width: 768px) {
+    .navbar{
+        padding: 0;
+    }
+    .rightdiv{
+        padding-right: 0px;
+    }
     .navlinks {
         display: none;
     }
