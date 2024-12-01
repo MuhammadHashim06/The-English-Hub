@@ -31,10 +31,20 @@ import interview from '../../../Images/New Images/interview.jpg'
 import history from '../../../Images/New Images/history.jpg'
 import music from '../../../Images/New Images/music.jpg'
 import science from '../../../Images/New Images/science.jpg'
+import bottomcourseimage from '../../../Images/Bottomcourseimage.jpg'
 
 export const pageContent = {
-  mainHeading: "Our Courses"
-};
+  mainHeading: "Our Courses",
+  subheading1:'The English Hub offers courses which teach you English, but are based on your needs, interests, goals or conversation topics that you prefer',
+  imageUrl:courses,
+  subheading2:'Our topics range gives you the chance to learn about things you are passionate about whilst improving your English.',
+  subheading3:'Our goal is to help you improve your English, in every aspect, for any reason. That’s why our courses also include topics of professional life such as interviews, finances and general professional life.',
+  subheading4:'Our aim is to help you grow in your goal, all whilst developing your confidence in speaking English with native English tutors.'
+,
+bottomcontent:{
+  text:'Our aim is to make learning English something you look forward to, rather than a chore. Explore our courses below to find what interests you, or feel free to just jump right in and have a general chat with our tutors! ',
+  imageUrl:bottomcourseimage
+}};
 
 export const sectionContent = {
   fundamental: {

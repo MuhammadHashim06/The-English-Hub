@@ -363,51 +363,76 @@ import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import {
   pageContent,
-  sectionContent,
+  // sectionContent,
   Courses,
-  fundamentalcourses,
-  professionalcourses,
-  expresscourses,
-  examcourses,
+  // fundamentalcourses,
+  // professionalcourses,
+  // expresscourses,
+  // examcourses,
 } from "../data/courseData";
 
 export default function Content() {
   return (
     <div className="coursecontent">
+      <div className="coursehero">
+        <div className="coursetext">
       <h1>{pageContent.mainHeading}</h1>
-<div className="couses-coursel">
-      <Swiper
-        modules={[Navigation]}
-        navigation
-        loop
-        spaceBetween={20}
-        slidesPerView={3}
-        breakpoints={{
-          640: { slidesPerView: 2 },
-          1024: { slidesPerView: 3 },
-        }}
-      >
-        {Courses.map((card) => (
-          <SwiperSlide key={card.id}>
-            <div
-              className="cardcomponent"
-              style={{
-                border: "1px solid #ccc",
-                padding: "20px",
-                textAlign: "center",
-              }}
-            >
-              <div className="card-image">
-                <img src={card.imageUrl} alt="" />
+          <p>{pageContent.subheading1}</p>
+          <p>{pageContent.subheading2}</p>
+          <img src={pageContent.imageUrl} alt="" />
+      <p>{pageContent.subheading3}</p>
+      <p>{pageContent.subheading4}</p>
+        </div>
+        {/* <div className="contentimage">
+          <img src={pageContent.imageUrl} alt="" />
+        </div> */}
+      </div>
+      <div className="couses-coursel">
+        <Swiper
+          modules={[Navigation]}
+          navigation
+          loop
+          spaceBetween={20}
+          slidesPerView={3}
+          breakpoints={{
+            420:{slidesPerView:1},
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+        >
+          {Courses.map((card) => (
+            <SwiperSlide key={card.id}>
+              <div
+                className="cardcomponent"
+                style={{
+                  border: "1px solid #ccc",
+                  padding: "20px",
+                  textAlign: "center",
+                }}
+              >
+                <div className="card-image">
+                  <img src={card.imageUrl} alt="" />
+                </div>
+                <div className="card-content">
+                  <h1>{card.heading}</h1>
+                  <p>{card.subheading}</p>
+                </div>
               </div>
-              <div className="card-content">
-                <h1>{card.heading}</h1>
-                <p>{card.subheading}</p>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+      <div className="coursebottomsection">
+        <div className="innersection">
+
+        
+        {/* <img src={pageContent.bottomcontent.imageUrl} alt="" /> */}
+        <div className="textcontent">
+          <h1>
+            {pageContent.bottomcontent.text}
+          </h1>
+        </div>
+        </div>
       </div>
       {/* <div className="fundamental contentbox">
         <div className="contentdiv">
