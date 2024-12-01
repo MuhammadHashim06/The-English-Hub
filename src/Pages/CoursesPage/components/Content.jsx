@@ -351,31 +351,71 @@
 //           ))}
 //         </div>
 //       </div>
-      
+
 //     </div>
 //   );
 // }
 
-
 import "./Content.css";
-import { 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import {
   pageContent,
   sectionContent,
-  fundamentalcourses, 
-  professionalcourses, 
-  expresscourses, 
-  examcourses 
+  Courses,
+  fundamentalcourses,
+  professionalcourses,
+  expresscourses,
+  examcourses,
 } from "../data/courseData";
 
 export default function Content() {
   return (
     <div className="coursecontent">
       <h1>{pageContent.mainHeading}</h1>
-      <div className="fundamental contentbox">
+<div className="couses-coursel">
+      <Swiper
+        modules={[Navigation]}
+        navigation
+        loop
+        spaceBetween={20}
+        slidesPerView={3}
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+      >
+        {Courses.map((card) => (
+          <SwiperSlide key={card.id}>
+            <div
+              className="cardcomponent"
+              style={{
+                border: "1px solid #ccc",
+                padding: "20px",
+                textAlign: "center",
+              }}
+            >
+              <div className="card-image">
+                <img src={card.imageUrl} alt="" />
+              </div>
+              <div className="card-content">
+                <h1>{card.heading}</h1>
+                <p>{card.subheading}</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      </div>
+      {/* <div className="fundamental contentbox">
         <div className="contentdiv">
           <h1>{sectionContent.fundamental.title}</h1>
           <p>{sectionContent.fundamental.description}</p>
         </div>
+
+        
         <div className="contentcards">
           {fundamentalcourses.map((course, key) => (
             <div className="card" key={key}>
@@ -395,7 +435,7 @@ export default function Content() {
           ))}
         </div>
       </div>
-      <div className="professional contentbox">
+       <div className="professional contentbox">
         <div className="contentdiv">
           <h1>{sectionContent.professional.title}</h1>
           <p>{sectionContent.professional.description}</p>
@@ -466,7 +506,7 @@ export default function Content() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
