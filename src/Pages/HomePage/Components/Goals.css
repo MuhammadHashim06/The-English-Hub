@@ -58,6 +58,7 @@
     min-height: 100vh;
     backdrop-filter: blur(50px);
    -webkit-backdrop-filter: blur(50px);
+   text-align: center;
 }
     .imagesection {
         position: relative;
@@ -234,7 +235,7 @@
     @media (max-width: 576px) {
         .goals{
         .uppercontent {
-            padding: 5% 5%;
+            padding: 5%;
         }
         .videocontent h1 {
             font-size: 1.5rem;
