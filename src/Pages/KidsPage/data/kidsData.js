@@ -4,9 +4,9 @@ export const kidsNavData = {
   logo: logo,
   navLinks: [
     { path: "/method", label: "Our Methodology" },
-    { path: "/featured-tutors", label: "The Tutors" },
+    // { path: "/featured-tutors", label: "The Tutors" },
     { path: "/courses", label: "Courses" },
-    { path: "/resources", label: "Resources" },
+    // { path: "/resources", label: "Resources" },
   ],
   buttons: [
     { path: "/login", label: "Login", className: "" },
@@ -18,15 +18,15 @@ export const kidsNavData = {
 
 
 
-import teacherkids from "../../../Images/kidsteacher.png";
+import teacherkids from "../../../Images/New Images/k1.jpg";
 import studentvideo from "../../../Videos/AI_Progress.mp4";
-import trial from "../../../Images/trial.png";
+import trial from "../../../Images/New Images/k2.jpg";
 
 export const kidsHeroData = {
   heroSection: {
     heading: "Online English Learning for Kids",
     description:
-      "1-on-1 English classes for kids ages 4-15, taught by certified native English speaking teachers from around the world.",
+      "At The English Hub, we have a child-centred approach when it comes to teaching your little ones English.",
     buttonLabel: "Schedule a trial",
     image: teacherkids,
     buttonLink: "/signup",
@@ -35,15 +35,15 @@ export const kidsHeroData = {
     video: studentvideo,
     heading: "Meet Raaid",
     description:
-      "Raaid joined Cambly Kids in January 2021 and completed all courses by 2022. Raaid took 5 lessons a week – meeting 102 tutors and spending over 10,000 minutes practicing his English. This culminated in him winning the Silicon Valley App Development Competition. We are proud to be a part of Raaid’s success story. Thank you Raaid!",
+      "We offer a range of courses tailored for specific age groups which you can select from, however we understand that some children are ready to thrive in their confidence and may want to have a go at an advanced course we build for adults, which they absolutely can for no additional cost! The choice is yours and we offer what works best for your child.",
     buttonLabel: "Schedule a trial",
     buttonLink: "/signup",
   },
   trialSection: {
     heading:
-      "Unlock free games, quizzes, and workbooks when you sign up. No subscription required.",
+      "Have a read below to thoroughly understand our methodology and why we developed it:",
     description:
-      "Unlock free games, quizzes, and workbooks when you sign up. No subscription required.",
+      "Our tutors are gentle, patient and all native English speakers to help your child develop English fluently.",
     buttonLabel: "Join now",
     image: trial,
     buttonLink: "/signup",
@@ -57,12 +57,12 @@ import profileimg3 from "../../../Images/profile3.png";
 import whykid1 from "../../../Images/whykids2.png";
 import whykid2 from "../../../Images/whykids1.png";
 import whykid3 from "../../../Images/whykids2svg.png";
-import coursechart from "../../../Images/courses-chart.png";
+import coursechart from "../../../Images/New Images/k3.jpg";
 
 export const globeStudentData = {
   globeSection: {
     heading: "Don’t just take it from us",
-    description: "Kids of all ages all across the globe love learning with Cambly Kids",
+    description: "We use a child-centered approach combined with gentle teaching as our methodology. We teach children confidence in learning English without the use of rewards or ‘gaining’ something from their achievement, other than lots of praise, motivation and encouraging them to be proud of themselves, which boosts their confidence from the get-go and removes the negative thought of needing to gain a reward at the end which only creates pressure and a negative mindset in a child.",
     reviews: [
       {
         profileurl: profileimg1,
@@ -94,33 +94,34 @@ export const globeStudentData = {
     reasons: [
       {
         imageurl: whykid1,
-        heading: "Real Communication",
+        heading: "",
         subheading:
-          "Cambly Kids always talk with live tutors in real time. This helps them learn English better and faster than by just memorizing words and phrases. Our conversation-based approach is not only engaging but also aids with the acquisition of other language skills, such as listening and reading ability.",
+          "We use interactive communicative activities and fun engagements such as singing, story time and games.",
       },
       {
         imageurl: whykid2,
-        heading: "Language Skills",
+        heading: "",
         subheading:
-          "Helping kids to interact with language in multiple ways, as opposed to simply memorizing lists of words, helps cement new knowledge. Students are challenged to listen while tutors read prompts, passages, and stories, and speak to their tutor by answering questions and discussing various topics.",
+          "Our lessons are recorded and we offer a smart transcript tool which also offers improvement suggestions on grammar, vocabulary and pronunciation.",
       },
       {
         imageurl: whykid3,
-        heading: "Individualized Instruction",
+        heading: "",
         subheading:
-          "Cambly Kids Tutors adapt to each student’s individual needs and interests as they listen and respond to kids’ questions and curiosities. This ensures that students are getting the attention and support they need to aid them in becoming successful language learners.",
+          "Our tutors provide concise feedback after the lesson, allowing you to understand exactly what your child needs and how they are developing.",
       },
     ],
     buttonLabel: "Sign Up",
     buttonLink: "/signup",
   },
   coursesSection: {
-    heading: "Cambly Kids Courses",
-    description:
-      "Our courses are leveled according to the Common European Framework of Reference or CEFR. CEFR is used internationally as a means to standardize language ability. The scale ranges from A1 for beginners to C-level for learners who have near-mastery of the language. At Cambly Kids, we offer courses ranging from A1 to C1.",
-    image: coursechart,
+    heading: "The English Hub Kids Goals",
+    subheading1:
+      "Our goal is to make learning English a fun activity rather than a hassle for your child, which brings a positive mindset for them to be eager to learn. The English Hub allows children to learn with native English tutors, which already sets an English speaking environment for them.",
+    subheading2:'Based on a child centered approach, we allow children to choose what works for them and develop conversation based on their interests. In some cases, children may feel shy or nervous, which is why we highly recommend trying out some ice breakers from our courses to get the ball rolling!',image: coursechart,
     buttonLabel: "See all learning plans",
     buttonLink: "/courses",
+    imageurl:coursechart
   },
 };
 

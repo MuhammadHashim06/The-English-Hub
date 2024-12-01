@@ -36,7 +36,7 @@ export const navbarData = {
   links: [
     { name: "Method", path: "/method" },
     { name: "Courses", path: "/courses" },
-    { name: "Resources", path: "/resources" },
+    // { name: "Resources", path: "/resources" },
     { name: "Kids", path: "/kids" },
     { name: "Business", path: "/business" },
     { name: "Smart Transcript tool", path: "/tool" }

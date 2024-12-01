@@ -83,9 +83,9 @@ export default function KidsHero() {
         <div className="herotext">
           <h1>{heroSection.heading}</h1>
           <p>{heroSection.description}</p>
-          <Link to={heroSection.buttonLink}>
+          {/* <Link to={heroSection.buttonLink}>
             <button>{heroSection.buttonLabel}</button>
-          </Link>
+          </Link> */}
         </div>
         <div className="heroimage">
           <img src={heroSection.image} alt="Teacher with Kids" />
@@ -95,7 +95,7 @@ export default function KidsHero() {
       {/* Student Section */}
       <div className="student">
         <div className="studentvideo">
-          <video autoPlay controls controlsList="nodownload">
+          <video autoPlay loop>
             <source src={studentSection.video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -103,9 +103,9 @@ export default function KidsHero() {
         <div className="studentcontent">
           <h1>{studentSection.heading}</h1>
           <p>{studentSection.description}</p>
-          <Link to={studentSection.buttonLink}>
+          {/* <Link to={studentSection.buttonLink}>
             <button>{studentSection.buttonLabel}</button>
-          </Link>
+          </Link> */}
         </div>
       </div>
 

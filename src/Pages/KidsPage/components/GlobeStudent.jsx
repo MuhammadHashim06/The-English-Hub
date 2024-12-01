@@ -137,7 +137,7 @@ export default function GlobeStudent() {
           <h1>{globeSection.heading}</h1>
           <p>{globeSection.description}</p>
         </div>
-        <div className="globereview">
+        {/* <div className="globereview">
           <div className="reviewlist">
             {globeSection.reviews.map((review, key) => (
               <div className="reviewcard" key={key}>
@@ -155,7 +155,7 @@ export default function GlobeStudent() {
           <Link to={globeSection.buttonLink}>
             <button>{globeSection.buttonLabel}</button>
           </Link>
-        </div>
+        </div> */}
       </div>
 
       {/* Why English Section */}
@@ -178,12 +178,12 @@ export default function GlobeStudent() {
           <button>{whyEnglishSection.buttonLabel}</button>
         </Link>
       </div>
-
       {/* Courses Section */}
       <div className="kidcourses">
         <h1>{coursesSection.heading}</h1>
-        <p>{coursesSection.description}</p>
-        <img src={coursesSection.image} alt="Course Chart" />
+        <p>{coursesSection.subheading1}</p>
+        <p>{coursesSection.subheading2}</p>
+        <img src={coursesSection.imageurl} alt="Course Chart" />
         <Link to={coursesSection.buttonLink}>
           <button>{coursesSection.buttonLabel}</button>
         </Link>
