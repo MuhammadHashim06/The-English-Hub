@@ -6,7 +6,6 @@
 // import Learning from "../../HomePage/Components/Learning";
 // import individual from "../../../Images/image.png";
 
-
 //     const bottomSection = [
 //       {
 //         "title": "Conversation Based Learning",
@@ -30,7 +29,6 @@
 //         "extraText": "Choose from thousands of tutors with different backgrounds, industries, accents, and more—so you can talk about what really matters to you."
 //       }
 //     ]
-  
 
 // const HeroSection = () => {
 //   // State to hold the bottom section data
@@ -73,31 +71,47 @@
 
 // export default HeroSection;
 
-
 // HeroSection.js
 
 import "./HeroSection.css";
-import image from "../../../Images/Methods.jpg";
-import method from "../../../Images/thinking.jpg";
 import Learning from "../../HomePage/Components/Learning";
-import { bottomSectionData } from "../data/methodData";
+import { bottomSectionData, mainSectionData } from "../data/methodData";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
     <div className="methodhero">
-      <img src={image} alt="" className="background-image" />
+      <div className="videocontent background-video">
+      <video autoPlay muted loop playsInline className="video">
+        <source src={mainSectionData.main.videoUrl} type="video/mp4" />
+      </video>
+      </div>
+     
+      {/* <img
+        src={mainSectionData.main.imageUrl}
+        alt=""
+        className="background-image"
+      /> */}
       <div className="herocontent">
+      
         <div className="herotext">
-          <h1>The English Hub Methods</h1>
-          <p>
-            Textbooks, memorization, and games won’t teach you real-world
-            English. We do things differently. Our conversation-based learning
-            gets you speaking right from the start. With feedback and activities
-            generated from your conversations, you get a truly individualized
-            experience that makes the language really stick.
-          </p>
+          <h1>{mainSectionData.main.heading}</h1>
+          <p>{mainSectionData.main.subheading}</p>
         </div>
-        <img src={method} alt="Learning Method" />
+        {/* <img src={method} alt="Learning Method" /> */}
+      </div>
+
+      <div className="methoddiv">
+        <div className="methodtext">
+          <h1>{mainSectionData.methoddiv.heading}</h1>
+          <p>{mainSectionData.methoddiv.subheading}</p>
+          <Link to={mainSectionData.methoddiv.link}>
+          <button> {mainSectionData.methoddiv.buttonText} </button>
+          </Link>
+        </div>
+        <div className="methodimage">
+          <img src={mainSectionData.methoddiv.imageUrl} alt="" />
+        </div>
       </div>
 
       <div className="bottomsection">

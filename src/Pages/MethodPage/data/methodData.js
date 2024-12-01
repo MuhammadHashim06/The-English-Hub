@@ -3,6 +3,24 @@
 import conversation from "../../../Images/Conversation.jpg";
 import feedback from "../../../Images/feedback.png";
 import individual from "../../../Images/image.png";
+import videoUrl from '../../../Images/New Images/Method.mp4'
+import methodimg from '../../../Images/New Images/method.jpg'
+
+export const mainSectionData = {
+  main:{
+  heading:'The English Hub Methods',
+  subheading:'Our method is specifically designed for you to engage in conversation with native English speakers. We understand that traditionally, English is taught through grammar being the first step, but we find that this tends to puts your skills on hold in actually practicing English. That’s why, our friendly native English speaking tutors help you start your first step in speaking English and building your fluency step by step.',
+  videoUrl:videoUrl,
+  imageUrl:methodimg
+},
+methoddiv:{
+  heading:'Our Methods',
+  subheading:'Stuck on what to talk about? We understand. That’s why we have carefully created courses for a range of interests and goals, along with ice breaker activities you can start with. Check out The English Hub courses',
+  imageUrl:methodimg,
+  buttonText:'See all Cources',
+  link:'/courses'
+}
+}
 
 export const bottomSectionData = [
   {
