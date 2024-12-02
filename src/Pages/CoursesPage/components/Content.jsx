@@ -395,6 +395,7 @@ export default function Content() {
           spaceBetween={20}
           slidesPerView={3}
           breakpoints={{
+            0:{slidesPerView:1},
             420:{slidesPerView:1},
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
