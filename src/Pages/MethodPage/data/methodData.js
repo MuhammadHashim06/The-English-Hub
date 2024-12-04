@@ -1,8 +1,8 @@
 // HeroSectionData.js
 
-import conversation from "../../../Images/Conversation.jpg";
-import feedback from "../../../Images/feedback.png";
-import individual from "../../../Images/image.png";
+import conversation from "../../../Images/New Images/A5ECC3E3-8697-49ED-AFFD-EB40449FA223.jpeg";
+import feedback from "../../../Images/New Images/b2.jpg";
+import individual from "../../../Images/New Images/b3.jpg";
 import videoUrl from '../../../Images/New Images/Method.mp4'
 import methodimg from '../../../Images/New Images/method.jpg'
 

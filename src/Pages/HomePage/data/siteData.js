@@ -134,7 +134,7 @@ export const goalsData = {
 };
 
 export const priceData = {
-  title: "Start today. Learn for life.",
+  title: "Keep track of how you’re improving.",
   packages: [
     {
       name: "Small groups",

@@ -158,6 +158,11 @@
                 width: 100%; /* Full width on smaller screens */
                 max-width: 325px; /* Maintain card size on larger screens */
                 padding: 3%;
+                img{
+                    width: 100%;
+                    aspect-ratio: 1;
+                    object-fit: cover;
+                }
             }
         }
 

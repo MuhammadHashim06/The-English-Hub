@@ -54,9 +54,9 @@ export const kidsHeroData = {
 import profileimg1 from "../../../Images/profile1.png";
 import profileimg2 from "../../../Images/profile2.png";
 import profileimg3 from "../../../Images/profile3.png";
-import whykid1 from "../../../Images/whykids2.png";
-import whykid2 from "../../../Images/whykids1.png";
-import whykid3 from "../../../Images/whykids2svg.png";
+import whykid1 from "../../../Images//New Images/b1.jpg";
+import whykid2 from "../../../Images/New Images/b2.jpg";
+import whykid3 from "../../../Images/New Images/b3.jpg";
 import coursechart from "../../../Images/New Images/k3.jpg";
 
 export const globeStudentData = {
