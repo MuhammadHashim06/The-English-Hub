@@ -93,7 +93,7 @@ export default function KidsHero() {
       </div>
 
       {/* Student Section */}
-      <div className="student">
+      {/* <div className="student">
         <div className="studentvideo">
           <video autoPlay loop>
             <source src={studentSection.video} type="video/mp4" />
@@ -103,11 +103,11 @@ export default function KidsHero() {
         <div className="studentcontent">
           <h1>{studentSection.heading}</h1>
           <p>{studentSection.description}</p>
-          {/* <Link to={studentSection.buttonLink}>
+          <Link to={studentSection.buttonLink}>
             <button>{studentSection.buttonLabel}</button>
-          </Link> */}
+          </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Trial Section */}
       <div className="trialbox">
