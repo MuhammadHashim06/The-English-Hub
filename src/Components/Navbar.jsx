@@ -150,7 +150,7 @@ import { useEffect, useState } from "react";
 import { Drawer, Button } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 
-export default function Navbar() {
+export default function Navbar(props) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isDrawerVisible, setIsDrawerVisible] = useState(false);
 
@@ -167,9 +167,10 @@ export default function Navbar() {
 
   const showDrawer = () => setIsDrawerVisible(true);
   const closeDrawer = () => setIsDrawerVisible(false);
+console.log(props);
 
   return (
-    <div className={`navbar ${isScrolled ? "scrolled" : ""}`}>
+    <div className={`navbar ${isScrolled ? "scrolled" : ""} ${props.newclass}`}>
       <div className="leftnav">
         <div className="logo">
           <NavLink to="/">

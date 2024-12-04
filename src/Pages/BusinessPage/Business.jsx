@@ -259,9 +259,9 @@ export default function Business() {
           </p>
         </div>
         <div className="navlink">
-        <Link to={navbar.links[0].to} >
+        {/* <Link to={navbar.links[0].to} >
                 {navbar.links[0].label}
-              </Link>
+              </Link> */}
           
         </div>
       </div>
