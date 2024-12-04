@@ -63,6 +63,7 @@
     padding: 15px 50px;
 
     .smalldiv {
+        text-align: center;
         display: flex;
         align-items: center;
         gap: 10px;

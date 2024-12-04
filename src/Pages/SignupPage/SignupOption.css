@@ -9,9 +9,22 @@
     max-width: 400px;
     width: 100%;
     margin-bottom: auto;
-    /* box-sizing: border-box;  */
+    box-sizing: border-box; 
     height: 100%;
-
+.role-box{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: auto;
+    box-sizing: border-box; 
+    height: 100%;
+}
 /* Logo */
 .signup-logo {
     max-width: 100px;

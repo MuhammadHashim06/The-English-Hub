@@ -1,0 +1,72 @@
+/* Container to center content */
+/* .role-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3f4f6, #e2e8f0);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  /* Main box styling */
+  .role-box {
+    text-align: center;
+    background: #ffffff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Header styling */
+  .role-box h1 {
+    margin-bottom: 20px;
+    color: #2d3748;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  /* Button styles */
+  .role-button button {
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+  }
+  
+  .role-button button:hover {
+    background-color: #2b6cb0;
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 15px rgba(50, 50, 93, 0.15);
+  }
+  
+  /* NavLink styling */
+  .role-button {
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .role-box {
+      padding: 30px 15px;
+    }
+  
+    .role-box h1 {
+      font-size: 1.5rem;
+    }
+  
+    .role-button button {
+      font-size: 1rem;
+      padding: 8px 15px;
+    }
+  }
+  

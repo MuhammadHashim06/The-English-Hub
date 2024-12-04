@@ -21,7 +21,7 @@ const SignupOptions = () => {
       // The signed-in user info
       const user = result.user;
       const uid = user.uid;
-      navigate('/signup/teacherdetails', { state: { uid } });
+      navigate('/signup/role', { state: { uid } });
       console.log('User Info:', user);
 
       // You can do something with the user, like storing it in a state or redirecting to another page
@@ -66,12 +66,12 @@ const SignupOptions = () => {
         </div>
 
         {/* Creating account for children */}
-        <div className="children-account">
+        {/* <div className="children-account">
           <p>Creating an account for your child?</p>
           <button className="children-account-link" onClick={() => alert('Redirecting to child account creation...')}>
             We’ve got special tutors and courses just for kids. →
           </button>
-        </div>
+        </div> */}
       </div>
       </div>
   );

@@ -55,12 +55,15 @@ const HeroSection = () => {
         <Link to='/signup'><button>Start Now</button></Link>
       </div>
       <div className="bottombar">
-        {heroSectionData.bottomBar.map((item, index) => (
+        <div className="smalldiv">
+          <p>{heroSectionData.description}</p>
+        </div>
+        {/* {heroSectionData.bottomBar.map((item, index) => (
           <div key={index} className="smalldiv">
             <i className={item.icon}></i>
             <p>{item.text}</p>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

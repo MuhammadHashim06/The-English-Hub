@@ -33,7 +33,7 @@ export const kidsHeroData = {
   },
   studentSection: {
     video: studentvideo,
-    heading: "Meet Raaid",
+    heading: "",
     description:
       "We offer a range of courses tailored for specific age groups which you can select from, however we understand that some children are ready to thrive in their confidence and may want to have a go at an advanced course we build for adults, which they absolutely can for no additional cost! The choice is yours and we offer what works best for your child.",
     buttonLabel: "Schedule a trial",

@@ -28,7 +28,7 @@
 
     .coursehero {
         text-align: center;
-        padding: 2% 5%;
+        padding: 12% 5%;
         gap: 5%;
 
         .coursetext {
@@ -149,7 +149,7 @@
 /* Mobile Devices (up to 480px) */
 @media (max-width: 480px) {
     .coursecontent {
-        padding: 5% 3%;
+        padding: 10% 3%;
         /* Less padding on mobile */
     }
 

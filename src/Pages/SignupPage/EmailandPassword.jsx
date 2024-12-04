@@ -86,7 +86,7 @@ const EmailandPassword = () => {
       const uid = userCredential.user.uid; // Get the user UID
       alert('Signup successful!');
       // Navigate to the next page, passing UID
-      navigate('/signup/teacherdetails', { state: { uid } });
+      navigate('/signup/role', { state: { uid } });
     } catch (error) {
       console.error('Error signing up:', error);
       alert(`Signup failed: ${error.message}`);

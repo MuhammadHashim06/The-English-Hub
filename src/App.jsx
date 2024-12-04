@@ -19,6 +19,7 @@ import Admin from "./Pages/Admin/Admin";
 import AdminLogin from "./Pages/Admin/components/AdminLogin";
 import AdminPanel from "./Pages/Admin/components/AdminPanel";
 import TeacherDetails from "./Pages/SignupPage/TeacherDetails";
+import Role from "./Pages/SignupPage/Role";
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup/*" element={<Signup />}>
           <Route index element={<SignupOptions />} />
+          <Route path="role" element={<Role />} />
+
           <Route path="email&password" element={<EmailandPassword />} />
           <Route path="userdetail" element={<UserDetail />} />
           <Route path="teacherdetails" element={<TeacherDetails />} />
