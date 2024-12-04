@@ -188,8 +188,8 @@ export const footerData = {
     {
       title: "Join",
       links: [
-        { name: "Cambly for kids", path: "/kids" },
-        { name: "Cambly for business", path: "/business" },
+        { name: "The Egnlish Hub for kids", path: "/kids" },
+        { name: "The Egnlish Hub for business", path: "/business" },
         { name: "Become a tutor", path: "/featured-tutors" },
         { name: "Become an ambassador", path: "#" }
       ]
