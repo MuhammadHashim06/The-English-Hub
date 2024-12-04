@@ -244,12 +244,14 @@ import {
   // reviews,
   footer,
 } from "./data/businessData";
+import Navbar from "../../Components/Navbar";
 
 export default function Business() {
   return (
     <div className="business">
+      <Navbar/>
       {/* Navbar */}
-      <div className="businessnav">
+      {/* <div className="businessnav">
         <div className="logo">
           <Link to={"/"}>
             <img src={navbar.logo} alt="Logo" />
@@ -259,12 +261,12 @@ export default function Business() {
           </p>
         </div>
         <div className="navlink">
-        {/* <Link to={navbar.links[0].to} >
+       <Link to={navbar.links[0].to} >
                 {navbar.links[0].label}
-              </Link> */}
+              </Link> 
           
         </div>
-      </div>
+      </div> */}
 
       {/* Hero Section */}
       <div className="businesshero">
