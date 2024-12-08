@@ -23,6 +23,8 @@ export default function Goals() {
               alt="Card 2"
               autoPlay="true"
               loop="true"
+              playsInline
+              controls={false}
             />
           </div>
         </div>
@@ -77,6 +79,8 @@ export default function Goals() {
               alt="Card 2"
               autoPlay="true"
               loop="true"
+              playsInline
+              controls={false}
             />
           </div>
         </div>
@@ -86,7 +90,8 @@ export default function Goals() {
           <h1>{goalsData.sections[4].heading}</h1>
           <p>{goalsData.sections[4].subheading}</p>
         </div>
-        <video autoPlay loop className="progressvideo">
+        <video autoPlay loop playsInline
+              controls={false} className="progressvideo">
           <source src={goalsData.sections[4].progressVideo} type="video/mp4" />
         </video>
       </div>
