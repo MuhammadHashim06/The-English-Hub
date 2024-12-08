@@ -60,7 +60,7 @@ export const disclosureInformationSections = [
       'With Your Consent',
       'Service Providers',
       'Professional Advisors',
-      'Protection of Cambly and Others',
+      'Protection of The English Hub and Others',
       'Legal Requirements',
       'Business Transfers'
     ]

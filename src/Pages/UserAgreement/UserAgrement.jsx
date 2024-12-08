@@ -26,7 +26,7 @@ const UserAgrement = () => (
    Prior version:
   </span>
   <span>
-   <a href="https://www.cambly.com/legal/user_agreement/previous">
+   <a href="https://www.The English Hub.com/legal/user_agreement/previous">
     here
    </a>
   </span>
@@ -34,29 +34,29 @@ const UserAgrement = () => (
  <p className="c2">
   <span className="c5">
    This User Agreement (the Agreement) governs your access to
-        and use of the Cambly websites and mobile applications (the
+        and use of the The English Hub websites and mobile applications (the
         Platform), including
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=http://www.cambly.comj&amp;sa=D&amp;source=editors&amp;ust=1721954734565312&amp;usg=AOvVaw1eOO3YbIRrX0zh0D6fdI6q">
-    www.cambly.com
+   <a className="c23" href="https://www.google.com/url?q=http://www.The English Hub.comj&amp;sa=D&amp;source=editors&amp;ust=1721954734565312&amp;usg=AOvVaw1eOO3YbIRrX0zh0D6fdI6q">
+    www.The English Hub.com
    </a>
   </span>
   <span className="c5">
-   and its associated mobile applications (the Cambly
+   and its associated mobile applications (the The English Hub
         Site), and
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=http://www.cambly.com/kids&amp;sa=D&amp;source=editors&amp;ust=1721954734565532&amp;usg=AOvVaw1AKwqD4eI9c00ym6hc44Mu">
-    www.cambly.com/kids
+   <a className="c23" href="https://www.google.com/url?q=http://www.The English Hub.com/kids&amp;sa=D&amp;source=editors&amp;ust=1721954734565532&amp;usg=AOvVaw1AKwqD4eI9c00ym6hc44Mu">
+    www.The English Hub.com/kids
    </a>
   </span>
   <span className="c5">
    and its associated mobile applications (the 
   </span>
   <span className="c5">
-   Cambly Kids Site). The Platform is made available by Cambly Inc.
-        (Cambly, we, us, or
+   The English Hub Kids Site). The Platform is made available by The English Hub Inc.
+        (The English Hub, we, us, or
         our), subject to the terms and conditions contained in this
         Agreement, to language learners (Students) and teachers
         (Tutors) who offer tutoring services through the Platform
@@ -88,7 +88,7 @@ const UserAgrement = () => (
   </a>
   <span className="c19 c17 c22">
    BELOW REQUIRES WITH LIMITED EXCEPTION THAT (1) CLAIMS YOU BRING
-        AGAINST CAMBLY BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION, (2) YOU
+        AGAINST The English Hub BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION, (2) YOU
         GIVE UP YOUR RIGHT TO SUE IN COURT AND HAVE YOUR CLAIMS HEARD BY A JURY,
         AND (3) YOU WAIVE YOUR RIGHT TO BRING OR PARTICIPATE IN ANY CLASS,
         GROUP, OR REPRESENTATIVE ACTION OR
@@ -122,16 +122,16 @@ const UserAgrement = () => (
  <p className="c2">
   <span className="c1">
    You may use the Platform only if you can form a binding contract with
-        Cambly, and only in compliance with this Agreement and all applicable
+        The English Hub, and only in compliance with this Agreement and all applicable
         local, state, national, and international laws, rules, and
         regulations.
   </span>
  </p>
  <p className="c2">
   <span className="c1">
-   Students must be at least 18 years old to use the Cambly Site. Students
-        under the age of 18 may use the Cambly Kids Site, but only if their
-        parent or legal guardian has provided Cambly verifiable consent and
+   Students must be at least 18 years old to use the The English Hub Site. Students
+        under the age of 18 may use the The English Hub Kids Site, but only if their
+        parent or legal guardian has provided The English Hub verifiable consent and
         agreed to this Agreement. If you are a Student, you represent that your
         use of the Platform complies with these age restrictions.
   </span>
@@ -139,9 +139,9 @@ const UserAgrement = () => (
  <p className="c2">
   <span className="c1">
    If you are a Tutor or prospective Tutor, you represent that you are
-        over the age of 18. Cambly may issue other tutor eligibility
+        over the age of 18. The English Hub may issue other tutor eligibility
         requirements from time to time, and the requirements may vary depending
-        on the applicable Tutoring Service. Cambly reserves the right to assess
+        on the applicable Tutoring Service. The English Hub reserves the right to assess
         and reassess your eligibility at any time at its sole discretion, and
         may request information from you at any time to make such
         determinations.
@@ -149,7 +149,7 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c1">
-   If Cambly has previously prohibited you from accessing or using the
+   If The English Hub has previously prohibited you from accessing or using the
         Platform, you are not permitted to access or use the Platform.
   </span>
  </p>
@@ -165,7 +165,7 @@ const UserAgrement = () => (
    Access to and use of the Platform by Tutors is also governed by the
   </span>
   <span className="c5 c12">
-   <a className="c23" href="https://www.google.com/url?q=https://www.cambly.com/web/en/tutor/agreement_doc&amp;sa=D&amp;source=editors&amp;ust=1721954734566450&amp;usg=AOvVaw2-ccuElIkOMp510I5N1ZMh">
+   <a className="c23" href="https://www.google.com/url?q=https://www.The English Hub.com/web/en/tutor/agreement_doc&amp;sa=D&amp;source=editors&amp;ust=1721954734566450&amp;usg=AOvVaw2-ccuElIkOMp510I5N1ZMh">
     Tutor Addendum
    </a>
   </span>
@@ -193,16 +193,16 @@ const UserAgrement = () => (
    Please review the
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=https://www.cambly.com/legal/privacy_policy%23:~:text%3DWe%2520may%2520share%2520or%2520disclose,your%2520consent%2520to%2520do%2520so.&amp;sa=D&amp;source=editors&amp;ust=1721954734566808&amp;usg=AOvVaw0YWPAn5jIAX_y4TICBXhVV">
-    Cambly Privacy Policy
+   <a className="c23" href="https://www.google.com/url?q=https://www.The English Hub.com/legal/privacy_policy%23:~:text%3DWe%2520may%2520share%2520or%2520disclose,your%2520consent%2520to%2520do%2520so.&amp;sa=D&amp;source=editors&amp;ust=1721954734566808&amp;usg=AOvVaw0YWPAn5jIAX_y4TICBXhVV">
+    The English Hub Privacy Policy
    </a>
   </span>
   <span className="c5">
    and
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=http://www.cambly.com/static/legal/kpp.html&amp;sa=D&amp;source=editors&amp;ust=1721954734566953&amp;usg=AOvVaw37ACD7iYvXZABc3umJ2huz">
-    Cambly Kids Children’s Privacy Policy
+   <a className="c23" href="https://www.google.com/url?q=http://www.The English Hub.com/static/legal/kpp.html&amp;sa=D&amp;source=editors&amp;ust=1721954734566953&amp;usg=AOvVaw37ACD7iYvXZABc3umJ2huz">
+    The English Hub Kids Children’s Privacy Policy
    </a>
   </span>
   <span className="c1">
@@ -254,8 +254,8 @@ const UserAgrement = () => (
         activities that occur under your account. If you have reason to believe
         that your account is no longer secure (for example, in the event of a
         loss, theft or unauthorized disclosure or use of your account ID or
-        password), you will immediately notify Cambly. You may be liable for the
-        losses incurred by Cambly or others due to any unauthorized use of your
+        password), you will immediately notify The English Hub. You may be liable for the
+        losses incurred by The English Hub or others due to any unauthorized use of your
         account.
   </span>
  </p>
@@ -273,13 +273,13 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c1">
-   Subject to your compliance with the terms of this Agreement, Cambly
+   Subject to your compliance with the terms of this Agreement, The English Hub
         grants you a limited, non-exclusive, non-assignable, non-sub-licensable,
         revocable, license to access and use the Platform as it is provided to
-        you by Cambly solely for your personal use as an actual or prospective
+        you by The English Hub solely for your personal use as an actual or prospective
         Student or Tutor in a manner that complies with the Platform’s
         intended use, the terms of this Agreement, and in compliance with all
-        legal requirements. Cambly may revoke this license at any time, in its
+        legal requirements. The English Hub may revoke this license at any time, in its
         sole discretion. Upon such revocation, you must promptly destroy all
         materials downloaded or otherwise obtained from the Platform, as well as
         all copies of such materials, whether made in accordance with this
@@ -297,7 +297,7 @@ const UserAgrement = () => (
         Platform for personal use, you must retain all copyright and other
         proprietary notices contained thereon. No licenses or rights are granted
         to you by implication or otherwise under any intellectual property
-        rights owned or controlled by Cambly or its licensors, except for the
+        rights owned or controlled by The English Hub or its licensors, except for the
         licenses and rights expressly granted in this Agreement.
   </span>
  </p>
@@ -382,7 +382,7 @@ const UserAgrement = () => (
   </li>
   <li className="c0 li-bullet-0">
    <span className="c1">
-    utilize any trademark, logo, or other Cambly materials without our
+    utilize any trademark, logo, or other The English Hub materials without our
           express written consent, including through framing techniques or in
           meta tags of hidden text;
    </span>
@@ -416,7 +416,7 @@ const UserAgrement = () => (
   <li className="c0 li-bullet-0">
    <span className="c1">
     post advertisements or conduct any commercial solicitation purposes
-          without Cambly’s written permission;
+          without The English Hub’s written permission;
    </span>
   </li>
   <li className="c0 li-bullet-0">
@@ -424,7 +424,7 @@ const UserAgrement = () => (
     engage in conduct or post content that is libelous, defamatory,
           abusive, threatening, harassing, hateful, obscene, offensive,
           humiliating to other people (publicly or otherwise), or otherwise
-          violates any law or right of Cambly or any third party;
+          violates any law or right of The English Hub or any third party;
    </span>
   </li>
   <li className="c0 li-bullet-0">
@@ -449,20 +449,20 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c1">
-   Cambly may monitor, record, and retain the interactions between and
+   The English Hub may monitor, record, and retain the interactions between and
         among Students, Tutors, and automated chatbots on the Platform
         (Sessions), including any audio, video, or text. You hereby
         consent to: (i) the monitoring, recording, and retention of any Session
         you engage in, which may include your voice, image, and communications
-        (Recordings); (ii) Cambly storing and making use of such
+        (Recordings); (ii) The English Hub storing and making use of such
         Recordings for its own internal business purposes, including without
         limitation for purposes of Tutor evaluation, Tutor training, dispute
         resolution, and improving the Platform and services available through
         it; (iii) such Recordings being made available to the parties in a
         Recording (e.g., Students and Tutors) and their legal guardians (e.g.,
         parents of a minor Student); (iv) such Recordings being used or
-        disclosed by Cambly to the extent required by law or legal process or to
-        the extent Cambly deems necessary for purposes of enforcing or
+        disclosed by The English Hub to the extent required by law or legal process or to
+        the extent The English Hub deems necessary for purposes of enforcing or
         protecting its rights or the rights of a third party; and (v) as you
         otherwise agree (including, for Tutors, as set forth in the Tutor
         Addendum).
@@ -471,13 +471,13 @@ const UserAgrement = () => (
  <p className="c2">
   <span className="c1">
    You hereby waive any rights of publicity, privacy or other rights under
-        applicable law to the extent such rights could be used to prevent Cambly
+        applicable law to the extent such rights could be used to prevent The English Hub
         from using Recordings for the limited purposes set forth in this section
         or as you otherwise agree (including for Tutors, in the Tutor Addendum),
         and hereby grant a worldwide, non-exclusive, fully paid-up,
         royalty-free, irrevocable, perpetual, sublicensable, and transferable
         license under any intellectual property rights you may have in or to any
-        Recording or content therein to Cambly to copy, modify, distribute and
+        Recording or content therein to The English Hub to copy, modify, distribute and
         use such Recording and content for its business purposes as set forth
         hereunder or as required by law or legal process. Notwithstanding the
         foregoing, you may have certain choices with respect to access to or our
@@ -488,7 +488,7 @@ const UserAgrement = () => (
   <span className="c1">
    You agree not to record, copy, redistribute, broadcast, publicly
         perform or publicly display any Session, except as allowed by this
-        Agreement. To the extent Recordings are made available to you by Cambly,
+        Agreement. To the extent Recordings are made available to you by The English Hub,
         you agree to use them solely for your personal use and not for further
         distribution or publication.
   </span>
@@ -498,7 +498,7 @@ const UserAgrement = () => (
    Artificial Intelligence.
   </span>
   <span className="c5">
-   Cambly uses artificial intelligence (AI) technologies to enhance the
+   The English Hub uses artificial intelligence (AI) technologies to enhance the
         learning experience, including in connection with chatbots to practice
         English, lesson summaries, and progress summaries.
   </span>
@@ -507,7 +507,7 @@ const UserAgrement = () => (
   </span>
   <span className="c1">
    may be used to analyze your Sessions and usage patterns, as well
-        as other available data. By using Cambly, you acknowledge and consent to
+        as other available data. By using The English Hub, you acknowledge and consent to
         the use of AI technologies as described in this agreement.
   </span>
  </p>
@@ -521,7 +521,7 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c5">
-   Cambly students may receive
+   The English Hub students may receive
   </span>
   <span className="c5">
    tutor recommendations
@@ -558,13 +558,13 @@ const UserAgrement = () => (
   <span className="c1">
    You retain ownership of all intellectual property rights you have in
         the User Content you post on the Platform. By posting User Content on or
-        through the Platform, you grant Cambly a worldwide, irrevocable,
+        through the Platform, you grant The English Hub a worldwide, irrevocable,
         perpetual, non-exclusive, transferable, royalty-free license (with the
         right to sublicense) to use, copy, reproduce, process, adapt, modify,
         publish, transmit, display, distribute, and otherwise exploit such User
         Content in any format or medium now known or developed in the future for
-        Cambly’s business purposes or as required by law or legal process.
-        In the interest of clarity, the license granted to Cambly will survive
+        The English Hub’s business purposes or as required by law or legal process.
+        In the interest of clarity, the license granted to The English Hub will survive
         termination of the Platform or your account. You represent, warrant and
         agree that you have the necessary rights to grant us the license
         described in this section for any User Content that you post. You agree
@@ -579,19 +579,19 @@ const UserAgrement = () => (
    You will be solely responsible for your own User Content and the
         consequences of posting or publishing it, and you agree that we are only
         acting as a passive conduit for your online distribution and publication
-        of your User Content. You understand that Cambly does not control, and
+        of your User Content. You understand that The English Hub does not control, and
         is not responsible for, User Content, and that by using the Platform,
         you may be exposed to User Content from other Users that is offensive,
         indecent, inaccurate, misleading, or otherwise objectionable.
   </span>
   <span className="c5">
-   To report any inappropriate activity, please contact Cambly’s
+   To report any inappropriate activity, please contact The English Hub’s
         support team
   </span>
   <span className="c5">
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://camblyenglish.zendesk.com/hc/requests/new%26sa%3DD%26source%3Ddocs%26ust%3D1678387149649408%26usg%3DAOvVaw3p93lE-U8xBE04Mmilms83&amp;sa=D&amp;source=editors&amp;ust=1721954734569348&amp;usg=AOvVaw3MyMRxgWSFnPeDdYxhP4p0">
+   <a className="c23" href="https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://The English Hubenglish.zendesk.com/hc/requests/new%26sa%3DD%26source%3Ddocs%26ust%3D1678387149649408%26usg%3DAOvVaw3p93lE-U8xBE04Mmilms83&amp;sa=D&amp;source=editors&amp;ust=1721954734569348&amp;usg=AOvVaw3MyMRxgWSFnPeDdYxhP4p0">
     here
    </a>
   </span>
@@ -605,12 +605,12 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c1">
-   Cambly reserves the right in its sole discretion to remove or disable
+   The English Hub reserves the right in its sole discretion to remove or disable
         access to any User Content from the Platform, suspend or terminate your
         account at any time, or pursue any other remedy or relief available
         under equity or law if you post any User Content that violates this
         Agreement or we consider to be objectionable for any reason. You agree
-        that Cambly reserves the right to monitor User Content (but does not
+        that The English Hub reserves the right to monitor User Content (but does not
         assume the obligation), and you understand it remains your sole
         responsibility to monitor your User Content and ensure that your User
         Content is accurate and consistent with your representations and
@@ -619,13 +619,13 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c5">
-   Cambly reserves the right to access, read, preserve, and disclose any
+   The English Hub reserves the right to access, read, preserve, and disclose any
         information as we reasonably believe is necessary to (i) satisfy any
         applicable law, regulation, legal process, or governmental request, (ii)
         enforce this Agreement, including investigation of potential violations
         hereof, (iii) detect, prevent, or otherwise address fraud, security, or
         technical issues, (iv) respond to User support requests, or (v) protect
-        the rights, property or safety of Cambly, its Users and the
+        the rights, property or safety of The English Hub, its Users and the
         public.
   </span>
  </p>
@@ -643,14 +643,14 @@ const UserAgrement = () => (
         elements of the Platform (The English Materials) are protected by
         copyright, trade dress, patent, and trademark laws, international
         conventions, and all other relevant intellectual property and
-        proprietary rights, and applicable laws. All Cambly Materials are the
-        property of Cambly or its subsidiaries or affiliated companies and/or
+        proprietary rights, and applicable laws. All The English Hub Materials are the
+        property of The English Hub or its subsidiaries or affiliated companies and/or
         third-party licensors. All trademarks, service marks, and trade names
-        are proprietary to Cambly or its affiliates and/or third-party
-        licensors. Except as expressly authorized by Cambly, you agree not to
+        are proprietary to The English Hub or its affiliates and/or third-party
+        licensors. Except as expressly authorized by The English Hub, you agree not to
         sell, license, distribute, copy, modify, publicly perform or display,
         transmit, publish, edit, adapt, create derivative works from, or
-        otherwise make unauthorized use of the Cambly Materials.
+        otherwise make unauthorized use of the The English Hub Materials.
   </span>
  </p>
  <p className="c2">
@@ -665,7 +665,7 @@ const UserAgrement = () => (
         (iii) grant us an irrevocable, non-exclusive, royalty-free, perpetual,
         worldwide license to use, modify, prepare derivative works, publish,
         distribute, and sublicense the Feedback; and (iv) irrevocably waive, and
-        cause to be waived, against Cambly and its users any claims and
+        cause to be waived, against The English Hub and its users any claims and
         assertions of any moral rights contained in such Feedback. These
         provisions regarding Feedback will survive any termination of your
         account or the Platform.
@@ -680,9 +680,9 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c5">
-   Cambly strives to promote a safe and inclusive learning environment,
+   The English Hub strives to promote a safe and inclusive learning environment,
         but has limited control over how Students and Tutors may interact with
-        one another. You acknowledge that Cambly makes no representations or
+        one another. You acknowledge that The English Hub makes no representations or
         warranties about Students or Tutors, their use of the Platform, or their
         background, training, or behavior.
   </span>
@@ -690,12 +690,12 @@ const UserAgrement = () => (
    Please contact
   </span>
   <span className="c5">
-   Cambly’s support team
+   The English Hub’s support team
   </span>
   <span className="c5">
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=https://camblyenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734569977&amp;usg=AOvVaw1glTTKyqRx70tcuMndk0up">
+   <a className="c23" href="https://www.google.com/url?q=https://The English Hubenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734569977&amp;usg=AOvVaw1glTTKyqRx70tcuMndk0up">
     here
    </a>
   </span>
@@ -760,12 +760,12 @@ const UserAgrement = () => (
    you have been mistakenly charged
   </span>
   <span className="c5">
-   please contact Cambly’s support team
+   please contact The English Hub’s support team
   </span>
   <span className="c5">
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=https://camblyenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734570500&amp;usg=AOvVaw33zKfdcLmylg6HuAKgfbAS">
+   <a className="c23" href="https://www.google.com/url?q=https://The English Hubenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734570500&amp;usg=AOvVaw33zKfdcLmylg6HuAKgfbAS">
     here
    </a>
   </span>
@@ -775,7 +775,7 @@ const UserAgrement = () => (
   <span className="c1">
    Refund requests must be received within thirty (30) days of the
         erroneous charge. Early cancellation requests are granted at
-        Cambly’s sole discretion.
+        The English Hub’s sole discretion.
   </span>
  </p>
  <p className="c2">
@@ -798,10 +798,10 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c1">
-   Cambly may modify or discontinue the Platform and any of the media,
+   The English Hub may modify or discontinue the Platform and any of the media,
         products or services available through it at any time without notice.
         The media, products or services on the Platform may be out of date, and
-        Cambly makes no commitment to update these materials on the Platform.
+        The English Hub makes no commitment to update these materials on the Platform.
   </span>
  </p>
  <p className="c2">
@@ -813,7 +813,7 @@ const UserAgrement = () => (
         with or without prior notice or explanation to you: (a) your account
         will be deactivated or suspended, your password will be disabled, and
         you will not be able to access the Platform or your User Content, or
-        receive assistance from Cambly support teams; and (b) if appropriate in
+        receive assistance from The English Hub support teams; and (b) if appropriate in
         our sole discretion, we may communicate to other Users that your Account
         has been terminated, blocked, suspended, deactivated, or canceled, and
         why this action has been taken.
@@ -825,12 +825,12 @@ const UserAgrement = () => (
   <span className="c5">
   </span>
   <span className="c5">
-   Cambly’s support team
+   The English Hub’s support team
   </span>
   <span className="c5">
   </span>
   <span className="c12 c5">
-   <a className="c23" href="https://www.google.com/url?q=https://camblyenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734570972&amp;usg=AOvVaw2KbbxzKcuBeO0D_l2n6FO1">
+   <a className="c23" href="https://www.google.com/url?q=https://The English Hubenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734570972&amp;usg=AOvVaw2KbbxzKcuBeO0D_l2n6FO1">
     here
    </a>
   </span>
@@ -845,7 +845,7 @@ const UserAgrement = () => (
         to payment for Tutoring Services performed prior to the effective date
         of termination, payable within sixty (60) days of termination. Such
         payment will constitute full settlement of any and all claims of Tutor
-        of every description against Cambly.
+        of every description against The English Hub.
   </span>
  </p>
  <ol className="c14 lst-kix_b37cw94qefra-0" start="15">
@@ -857,11 +857,11 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c1">
-   It is Cambly’s policy to respond to alleged infringement notices
+   It is The English Hub’s policy to respond to alleged infringement notices
         that comply with the Digital Millennium Copyright Act of 1998
         (DMCA). If you believe that your copyrighted work has been
         copied in a way that constitutes copyright infringement and is
-        accessible via the Platform, please notify Cambly’s copyright
+        accessible via the Platform, please notify The English Hub’s copyright
         agent as set forth in the DMCA. For your complaint to be valid under the
         DMCA, you must provide the following information in writing:
   </span>
@@ -887,7 +887,7 @@ const UserAgrement = () => (
   </li>
   <li className="c0 li-bullet-0">
    <span className="c1">
-    Information reasonably sufficient to permit Cambly to contact you,
+    Information reasonably sufficient to permit The English Hub to contact you,
           such as your address, telephone number, and email address.
    </span>
   </li>
@@ -914,12 +914,12 @@ const UserAgrement = () => (
  </p>
  <p className="c18">
   <span className="c1">
-   Cambly Inc.
+   The English Hub Inc.
   </span>
  </p>
  <p className="c18">
   <span className="c1">
-   Attn: DMCA Notice, Cambly Inc.
+   Attn: DMCA Notice, The English Hub Inc.
   </span>
  </p>
  <p className="c18">
@@ -942,9 +942,9 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c1">
-   Please note that this procedure is exclusively for notifying Cambly and
+   Please note that this procedure is exclusively for notifying The English Hub and
         its affiliates that your copyrighted material has been infringed. The
-        preceding requirements are intended to comply with Cambly’s rights
+        preceding requirements are intended to comply with The English Hub’s rights
         and obligations under the DMCA, including 17 U.S.C. §512(c), but do
         not constitute legal advice. It may be advisable to contact an attorney
         regarding your rights and obligations under the DMCA and other
@@ -953,8 +953,8 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c5">
-   In accordance with the DMCA and other applicable law, Cambly has
-        adopted a policy of, in appropriate circumstances and at Cambly’s
+   In accordance with the DMCA and other applicable law, The English Hub has
+        adopted a policy of, in appropriate circumstances and at The English Hub’s
         sole discretion, terminating the account or access of users who are
         deemed to be infringers or repeat infringers.
   </span>
@@ -970,18 +970,18 @@ const UserAgrement = () => (
   <span className="c5">
    The Platform may contain information and content provided by third
         parties and may contain links to third-party websites, and other
-        resources that are not owned or controlled by Cambly. Cambly is not
+        resources that are not owned or controlled by The English Hub. The English Hub is not
         responsible for the availability of such external sites or resources and
         does not endorse and is not responsible or liable for such external
         sites or resources. These links and resources do not imply any
-        endorsement by Cambly, and Cambly does not endorse or assume any
+        endorsement by The English Hub, and The English Hub does not endorse or assume any
         responsibility for any such third-party sites, information, materials,
         products, or services. If you access a third-party website or resource
         from the Platform, you do so at your own risk, and you understand that
-        this Agreement and Cambly’s Privacy Policy do not apply to your
-        use of such links. You expressly relieve Cambly from any and all
+        this Agreement and The English Hub’s Privacy Policy do not apply to your
+        use of such links. You expressly relieve The English Hub from any and all
         liability arising from your use of any third- party website, service, or
-        content. You acknowledge and agree that Cambly is not responsible or
+        content. You acknowledge and agree that The English Hub is not responsible or
         liable for: (i) the availability or accuracy of such websites or
         resources; or (ii) the content, products, or services on or available
         from such websites or resources.
@@ -1000,7 +1000,7 @@ const UserAgrement = () => (
         APPLICATIONS MADE AVAILABLE IN CONJUNCTION WITH OR THROUGH THE PLATFORM
         ARE PROVIDED AS IS AND WITHOUT WARRANTIES OF ANY KIND EITHER
         EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMISSIBLE PURSUANT TO
-        APPLICABLE LAW, CAMBLY, AND ITS SUPPLIERS, LICENSORS AND PARTNERS,
+        APPLICABLE LAW, The English Hub, AND ITS SUPPLIERS, LICENSORS AND PARTNERS,
         DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED
         TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
         PURPOSE, AND NON-INFRINGEMENT OF PROPRIETARY RIGHTS.
@@ -1008,7 +1008,7 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c1">
-   CAMBLY AND ITS SUPPLIERS, LICENSORS AND PARTNERS DO NOT WARRANT THAT
+   The English Hub AND ITS SUPPLIERS, LICENSORS AND PARTNERS DO NOT WARRANT THAT
         THE THE PLATFORM WILL BE UNINTERRUPTED OR ERROR-FREE, THAT DEFECTS WILL
         BE CORRECTED, OR THAT IT IS FREE OF VIRUSES OR OTHER HARMFUL
         COMPONENTS.
@@ -1016,10 +1016,10 @@ const UserAgrement = () => (
  </p>
  <p className="c2">
   <span className="c1">
-   CAMBLY AND ITS SUPPLIERS, LICENSORS AND PARTNERS DO NOT WARRANT OR MAKE
+   The English Hub AND ITS SUPPLIERS, LICENSORS AND PARTNERS DO NOT WARRANT OR MAKE
         ANY REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE
         PLATFORM IN TERMS OF CORRECTNESS, ACCURACY, RELIABILITY, OR OTHERWISE.
-        YOU (AND NOT CAMBLY NOR ITS SUPPLIERS, LICENSORS OR PARTNERS) ASSUME THE
+        YOU (AND NOT The English Hub NOR ITS SUPPLIERS, LICENSORS OR PARTNERS) ASSUME THE
         ENTIRE COST OF ANY NECESSARY SERVICING, REPAIR, OR CORRECTION. YOU
         UNDERSTAND AND AGREE THAT YOU DOWNLOAD, OR OTHERWISE OBTAIN MEDIA,
         MATERIAL, OR OTHER DATA THROUGH THE USE OF THE PLATFORM AT YOUR OWN
@@ -1047,28 +1047,28 @@ const UserAgrement = () => (
  <p className="c2">
   <span className="c1">
    UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, WILL
-        CAMBLY OR ITS AFFILIATES, CONTRACTORS, EMPLOYEES, AGENTS, OR THIRD PARTY
+        The English Hub OR ITS AFFILIATES, CONTRACTORS, EMPLOYEES, AGENTS, OR THIRD PARTY
         PARTNERS, LICENSORS OR SUPPLIERS, BE LIABLE TO YOU FOR ANY SPECIAL,
         INDIRECT, INCIDENTAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES THAT RESULT
-        FROM YOUR USE OF OR THE INABILITY TO USE THE CAMBLY MATERIALS ON THE
-        PLATFORM OR THE PLATFORM ITSELF, OR ANY OTHER INTERACTIONS WITH CAMBLY,
-        EVEN IF CAMBLY OR A CAMBLY AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF
+        FROM YOUR USE OF OR THE INABILITY TO USE THE The English Hub MATERIALS ON THE
+        PLATFORM OR THE PLATFORM ITSELF, OR ANY OTHER INTERACTIONS WITH The English Hub,
+        EVEN IF The English Hub OR A The English Hub AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF
         THE POSSIBILITY OF SUCH DAMAGES. APPLICABLE LAW MAY NOT ALLOW THE
         LIMITATION OR EXCLUSION OF LIABILITY OR INCIDENTAL OR CONSEQUENTIAL
         DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU. IN
-        SUCH CASES, CAMBLY’S LIABILITY WILL BE LIMITED TO THE EXTENT
+        SUCH CASES, The English Hub’S LIABILITY WILL BE LIMITED TO THE EXTENT
         PERMITTED BY LAW.
   </span>
  </p>
  <p className="c2">
   <span className="c1">
-   IN NO EVENT WILL CAMBLY’S OR ITS AFFILIATES, CONTRACTORS,
+   IN NO EVENT WILL The English Hub’S OR ITS AFFILIATES, CONTRACTORS,
         EMPLOYEES, AGENTS, OR THIRD PARTY PARTNERS OR SUPPLIERS’ TOTAL
         LIABILITY TO YOU FOR ALL DAMAGES, LOSSES, AND CAUSES OF ACTION ARISING
         OUT OF OR RELATING TO THESE TERMS OR YOUR USE OF THE PLATFORM (WHETHER
         IN CONTRACT, TORT, WARRANTY, OR OTHERWISE) EXCEED THE GREATER OF: (A)
-        THE TOTAL AMOUNTS YOU HAVE PAID TO CAMBLY (OR ARE PAYABLE TO YOU BY
-        CAMBLY) HEREUNDER DURING THE SIX (6) MONTHS PRECEDING THE DATE OF THE
+        THE TOTAL AMOUNTS YOU HAVE PAID TO The English Hub (OR ARE PAYABLE TO YOU BY
+        The English Hub) HEREUNDER DURING THE SIX (6) MONTHS PRECEDING THE DATE OF THE
         CLAIM AND (B) FIFTY (50) U.S. DOLLARS.
   </span>
  </p>
@@ -1076,7 +1076,7 @@ const UserAgrement = () => (
   <span className="c5">
    THESE LIMITATIONS WILL ALSO APPLY WITH RESPECT TO DAMAGES INCURRED BY
         REASON OF ANY PRODUCTS OR SERVICES SOLD OR PROVIDED TO YOU BY THIRD
-        PARTIES OTHER THAN CAMBLY AND RECEIVED BY YOU THROUGH OR ADVERTISED ON
+        PARTIES OTHER THAN The English Hub AND RECEIVED BY YOU THROUGH OR ADVERTISED ON
         THE PLATFORM OR RECEIVED BY YOU THROUGH ANY LINKS PROVIDED ON THE
         PLATFORM.
   </span>
@@ -1090,7 +1090,7 @@ const UserAgrement = () => (
  </ol>
  <p className="c2">
   <span className="c1">
-   You agree to indemnify and hold Cambly, and its affiliated companies,
+   You agree to indemnify and hold The English Hub, and its affiliated companies,
         and its suppliers, licensors and partners, harmless from any claims,
         losses, damages, liabilities, including attorney’s fees, arising
         out of your use or misuse of the Platform, violation of the rights of
@@ -1100,24 +1100,24 @@ const UserAgrement = () => (
  <p className="c2">
   <span className="c1">
    Tutor will further be solely liable for, and will indemnify, defend and
-        hold harmless Cambly and its successors and assigns from and against any
+        hold harmless The English Hub and its successors and assigns from and against any
         claim or liability of any kind (including penalties, fees or charges)
         resulting from Tutor’s failure to pay the taxes, penalties, and
         payments due under this Agreement, including the Tutor Addendum. Tutor
-        will further indemnify, defend and hold harmless Cambly and its
+        will further indemnify, defend and hold harmless The English Hub and its
         successors and assigns from and against any and all loss or damage
         resulting from any misrepresentation, or any non-fulfillment of any
         representation, responsibility, covenant or agreement on his part, as
         well as any and all acts, suits, proceedings, demands, assessments,
-        penalties, judgments of or against Cambly relating to or arising out of
+        penalties, judgments of or against The English Hub relating to or arising out of
         the activities of Tutor and Tutor will pay reasonable attorneys         fees, costs and expenses incident thereto.
   </span>
  </p>
  <p className="c2">
   <span className="c5">
-   Cambly reserves the right, at its own expense, to assume the exclusive
+   The English Hub reserves the right, at its own expense, to assume the exclusive
         defense and control of any matter for which you are required to
-        indemnify Cambly, and you agree to cooperate with Cambly’s defense
+        indemnify The English Hub, and you agree to cooperate with The English Hub’s defense
         of these claims.
   </span>
  </p>
@@ -1145,7 +1145,7 @@ const UserAgrement = () => (
     This Arbitration Agreement only applies to you if your country of
           residence or establishment is the United States. If your country of
           residence or establishment is not the United States, and you
-          nevertheless attempt to bring any legal claim against Cambly in the
+          nevertheless attempt to bring any legal claim against The English Hub in the
           United States, this Arbitration Agreement will apply for determination
           of the threshold issue of whether this Section 20 applies to you, and
           all other threshold determinations, including residency,
@@ -1157,7 +1157,7 @@ const UserAgrement = () => (
     Authority.
    </span>
    <span className="c1">
-    You and Cambly understand and agree that this Arbitration Agreement
+    You and The English Hub understand and agree that this Arbitration Agreement
           is enforceable under and subject to the Federal Arbitration Act (9
           U.S.C. §§ 1-16), and that the mutual obligations by both
           parties to arbitrate covered claims provide adequate consideration for
@@ -1173,12 +1173,12 @@ const UserAgrement = () => (
           can
    </span>
    <span className="c5">
-    contact Cambly’s support team
+    contact The English Hub’s support team
    </span>
    <span className="c5">
    </span>
    <span className="c12 c5">
-    <a className="c23" href="https://www.google.com/url?q=https://camblyenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734572939&amp;usg=AOvVaw1MlV20B5yi9M7bW2KnEhaV">
+    <a className="c23" href="https://www.google.com/url?q=https://The English Hubenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734572939&amp;usg=AOvVaw1MlV20B5yi9M7bW2KnEhaV">
      here
     </a>
    </span>
@@ -1188,7 +1188,7 @@ const UserAgrement = () => (
    <span className="c1">
     The parties agree to use their best efforts to settle any dispute,
           claim, question, or disagreement directly through consultation with
-          the Cambly support team. If we are unable to resolve the matter within
+          the The English Hub support team. If we are unable to resolve the matter within
           sixty (60) days, either of us has the right to initiate arbitration or
           a lawsuit in accordance with the terms of this Arbitration
           Agreement.
@@ -1199,8 +1199,8 @@ const UserAgrement = () => (
     Arbitration.
    </span>
    <span className="c5">
-    YOU AND CAMBLY MUTUALLY AGREE TO RESOLVE ANY AND ALL CLAIMS THAT YOU
-          OR CAMBLY MAY HAVE AGAINST THE OTHER EXCLUSIVELY THROUGH FINAL AND
+    YOU AND The English Hub MUTUALLY AGREE TO RESOLVE ANY AND ALL CLAIMS THAT YOU
+          OR The English Hub MAY HAVE AGAINST THE OTHER EXCLUSIVELY THROUGH FINAL AND
           BINDING ARBITRATION BEFORE A SINGLE NEUTRAL ARBITRATOR (THE
           ARBITRATOR) INSTEAD OF A COURT OR JURY TRIAL, EXCEPT AS
           OTHERWISE EXPRESSLY PROVIDED IN THIS ARBITRATION AGREEMENT, AND
@@ -1208,7 +1208,7 @@ const UserAgrement = () => (
    </span>
    <span className="c1">
     Claims include all disputes, claims or controversies, whether
-          based in past, present, or future events, that you or Cambly may have
+          based in past, present, or future events, that you or The English Hub may have
           against the other or against any of their officers, directors,
           employees, subcontractors, or agents in their capacity as such or
           otherwise; direct or indirect parents and subsidiaries; and
@@ -1216,7 +1216,7 @@ const UserAgrement = () => (
           Party), arising out of or relating to this Agreement, this
           Arbitration Agreement, the Platform, the Tutoring Services, or any
           other aspect of a Student’s or Tutor’s relationship with
-          Cambly, whether arising under federal, state or local statutory and/or
+          The English Hub, whether arising under federal, state or local statutory and/or
           common law, including but not limited to misclassification or wrongful
           termination claims, claims of harassment, retaliation, or
           discrimination, and claims under Title VII of the Civil Rights Act of
@@ -1236,7 +1236,7 @@ const UserAgrement = () => (
     .
    </span>
    <span className="c5 c17">
-    YOU UNDERSTAND AND AGREE THAT YOU AND CAMBLY MAY EACH BRING CLAIMS IN
+    YOU UNDERSTAND AND AGREE THAT YOU AND The English Hub MAY EACH BRING CLAIMS IN
           ARBITRATION AGAINST THE OTHER AND ANY COVERED PARTY ONLY IN AN
           INDIVIDUAL CAPACITY AND NOT ON A CLASS, COLLECTIVE ACTION, OR
    </span>
@@ -1269,7 +1269,7 @@ const UserAgrement = () => (
           Individual Action Requirement.
    </span>
    <span className="c5">
-    YOU AND CAMBLY MUTUALLY AGREE THAT BY ENTERING INTO THIS ARBITRATION
+    YOU AND The English Hub MUTUALLY AGREE THAT BY ENTERING INTO THIS ARBITRATION
           AGREEMENT, YOU BOTH AGREE TO ARBITRATE PAGA CLAIMS ON AN INDIVIDUAL
           BASIS ONLY. THEREFORE, ANY CLAIM BY YOU TO RECOVER UNPAID WAGES,
           PENALTIES, OR OTHER INDIVIDUAL RELIEF MUST BE ARBITRATED UNDER THIS
@@ -1389,9 +1389,9 @@ const UserAgrement = () => (
   </li>
   <li className="c10">
    <span className="c1">
-    Any demand for arbitration against Cambly must be delivered to Cambly
+    Any demand for arbitration against The English Hub must be delivered to The English Hub
           at its agent for service of process at 440 N. Barranca Ave., #4343,
-          Covina, CA 91723, with a copy to Cambly’s headquarters at 425
+          Covina, CA 91723, with a copy to The English Hub’s headquarters at 425
           Market Street, 7th Floor, San Francisco, CA 94105.
    </span>
   </li>
@@ -1420,7 +1420,7 @@ const UserAgrement = () => (
    <span className="c1">
     If the amount in controversy does not exceed $10,000 and you do not
           seek injunctive or declaratory relief, then the arbitration will be
-          conducted solely on the basis of documents that you and Cambly submit
+          conducted solely on the basis of documents that you and The English Hub submit
           to the arbitrator, unless the arbitrator determines that a hearing is
           necessary. If the amount in controversy exceeds $10,000 or seeks
           declaratory or injunctive relief, either party may request (or the
@@ -1433,7 +1433,7 @@ const UserAgrement = () => (
    <span className="c1">
     If 25 or more claimants represented by the same or similar counsel
           file demands for arbitration raising substantially similar disputes
-          within 90 days of each other, then you and Cambly agree that NAM will
+          within 90 days of each other, then you and The English Hub agree that NAM will
           administer them in batches of up to 50 claimants each
           (“Batch”), unless there are less than 50 claimants in
           total or after batching, which will comprise a single Batch. NAM will
@@ -1481,7 +1481,7 @@ const UserAgrement = () => (
     Changes to This Section
    </span>
    <span className="c1">
-    . Cambly will provide thirty (30) days notice of any changes
+    . The English Hub will provide thirty (30) days notice of any changes
           affecting the substance of this section by posting on the Platform,
           sending you a message, or otherwise notifying you when you are logged
           into your account. Amendments affecting the substance of this section
@@ -1514,7 +1514,7 @@ const UserAgrement = () => (
    </span>
    <span className="c5">
     This Arbitration Agreement survives after the termination of
-          this Agreement and/or after you cease any relationship with Cambly.
+          this Agreement and/or after you cease any relationship with The English Hub.
           Each Covered Party may enforce this Arbitration Agreement as direct or
           third-party beneficiaries.
    </span>
@@ -1549,20 +1549,20 @@ const UserAgrement = () => (
     Notices
    </span>
    <span className="c5">
-    . You consent to receive communications from Cambly electronically,
+    . You consent to receive communications from The English Hub electronically,
           including by email and notices posted to the Platform. You agree that
           all agreements, notices, disclosures, and other communications that
-          Cambly provides to you electronically satisfy any legal requirement
+          The English Hub provides to you electronically satisfy any legal requirement
           that such communications be in writing. Except as provided herein, all
-          notices and communications to Cambly will be in writing and will be
+          notices and communications to The English Hub will be in writing and will be
           deemed to have been duly given or made (i) with delivery by hand, when
           delivered, (ii) with delivery by certified or registered mail, postage
           prepaid; or (iii) with delivery by internationally recognized
-          overnight courier. Notices to Cambly must be sent to 440 N. Barranca
+          overnight courier. Notices to The English Hub must be sent to 440 N. Barranca
           Ave., #4343, Covina, CA 91723,
    </span>
    <span className="c5">
-    with a copy to Cambly’s headquarters at 425 Market Street, 7th
+    with a copy to The English Hub’s headquarters at 425 Market Street, 7th
           Floor, San Francisco, CA 94105.
    </span>
    <span className="c1">
@@ -1593,7 +1593,7 @@ const UserAgrement = () => (
     . This Agreement (including the
    </span>
    <span className="c12 c5">
-    <a className="c23" href="https://www.google.com/url?q=https://www.cambly.com/web/en/tutor/agreement_doc&amp;sa=D&amp;source=editors&amp;ust=1721954734575293&amp;usg=AOvVaw3XdAZhuzeNOingGJBsAcI6">
+    <a className="c23" href="https://www.google.com/url?q=https://www.The English Hub.com/web/en/tutor/agreement_doc&amp;sa=D&amp;source=editors&amp;ust=1721954734575293&amp;usg=AOvVaw3XdAZhuzeNOingGJBsAcI6">
      Tutor Addendum
     </a>
    </span>
@@ -1624,7 +1624,7 @@ const UserAgrement = () => (
    </span>
    <span className="c1">
     . This Agreement, and any rights and licenses granted hereunder, may
-          not be transferred or assigned by you, but may be assigned by Cambly
+          not be transferred or assigned by you, but may be assigned by The English Hub
           without restriction. Any attempted transfer or assignment in violation
           hereof will be null and void. The terms of this Agreement bind and
           inure to the benefit of each party and the party’s successors
@@ -1645,9 +1645,9 @@ const UserAgrement = () => (
     Non-Waiver
    </span>
    <span className="c1">
-    . No delay or omission by Cambly in exercising any right under this
+    . No delay or omission by The English Hub in exercising any right under this
           Agreement will operate as a waiver of that or any other right. A
-          waiver or consent given by Cambly on any one occasion will be
+          waiver or consent given by The English Hub on any one occasion will be
           effective only in that instance and will not be construed as a bar or
           waiver of any right on any other occasion.
    </span>
@@ -1681,10 +1681,10 @@ const UserAgrement = () => (
     .
    </span>
    <span className="c5">
-    Please contact Cambly’s support team
+    Please contact The English Hub’s support team
    </span>
    <span className="c12 c5">
-    <a className="c23" href="https://www.google.com/url?q=https://camblyenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734575906&amp;usg=AOvVaw0T7tSmnSJ9aTN2qDprUpjB">
+    <a className="c23" href="https://www.google.com/url?q=https://The English Hubenglish.zendesk.com/hc/requests/new&amp;sa=D&amp;source=editors&amp;ust=1721954734575906&amp;usg=AOvVaw0T7tSmnSJ9aTN2qDprUpjB">
      here
     </a>
    </span>
@@ -1718,7 +1718,7 @@ const UserAgrement = () => (
   </li>
   <li className="c0 li-bullet-0">
    <span className="c1">
-    the terms of this Agreement are between you and Cambly, and not with
+    the terms of this Agreement are between you and The English Hub, and not with
           Apple;
    </span>
   </li>
@@ -1727,14 +1727,14 @@ const UserAgrement = () => (
     Apple has no obligation at all to provide any support or maintenance
           services in relation to the iOS App, and if you have any maintenance
           or support questions in relation to the iOS App, please contact
-          Cambly, not Apple;
+          The English Hub, not Apple;
    </span>
   </li>
   <li className="c0 li-bullet-0">
    <span className="c1">
     except as otherwise expressly set forth in this Agreement, any claims
           relating to the possession or use of the iOS App are between you and
-          Cambly (and not between you, or anyone else, and Apple);
+          The English Hub (and not between you, or anyone else, and Apple);
    </span>
   </li>
   <li className="c0 li-bullet-0">
@@ -1747,7 +1747,7 @@ const UserAgrement = () => (
   </li>
   <li className="c0 li-bullet-0">
    <span className="c1">
-    although this Agreement entered into between you and Cambly (and not
+    although this Agreement entered into between you and The English Hub (and not
           Apple), Apple, as a third-party beneficiary under this Agreement, will
           have the right to enforce these terms against you.
    </span>
@@ -1798,15 +1798,15 @@ const UserAgrement = () => (
    If you access our Platform on a mobile application that you download,
         access, and/or use from the Google Play Store (Google-Sourced
         Software): (i) you acknowledge that this Agreement is between you
-        and Cambly only, and not with Google, Inc. (Google); (ii)
+        and The English Hub only, and not with Google, Inc. (Google); (ii)
         your use of Google-Sourced Software must comply with Google’s
         then-current Google Play Store Terms of Service; (iii) Google is only a
         provider of the Google Play Store where you obtained the Google-Sourced
-        Software; (iv) Cambly, and not Google, is solely responsible for its
+        Software; (iv) The English Hub, and not Google, is solely responsible for its
         Google-Sourced Software; (v) Google has no obligation or liability to
         you with respect to Google-Sourced Software or this Agreement; and (vi)
         you acknowledge and agree that Google is a third-party beneficiary to
-        this Agreement as it relates to Cambly’s Google-Sourced
+        this Agreement as it relates to The English Hub’s Google-Sourced
         Software.
   </span>
  </p>
