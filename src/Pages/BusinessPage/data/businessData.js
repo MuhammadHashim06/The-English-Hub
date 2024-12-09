@@ -58,12 +58,12 @@ export const sections = [
       "We offer personalization to courses, where you can send us your business goals or a particular topic you would like employees to better understand English in, and we will create a course for your employees specifically",
     img: img4,
   },
-  {
-    title: "Smart Transcript Tool",
-    description:
-      "We offer a smart transcript tool which allows you to upload meetings and receive a transcript of the text, along with grammar, pronunciation and general improvement suggestions in phrases spoken in English.",
-    img: img5,
-  },
+  // {
+  //   title: "Smart Transcript Tool",
+  //   description:
+  //     "We offer a smart transcript tool which allows you to upload meetings and receive a transcript of the text, along with grammar, pronunciation and general improvement suggestions in phrases spoken in English.",
+  //   img: img5,
+  // },
 ];
 
 // Reviews Data
