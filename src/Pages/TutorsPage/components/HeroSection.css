@@ -154,6 +154,39 @@
 
 
 .tutorhero {
+    p {
+        font-size: 1.5rem;
+    }
+
+    .middlesection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3%;
+        gap: 20%;
+.text{
+    display: flex;
+    flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        button{
+            background-color: var(--primary-color);
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+        }
+}
+        .video {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            video {
+                width: 70%;
+            }
+
+        }
+    }
+
     .herodiv {
         padding: 10% 20%;
         display: flex;
@@ -198,7 +231,7 @@
                 }
             }
 
-            .findtutorbtn button:nth-child(1){
+            .findtutorbtn button:nth-child(1) {
                 text-align: left;
                 width: 250px;
             }
@@ -246,7 +279,8 @@
             color: #666;
         }
 
-        .flag-icon, .icon {
+        .flag-icon,
+        .icon {
             width: 16px;
             height: 16px;
             vertical-align: middle;
@@ -308,13 +342,18 @@
             font-size: 1.5em;
             border-radius: 45px;
             padding: 1.5% 3%;
-            color: black;  
+            color: black;
         }
     }
 }
 
 /* Media Query for Tablets */
 @media (max-width: 768px) {
+    .tutorhero{
+        p{
+            font-size: 1rem;
+        }
+    }
     .tutorhero .herodiv {
         padding: 15% 15%;
         gap: 20px;

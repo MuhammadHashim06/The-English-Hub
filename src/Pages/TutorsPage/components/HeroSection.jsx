@@ -1,153 +1,148 @@
 import "./HeroSection.css";
+import { tutorData } from "../data/tutordata";
+import { Link } from "react-router-dom";
 export default function HeroSection() {
-
-
-    const tutors = [
+  const tutors = [
+    {
+      name: "Michelle Burns",
+      rating: 4.89,
+      reviews: 2211,
+      country: "UK",
+      location: "Scotland but live in Mauritius",
+      flag_icon: "uk-flag-icon.png",
+      tutor_since: 2022,
+      calendar_icon: "calendar-icon.png",
+      profile_image: "michelle-burns-profile.jpg",
+      description:
+        "Hi! I'm Michelle. Language lover and tutor of English (particular... see more",
+      highlights: [
         {
-          "name": "Michelle Burns",
-          "rating": 4.89,
-          "reviews": 2211,
-          "country": "UK",
-          "location": "Scotland but live in Mauritius",
-          "flag_icon": "uk-flag-icon.png",
-          "tutor_since": 2022,
-          "calendar_icon": "calendar-icon.png",
-          "profile_image": "michelle-burns-profile.jpg",
-          "description": "Hi! I'm Michelle. Language lover and tutor of English (particular... see more",
-          "highlights": [
-            {
-              "icon": "chat-icon.png",
-              "text": "1000+ Chats"
-            }
-          ],
-          "action": {
-            "text": "Schedule trial",
-            "button_class": "schedule-btn"
-          }
+          icon: "chat-icon.png",
+          text: "1000+ Chats",
+        },
+      ],
+      action: {
+        text: "Schedule trial",
+        button_class: "schedule-btn",
+      },
+    },
+    {
+      name: "Teacher Colleen",
+      rating: 4.95,
+      reviews: 1425,
+      country: "US",
+      location: "Herbster, Wisconsin",
+      flag_icon: "usa-flag-icon.png",
+      tutor_since: 2022,
+      calendar_icon: "calendar-icon.png",
+      profile_image: "teacher-colleen-profile.jpg",
+      description:
+        "Hi, I am Colleen from northern Wisconsin on beautiful Lake Superior... see more",
+      highlights: [
+        {
+          icon: "chat-icon.png",
+          text: "1000+ Chats",
         },
         {
-          "name": "Teacher Colleen",
-          "rating": 4.95,
-          "reviews": 1425,
-          "country": "US",
-          "location": "Herbster, Wisconsin",
-          "flag_icon": "usa-flag-icon.png",
-          "tutor_since": 2022,
-          "calendar_icon": "calendar-icon.png",
-          "profile_image": "teacher-colleen-profile.jpg",
-          "description": "Hi, I am Colleen from northern Wisconsin on beautiful Lake Superior... see more",
-          "highlights": [
-            {
-              "icon": "chat-icon.png",
-              "text": "1000+ Chats"
-            },
-            {
-              "icon": "certified-icon.png",
-              "text": "Certified Teacher"
-            }
-          ],
-          "action": {
-            "text": "Schedule trial",
-            "button_class": "schedule-btn"
-          }
+          icon: "certified-icon.png",
+          text: "Certified Teacher",
+        },
+      ],
+      action: {
+        text: "Schedule trial",
+        button_class: "schedule-btn",
+      },
+    },
+    {
+      name: "Ronnie UK",
+      rating: 4.95,
+      reviews: 6902,
+      country: "UK",
+      location: "United Kingdom",
+      flag_icon: "uk-flag-icon.png",
+      tutor_since: 2018,
+      calendar_icon: "calendar-icon.png",
+      profile_image: "ronnie-uk-profile.jpg",
+      description:
+        "Hi! I live in the Midlands in the UK. I am in interested in techn... see more",
+      highlights: [
+        {
+          icon: "chat-icon.png",
+          text: "1000+ Chats",
         },
         {
-          "name": "Ronnie UK",
-          "rating": 4.95,
-          "reviews": 6902,
-          "country": "UK",
-          "location": "United Kingdom",
-          "flag_icon": "uk-flag-icon.png",
-          "tutor_since": 2018,
-          "calendar_icon": "calendar-icon.png",
-          "profile_image": "ronnie-uk-profile.jpg",
-          "description": "Hi! I live in the Midlands in the UK. I am in interested in techn... see more",
-          "highlights": [
-            {
-              "icon": "chat-icon.png",
-              "text": "1000+ Chats"
-            },
-            {
-              "icon": "certified-icon.png",
-              "text": "Certified Teacher"
-            }
-          ],
-          "action": {
-            "text": "Schedule trial",
-            "button_class": "schedule-btn"
-          }
+          icon: "certified-icon.png",
+          text: "Certified Teacher",
+        },
+      ],
+      action: {
+        text: "Schedule trial",
+        button_class: "schedule-btn",
+      },
+    },
+    {
+      name: "Sang Kim",
+      rating: 4.91,
+      reviews: 2177,
+      country: "US",
+      location: "Houston, TX, America",
+      flag_icon: "usa-flag-icon.png",
+      tutor_since: 2022,
+      calendar_icon: "calendar-icon.png",
+      profile_image: "sang-kim-profile.jpg",
+      description:
+        "Hi, my name is Sang Kim, and I am a terrific English teacher. If ... see more",
+      highlights: [
+        {
+          icon: "chat-icon.png",
+          text: "1000+ Chats",
         },
         {
-          "name": "Sang Kim",
-          "rating": 4.91,
-          "reviews": 2177,
-          "country": "US",
-          "location": "Houston, TX, America",
-          "flag_icon": "usa-flag-icon.png",
-          "tutor_since": 2022,
-          "calendar_icon": "calendar-icon.png",
-          "profile_image": "sang-kim-profile.jpg",
-          "description": "Hi, my name is Sang Kim, and I am a terrific English teacher. If ... see more",
-          "highlights": [
-            {
-              "icon": "chat-icon.png",
-              "text": "1000+ Chats"
-            },
-            {
-              "icon": "certified-icon.png",
-              "text": "Certified Teacher"
-            }
-          ],
-          "action": {
-            "text": "Schedule trial",
-            "button_class": "schedule-btn"
-          }
+          icon: "certified-icon.png",
+          text: "Certified Teacher",
+        },
+      ],
+      action: {
+        text: "Schedule trial",
+        button_class: "schedule-btn",
+      },
+    },
+    {
+      name: "Jeff the Tutor",
+      rating: 4.84,
+      reviews: 6274,
+      country: "US",
+      location: "North America",
+      flag_icon: "usa-flag-icon.png",
+      tutor_since: 2020,
+      calendar_icon: "calendar-icon.png",
+      profile_image: "jeff-the-tutor-profile.jpg",
+      description:
+        "I'm a Cambly Super Tutor specializing is North American English... see more",
+      highlights: [
+        {
+          icon: "chat-icon.png",
+          text: "1000+ Chats",
         },
         {
-          "name": "Jeff the Tutor",
-          "rating": 4.84,
-          "reviews": 6274,
-          "country": "US",
-          "location": "North America",
-          "flag_icon": "usa-flag-icon.png",
-          "tutor_since": 2020,
-          "calendar_icon": "calendar-icon.png",
-          "profile_image": "jeff-the-tutor-profile.jpg",
-          "description": "I'm a Cambly Super Tutor specializing is North American English... see more",
-          "highlights": [
-            {
-              "icon": "chat-icon.png",
-              "text": "1000+ Chats"
-            },
-            {
-              "icon": "certified-icon.png",
-              "text": "Certified Teacher"
-            }
-          ],
-          "action": {
-            "text": "Schedule trial",
-            "button_class": "schedule-btn"
-          }
-        }
-      ]
-      
-      
+          icon: "certified-icon.png",
+          text: "Certified Teacher",
+        },
+      ],
+      action: {
+        text: "Schedule trial",
+        button_class: "schedule-btn",
+      },
+    },
+  ];
 
   return (
     <div className="tutorhero">
       <div className="herodiv">
-        <h1>The Tutors</h1>
-        <p>
-          100% of tutors on our platform are native English speakers. Many hold
-          graduate degrees from top universities in the US, UK, and Canada. We
-          are continually impressed by these tutors, and we think you will be
-          too!
-        </p>
-        <button className="signup">
-          Sign up to see all tutors <i className="fa-solid fa-arrow-right"></i>{" "}
-        </button>
+        <h1>{tutorData.topsection.title}</h1>
+        <p>{tutorData.topsection.heading}</p>
       </div>
-
+      {/* 
       <div className="tutorlist">
         <div className="findtutor">
           <h1>Find Tutor</h1>{" "}
@@ -218,21 +213,38 @@ export default function HeroSection() {
 
           
       </div>
+      </div> */}
+      <div className="middlesection">
+        <div className="text">
+          <p>{tutorData.middelsection.heading}</p>
+          <div className="video">
+          <video autoPlay loop playsInline >
+            <source src={tutorData.middelsection.videoUrl} type="video/mp4" />
+          </video>
+        </div>
+          <p>{tutorData.middelsection.heading2}</p>
+          <Link to={tutorData.middelsection.link}>
+          <button>{tutorData.middelsection.buttontext}</button>
+          </Link>
+        </div>
+        {/* <div className="video">
+          <video autoPlay loop playsInline >
+            <source src={tutorData.middelsection.videoUrl} type="video/mp4" />
+          </video>
+        </div> */}
       </div>
-      <div className="bottom" >
+      {/* <div className="bottom">
         <h1>Sign up to see all of these incredible tutors</h1>
-        <button className="signup" >
+        <button className="signup">
           Sign up to see all tutors <i className="fa-solid fa-arrow-right"></i>{" "}
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
 
-
-
-
-{/* <div className="card">
+{
+  /* <div className="card">
             <div className="card-header">
               <img
                 src="profile-image.jpg"
@@ -287,4 +299,5 @@ export default function HeroSection() {
               <button className="schedule-btn">Schedule trial</button>
             </div>
           </div>
-        </div> */}
+        </div> */
+}

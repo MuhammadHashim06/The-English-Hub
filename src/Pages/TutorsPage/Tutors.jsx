@@ -1,11 +1,11 @@
 import TutorFooter from "../../Components/TutorFooter";
-import TutorNav from "../../Components/TutorNav";
+import Navbar from '../../Components/Navbar'
 import HeroSection from "./components/HeroSection";
 
 export default function Tutors() {
   return (
     <div>
-      <TutorNav />
+       <Navbar newclass={'scrolled'} />
       <HeroSection />
       <TutorFooter />
     </div>
