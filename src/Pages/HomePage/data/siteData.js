@@ -16,13 +16,13 @@ export const learningData = {
   title: "Start your journey to improving your English today",
   buttons: [
     { 
-      text: "Get Started", 
+      text: "Start Now", 
       link: "/signup" 
     },
-    { 
-      text: "Begin now", 
-      link: "/signup" 
-    }
+    // { 
+    //   text: "Begin now", 
+    //   link: "/signup" 
+    // }
   ],
   accountPrompt: {
     text: "Already have an account?",

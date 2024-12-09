@@ -376,12 +376,19 @@ export default function Content() {
     <div className="coursecontent">
       <div className="coursehero">
         <div className="coursetext">
-      <h1>{pageContent.mainHeading}</h1>
+          <h1>{pageContent.mainHeading}</h1>
           <p>{pageContent.subheading1}</p>
           <p>{pageContent.subheading2}</p>
-          <img src={pageContent.imageUrl} alt="" />
-      <p>{pageContent.subheading3}</p>
-      <p>{pageContent.subheading4}</p>
+          <div className="coursebottomsection">
+            <div className="innersection">
+              {/* <img src={pageContent.bottomcontent.imageUrl} alt="" /> */}
+              <div className="textcontent">
+                <h1>{pageContent.bottomcontent.text}</h1>
+              </div>
+            </div>
+          </div>{" "}
+          <p>{pageContent.subheading3}</p>
+          <p>{pageContent.subheading4}</p>
         </div>
         {/* <div className="contentimage">
           <img src={pageContent.imageUrl} alt="" />
@@ -395,8 +402,8 @@ export default function Content() {
           spaceBetween={20}
           slidesPerView={3}
           breakpoints={{
-            0:{slidesPerView:1},
-            420:{slidesPerView:1},
+            0: { slidesPerView: 1 },
+            420: { slidesPerView: 1 },
             640: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
@@ -423,18 +430,33 @@ export default function Content() {
           ))}
         </Swiper>
       </div>
-      <div className="coursebottomsection">
-        <div className="innersection">
 
-        
-        {/* <img src={pageContent.bottomcontent.imageUrl} alt="" /> */}
-        <div className="textcontent">
-          <h1>
-            {pageContent.bottomcontent.text}
-          </h1>
+
+
+
+
+
+
+
+      
+      {/* <div className="coursebottomsection">
+        <div className="innersection">
+          <div className="textcontent">
+            <h1>{pageContent.bottomcontent.text}</h1>
+          </div>
         </div>
-        </div>
-      </div>
+      </div> */}
+
+
+
+
+
+
+
+
+
+
+
       {/* <div className="fundamental contentbox">
         <div className="contentdiv">
           <h1>{sectionContent.fundamental.title}</h1>
