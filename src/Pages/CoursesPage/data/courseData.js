@@ -330,9 +330,9 @@ const footerContent = {
   links: [
     { path: "/privacypolicy", label: "Privacy Policy" },
     { path: "/useragreement", label: "Terms and Conditions" },
-    { path: "#", label: "Jobs" },
-    { path: "#", label: "Contact" },
-    { path: "#", label: "Press" }
+    // { path: "#", label: "Jobs" },
+    // { path: "#", label: "Contact" },
+    // { path: "#", label: "Press" }
   ],
   socialIcons: [
     "fab fa-instagram",
