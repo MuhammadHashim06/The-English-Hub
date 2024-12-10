@@ -549,7 +549,7 @@ const TeacherDetails = () => {
               Next
             </button>
           )}
-          {step === 3 && <button type="submit">Submit</button>}
+          {step === 3 && <button type="submit">Submit Request</button>}
         </div>
       </form>
     </div>

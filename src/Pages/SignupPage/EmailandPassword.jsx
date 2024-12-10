@@ -1,12 +1,16 @@
 // import { useState } from 'react';
 // import './EmailandPassword.css'; // Import CSS file
 // import { useNavigate } from 'react-router-dom';
+// import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'; // Firebase imports
+
 // const EmailandPassword = () => {
-//     const navigate = new useNavigate()
+//   const navigate = useNavigate(); // Corrected navigate initialization
 //   const [email, setEmail] = useState('');
 //   const [password, setPassword] = useState('');
+//   const [loading, setLoading] = useState(false); // For loading state
 
-//   const handleSignup = () => {
+//   const handleSignup = async (e) => {
+//     e.preventDefault(); // Prevent default form submission
 //     if (!email.trim()) {
 //       alert('Please enter a valid email address.');
 //       return;
@@ -15,14 +19,30 @@
 //       alert('Password must be at least 6 characters long.');
 //       return;
 //     }
-//     alert(`Signed up with:\nEmail: ${email}\nPassword: ${'*'.repeat(password.length)}`);
+
+//     const auth = getAuth();
+//     setLoading(true);
+//     try {
+//       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+//       const uid = userCredential.user.uid; // Get the user UID
+//       alert('Signup successful!');
+//       // Navigate to the next page, passing UID
+//       navigate('/signup/role', { state: { uid } });
+//     } catch (error) {
+//       console.error('Error signing up:', error);
+//       alert(`Signup failed: ${error.message}`);
+//     } finally {
+//       setLoading(false);
+//     }
 //   };
-//   const NaviagateBack = () => {
-// navigate('/signup')
-//   }
+
+//   const navigateBack = () => {
+//     navigate('/signup');
+//   };
+
 //   return (
 //     <div className="email-password">
-//       <form className="signup-form">
+//       <form className="signup-form" onSubmit={handleSignup}>
 //         <h1>Sign up with your email</h1>
 //         <p>
 //           By creating an account, you agree to our{' '}
@@ -35,21 +55,36 @@
 //         </p>
 //         <div className="form-group">
 //           <label>Email address</label>
-//           <input type="email" placeholder="Enter your email" required />
+//           <input
+//             type="email"
+//             placeholder="Enter your email"
+//             value={email}
+//             onChange={(e) => setEmail(e.target.value)}
+//             required
+//           />
 //         </div>
 //         <div className="form-group">
 //           <label>Password</label>
-//           <input type="password" placeholder="Enter your password" required />
+//           <input
+//             type="password"
+//             placeholder="Enter your password"
+//             value={password}
+//             onChange={(e) => setPassword(e.target.value)}
+//             required
+//           />
 //         </div>
+//         {/* <hr /> */}
 //         <div className="form-buttons">
-//           <button type="button" onClick={NaviagateBack}  className="back-button">←</button>
-//           <button type="submit" onClick={handleSignup}  className="next-button">Next</button>
+//           <button type="button" onClick={navigateBack} className="back-button">
+//             ←
+//           </button>
+//           <button type="submit" disabled={loading} className="next-button">
+//             {loading ? 'Signing up...' : 'Next'}
+//           </button>
 //         </div>
 //       </form>
 //       <footer>
-//         <p>
-//           CAMBLY Inc. © Copyright 2024. All Rights Reserved.
-//         </p>
+//         <p>The English Hub © Copyright 2024. All Rights Reserved.</p>
 //       </footer>
 //     </div>
 //   );
@@ -57,19 +92,23 @@
 
 // export default EmailandPassword;
 
+
+
+
 import { useState } from 'react';
-import './EmailandPassword.css'; // Import CSS file
+import './EmailandPassword.css'; 
 import { useNavigate } from 'react-router-dom';
-import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'; // Firebase imports
+import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'; 
+import axios from 'axios';
 
 const EmailandPassword = () => {
-  const navigate = useNavigate(); // Corrected navigate initialization
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [loading, setLoading] = useState(false); // For loading state
+  const [loading, setLoading] = useState(false);
 
   const handleSignup = async (e) => {
-    e.preventDefault(); // Prevent default form submission
+    e.preventDefault();
     if (!email.trim()) {
       alert('Please enter a valid email address.');
       return;
@@ -83,9 +122,16 @@ const EmailandPassword = () => {
     setLoading(true);
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      const uid = userCredential.user.uid; // Get the user UID
+      const uid = userCredential.user.uid;
+      
+      // Call an API or Cloud Function to set the 'active' claim to false
+      // await fetch('/api/setCustomClaims', {
+      //   method: 'POST',
+      //   headers: { 'Content-Type': 'application/json' },
+      //   body: JSON.stringify({ uid, claims: { active: false } })
+      // });
+      await axios.put(`http://localhost:5000/deactivate-user/${uid}`, { uid });
       alert('Signup successful!');
-      // Navigate to the next page, passing UID
       navigate('/signup/role', { state: { uid } });
     } catch (error) {
       console.error('Error signing up:', error);
@@ -132,7 +178,6 @@ const EmailandPassword = () => {
             required
           />
         </div>
-        {/* <hr /> */}
         <div className="form-buttons">
           <button type="button" onClick={navigateBack} className="back-button">
             ←
@@ -143,7 +188,7 @@ const EmailandPassword = () => {
         </div>
       </form>
       <footer>
-        <p>CAMBLY Inc. © Copyright 2024. All Rights Reserved.</p>
+        <p>The English Hub © Copyright 2024. All Rights Reserved.</p>
       </footer>
     </div>
   );
